@@ -5049,9 +5049,9 @@
     }
 
     .recContainer{
-        margin-top: 172px;
+        margin: 172px; position: relative;
     }
-    .recContainer table{width: 100%; margin-bottom: 200px; position: relative;}
+    .recContainer table{width: 100%; margin-bottom: 20px; position: relative;}
     .recContainer table caption{
         text-align: center; font-size: 32px; margin-bottom: 50px;
     }
@@ -5080,7 +5080,7 @@
     }
     .recruitDetail::before{
         display: block; content: '▲'; color: #f1f1f1; font-size: 20px;
-        position: absolute; top: -14px; left: 5%;
+        position: absolute; top: 262px; left: 5%;
     }
     .recruitDetail ul li{
         display: inline-block; width: 33%; margin-bottom: 30px;
