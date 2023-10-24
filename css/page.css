@@ -1,0 +1,5110 @@
+
+
+@media screen and (max-width: 767px){
+    .pcSize{display: none !important;}
+    .spSize{display: block !important;}
+    .mainContainer .bx-wrapper .bx-viewport{
+        height: 667px;
+    }
+    .mainContainer .bx-wrapper .bx-controls-direction a{
+        position: absolute;
+        top: 50%;
+        margin-top: -16px;
+        outline: 0;
+        width: 22px;
+        height: 39px;
+        text-indent: -9999px;
+        z-index: 10;
+        color: #805705;
+
+    }
+    .mainContainer .bx-wrapper .bx-controls-direction a{
+        background-size: 20px 25px; background-repeat: no-repeat;
+    }
+    .mainContainer .bx-wrapper .bx-controls-direction a.bx-prev{
+        background-image: url('../images/mainSlider_left.gif'); 
+    }
+    .mainContainer .bx-wrapper .bx-controls-direction a.bx-next{
+        background-image: url('../images/mainSlider_right.gif');
+    }
+    .mainContainer ul.mainSlider li{
+        position: relative; 
+    }
+    .mainContainer ul.mainSlider li h2{
+        position: absolute;  top: 70%; padding: 0 3%;
+        font-size: 24px; color: #fbf8f6; font-weight: 300; text-shadow: 1px 1px black;
+    }
+    .mainContainer ul.mainSlider li img{
+        height: 667px;
+    }
+    .mainContainer > blockquote{
+        height: 200px; background-color: #FAF4F0;
+    }
+    .mainContainer > blockquote div{
+        height: 100%; display: flex; align-items: center; justify-content: center;
+        
+    }
+    .mainContainer > blockquote div p{
+        color: #616161; 
+        font-size: 14px; ; text-align: center; 
+    }
+    .mainContainer .categorySliderBox{
+        padding: 60px 3% 47px;
+    }
+    .mainContainer .categorySliderBox h2{
+        font-size: 14px; color: #605953; text-align: center;
+        font-weight: 300px; margin-bottom: 30px;
+    }
+    .mainContainer .categorySliderBox ul.categorySlider li dl{
+        margin-top: 20px; 
+        color: #605953;
+    }
+    .mainContainer .categorySliderBox ul.categorySlider li dl dt{
+        font-size: 12px; 
+    }
+    .mainContainer .categorySliderBox ul.categorySlider li dl dd{
+        display: none; 
+    }
+    
+
+    .mainContainer > div:nth-of-type(3){
+        background-color: #f9f3ef; padding-bottom: 50px; margin: auto;
+    }
+    .mainContainer > div:nth-of-type(3)::after{
+        content: ''; display: block; clear: both;
+    }
+    .mainContainer > div:nth-of-type(3) h2{
+        text-align: center; font-size: 35px; color: #605953; font-weight: 400; padding: 55px 0;
+    }
+    .mainContainer > div:nth-of-type(3) figure{
+        float: left;  width: 38%; position: relative; margin: 0 6%;
+    }
+    .mainContainer > div:nth-of-type(3) figure img{
+        width: 100%; margin-bottom: 15px;
+    }
+    .mainContainer > div:nth-of-type(3) figure figcaption strong{
+        font-size: 12px; font-weight: 400; color: #312419; 
+    }
+    .mainContainer > div:nth-of-type(3) figure figcaption a{
+        color: #312419;  width: 60%; background-image: none;
+        line-height: 34px; font-size: 12px; padding: 0 3%;
+        border: 1px solid #a38000; text-align: center; display: block; margin: 10px auto 0; 
+        
+    }
+    .mainContainer > div:nth-of-type(4){
+        background: url('../images/main_wedding.png') top / cover no-repeat;
+        height: 600px; 
+    }
+    .mainContainer > div:nth-of-type(4) > div{
+        position: relative;
+    }
+    .mainContainer > div:nth-of-type(4) > div h2{
+        color: white; font-size: 40px; font-weight: 400; position: absolute; right: 2%; top: 80px;
+    }
+    .mainContainer > div:nth-of-type(4) > div a{
+        width: 30%; position: absolute; right: 8%; top: 140px;
+        color: white; font-size: 12px; background-image: none; border: 1px solid white;
+        text-align: center; padding: 10px 0;
+    }
+    
+    .mainContainer > div:nth-of-type(5){
+        margin-bottom: 60px;
+    }
+    .mainContainer > div:nth-of-type(5) h2{
+        padding: 50px 0; font-size: 35px; font-weight: 400; color: #605953; text-align: center;
+    }
+    .mainContainer > div:nth-of-type(5) ul li{
+        width: 100%; margin-bottom: 65px;
+    }
+    .mainContainer > div:nth-of-type(5) ul li a{
+        position: relative; 
+    }
+    .mainContainer > div:nth-of-type(5) ul li a img{
+        width: 100%; 
+    }
+    .mainContainer > div:nth-of-type(5) ul li a span{
+        width: 60px; height: 60px; background-color: white; border: 1px solid #bd7f07;
+        display: inline-block; transform: rotate(45deg); position: absolute; top: -13px; left: 38%;
+        display: flex; align-items: center; justify-content: center; text-align: center;
+        
+    } 
+    .mainContainer > div:nth-of-type(5) ul li a span time{
+        font-size: 20px; font-weight: 400;  color: #c99633; transform: rotate(-45deg);
+        
+    }
+    .mainContainer > div:nth-of-type(5) ul li dl{
+        margin: 60px 10px ; color: #605953;
+    }
+    .mainContainer > div:nth-of-type(5) ul li dl dt{
+        font-size: 14px; font-weight: 400; margin-bottom: 18px; line-height: 1.5;
+    }
+    .mainContainer > div:nth-of-type(5) ul li dl dd{
+        font-size: 10px; line-height: 1.5;
+    }
+    .mainContainer > div:nth-of-type(5) > a{
+        max-width: 100px; color: white; margin: 0 auto;
+        font-size: 14px; text-align: center;  display: block; position: relative;
+        background-image: none; border: 1px solid #a38000; padding: 10px 15px;
+        background-color: #a38000;
+    }
+    /* .mainContainer > div:nth-of-type(5) > a::before{
+        content: ''; position: absolute; left: 50%; top: -10px; display: inline-block; 
+        transform: translateX(-100%); width: 60px; height: 1px; 
+
+    }
+    .mainContainer > div:nth-of-type(5) > a::after{
+        content: ''; position: absolute; right: 50%; bottom: -9px; display: inline-block; 
+        transform: translateX(100%); width: 60px; height: 1px; 
+    } */
+
+    .mainContainer #videoPart{
+       position: relative; width: 100%;
+    }
+    .mainContainer #videoPart p{
+       position: absolute; top: 10%; left: 50%;  color: #805705;
+       text-align: center; font-style: italic; z-index: 1;
+    }
+    .mainContainer #videoPart p strong{
+        display: block; font-size: 18px; font-weight: 600; 
+    }
+    .mainContainer #videoPart p:not(strong){
+        font-size: 14px; font-weight: 500;
+    }
+
+
+    .listContainer{
+        position: relative;
+    }
+    .listContainer:after{
+        content: ''; display: block; clear: both;
+    }
+    .listPcSize{display: none;}
+    .listSpSize{display: block;}
+    .listContainer img{
+        width: 100%;
+    }
+    .listContainer > h2{
+        font-size: 20px; font-weight: 300; color: #616161;
+        text-align: center;
+        margin: 20px 0 11px; 
+    }
+    .listContainer > p{
+        margin-bottom: 30px; font-size: 10px; text-align: center; color: #616161; font-size: 8px;
+        line-height: 1.5;
+    }
+    .listContainer > p,
+    .listContainer aside{
+        padding: 0 3%; box-sizing: border-box;
+    }
+    .listContainer aside{
+       width: 100%; background-color: #fff9f5;  
+    }
+    .listContainer aside .toggleFilter{
+        border: none; display: block;
+        background: url('../images/down_03.gif') right center / 8px no-repeat;
+        min-width: 80px; padding: 20px 6% 20px 0; font-size: 14px; font-weight: 300; line-height: 14px; color: #616161;
+        margin-bottom: 20px;
+    }
+    .listContainer aside .toggleFilter.active{
+        background: url('../images/ico_upG.png') right center /12px no-repeat;
+    }
+    .listContainer aside .mainfilter{position: relative; display: none;}
+    .listContainer aside .mainfilter.active{
+        display: block;
+    }
+    .listContainer aside .mainfilter h3{
+        font-size: 22px; font-weight: 300; margin-bottom: 35px; display: none;
+    }
+    .listContainer aside .mainfilter > fieldset{
+    }
+    .listContainer aside .mainfilter > fieldset > legend{
+        font-size: 16px; border-bottom: 1px solid #c9c9c9; display: block; padding-bottom: 5px; margin-bottom: 12px;
+        width: 100%; background: url('../images/ico_downArrow.gif') right center / 10px no-repeat;
+    }
+    .listContainer aside .mainfilter > fieldset div{
+        margin-bottom: 15px;
+    }
+    .listContainer aside .mainfilter > fieldset label{
+        font-size: 8px; color: #616161; ;  padding: 10px 0;
+    }
+    .listContainer aside .mainfilter > fieldset input[type='checkbox']+label{
+        background: url('../images/ico_noneChecked.gif') 2% / 15px no-repeat; padding-left: 10%;
+        display: block; 
+    }
+    .listContainer aside .mainfilter > fieldset input[type='checkbox']:checked + label{
+        background: url('../images/ico_checked.gif') 2% / 15px no-repeat;
+    }
+    .listContainer aside .mainfilter > fieldset input{
+        padding-right: 50px; width: 25%;
+    }
+    
+    
+    
+    .listContainer .itemsList{
+        float: left;  
+    }   
+    .listContainer .itemsList .rightSortBy{
+        width: 20%;   position: absolute; top: 395px; left: 70%;
+    }
+    .listContainer .itemsList .rightSortBy input{
+        border: none; width: 70px; text-align: right; display: block; background-color: #fff9f5;
+        font-size: 12px;
+    }
+    .listContainer .itemsList .rightSortBy > ul#sortList{
+        display: none;
+        text-align: center; border: 1px solid #616161; box-sizing: border-box;
+        position: absolute; top: 20px; width: 100%; background-color: white;
+    }
+    .listContainer .itemsList .rightSortBy > input[type='button'].active+ul#sortList{
+        display: block;
+    }
+    .listContainer .itemsList .rightSortBy > ul#sortList > li{
+        padding: 13px 0; color: #616161;  font-size: 12px;
+    }
+    .listContainer .itemsList .rightSortBy > ul#sortList > li:first-child{
+        border: 1px solid black; box-sizing: border-box; background-color: black;
+        color: white;
+    }
+    .listContainer .itemsList > ul{
+        display: block; margin: 0 2% 50px;
+    }
+    .listContainer .itemsList > ul:after{
+        content: ''; display: block; clear: both;
+    }
+    .listContainer .itemsList > ul > li{
+        float: left; width: 47%; 
+    }
+    .listContainer .itemsList > ul > li:nth-child(2n){
+        padding-left: 6%;
+    }
+    .listContainer .itemsList > ul > li a{
+        display: block;
+    }
+    .listContainer .itemsList > ul > li span{
+        color: #614f43; font-size: 12px; font-weight: 400;
+        line-height: 18px;
+    }
+    .listContainer .itemsList ul li span strong{
+        color: #9d806c; font-size: 10px; font-weight: 400; display: block;
+    }
+    
+    .listContainer > div:last-child{
+        clear: both;
+    }
+    .textBox{
+        width: 100%; background: url('../images/allItems_bgImg-1.png')top / 100% 250px no-repeat, #605953;
+    }
+    .textBox > div{
+        padding: 243px 8% 0; 
+    }
+    .textBox > div h3,
+    .textBox > div p{
+        color: white; text-align: left;
+    }
+    .textBox > div h3{
+        font-size: 18px; padding: 43px 0 16px; font-weight: 300;
+    }
+    .textBox > div p{
+        font-size: 10px; line-height: 18px; margin-bottom: 18px;
+    }
+    .textBox > div a{
+        display: inline-block; color: #614f43; font-size: 10px; background-color: white;
+        padding: 12px 8.5%; font-weight: 300; margin-bottom: 47px;
+    }
+    
+    .listContainer > div:last-child img{
+        width: 100%; height: 300px; order: -1;
+    }
+
+    .listContainer .paging{
+        position: relative;  width: 50%; margin: 0 auto 50px; line-height: 18px; 
+    }
+    .listContainer .paging > a{
+        position: absolute; top: 0;  display: block;
+    }
+    .listContainer .paging > a:first-of-type{
+        left: 0;
+    }
+    .listContainer .paging > a:last-of-type{
+        right: 0;
+    }
+    .listContainer .paging ol{
+        text-align: center; 
+    }
+    .listContainer .paging ol li{
+        display: inline-block;
+    }
+    .listContainer .paging ol li:not(:first-of-type){
+        margin-left: 5%;
+    }
+    .listContainer .paging ol li a{
+        color: #808080;
+    }
+    .listContainer .paging ol li a.active{
+        background-color: #bd9400; color: white; 
+    }
+
+   .detailContainer .leftBox{
+       padding-top: 60px; width: 100%;
+    }
+    .detailContainer .leftBox .detailSlider li{
+        width: 100%;
+    }
+    .detailContainer .leftBox .detailSlider li img{
+        width: 100%;
+    }
+    .detailContainer .leftBox > ol.thumbPager{
+        width: 35.25%; display: flex; margin: 0 auto;
+    }
+    .detailContainer .leftBox > ol.thumbPager > li{
+        border: none;
+    }
+    .detailContainer .leftBox > ol.thumbPager > li:not(:first-child){
+        margin-left: 5%;
+    }
+    .detailContainer .leftBox > ol.thumbPager > li a{
+        display: block; min-width: 17px; height: 17px; background-color: #c9c9c9;
+        border-radius: 50%; 
+    }
+    .detailContainer .leftBox > ol.thumbPager > li a.active{
+        background-color: #808080;
+    }
+    .detailContainer .leftBox > ol.thumbPager > li img{
+       display: none;
+    }
+
+    .detailContainer .rightBox{
+        margin: 40px 0 0 0;
+    }
+    .detailContainer .rightBox h2 b{
+        font-size: 14px; color: #a3a3a3; display: block; font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .detailContainer .rightBox h2:not(b){
+        font-size: 28px; color: #4d4d4d; font-weight: 300; margin: 0 0 10px 10%;
+    }
+    .detailContainer .rightBox > div:first-of-type strong{
+        font-size: 20px; color: #9d806c; text-align: center; display: block;
+    }
+    .detailContainer .rightBox > div:first-of-type{
+        margin-bottom: 35px;
+    }
+    .detailContainer .rightBox > div:first-of-type > div{
+        display: flex; margin-top: 12px; justify-content: right;
+    }
+    .detailContainer .rightBox > div:first-of-type > div ol{
+        width: 36%; display: flex; justify-content: space-between;
+        margin-right: 4.5%;
+    }
+    .detailContainer .rightBox > div:first-of-type > div > ol > li{
+        font-size: 19px;
+    }
+    .detailContainer .rightBox > div:first-of-type > div span{
+        font-size: 14px; 
+    }
+    .detailContainer .rightBox > div:last-of-type{
+        margin-bottom: 65px;
+    }
+    .detailContainer .rightBox > div:last-of-type > span.selectNumber{
+        width: 50%; font-size: 14px; font-weight: 300; color: #4d4d4d;
+        display: block; box-sizing: border-box; background: url('../images/down_03.gif') no-repeat 90% center;
+        border: 1px solid #a3a3a3; margin: 0 auto 45px; 
+    }
+    .detailContainer .rightBox > div:last-of-type > span.selectNumber select{
+        padding: 20px 50px;  width: 100%; background-color: transparent;
+        -webkit-appearance: none;  -moz-appearance: none; border: none; color: #adadad;
+    }
+    .detailContainer .rightBox > div:last-of-type > input{
+        width: 75%; background-color: #bd9400; border: 1px solid #bd9400;
+        box-sizing: border-box; color: white; font-size: 14px; font-weight: 400;
+        display: block; padding: 18px 20%; margin: 0 auto;
+    }
+    .detailContainer .rightBox > p{
+        line-height: 14px; font-size: 14px; font-weight: 400; color: #4d4d4d; letter-spacing: -0.1em;
+        display: block; line-height: 1.4;
+    }
+    .detailContainer .rightBox > p u{
+        margin-bottom: 15px; padding-bottom: 8px; font-size: 18px; letter-spacing: 0.02em; text-decoration: none;
+        border-bottom: 1px solid #4d4d4d; display: block; width: 80px; 
+        margin-right: 450px;
+    }
+
+    .detailContainer .accBox{
+        clear: both; margin-top: 90px;
+    }
+    .detailContainer .accBox ul li{
+        padding: 35px 0 35px 5%; color: #a3a3a3;
+    }
+    .detailContainer .accBox ul li:first-of-type{
+        border-top: 1px solid #c9c9c9;
+    }
+    .detailContainer .accBox ul li:last-of-type{
+        border-top: 1px solid #c9c9c9; border-bottom: 1px solid #c9c9c9;
+    }
+    .detailContainer .accBox ul li.active{
+        display: block; 
+    }
+    .detailContainer .accBox ul li:first-child{
+        text-transform: uppercase;
+    }
+    .detailContainer .accBox ul li > span{
+        font-size: 18px; background: url('../images/ico_plus_gold.png') 96% center / 18px no-repeat;
+        display: block;
+    }
+    .detailContainer .accBox ul li > span.active{
+        display: block; background: url('../images/ico_remove.png') 96% top / 18px no-repeat;
+    }
+    .detailContainer .accBox ul li > span + div{
+        font-size: 24px; display: none;
+    }
+    .detailContainer .accBox ul li div{
+        padding: 40px 0 0;
+    }
+    .detailContainer .accBox ul li div p{
+       font-weight: 300; font-size: 14px;
+    }
+    .detailContainer .accBox ul li div p:not(:last-child){
+        margin-bottom: 42px; 
+    }
+    .detailContainer .accBox ul li div p span{
+        margin-bottom: 24px; display: block; font-size: 16px; font-weight: 300;
+    }
+    .detailContainer .reviewBox{
+        margin-top: 90px; width: 100%; box-sizing: border-box;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:first-of-type{
+        text-align: center; 
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:first-of-type h2{
+        font-size: 20px; margin-bottom: 45px;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:first-of-type span strong{
+        font-size: 38px; margin-right: 20px;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:first-of-type span:not(strong){
+        font-size: 16px; font-weight: 300;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:first-of-type ol.starCount{
+        margin-top: 15px; display: block; text-align: center;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:first-of-type ol.starCount li{
+        background-size: 30px;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:first-of-type ol.starCount li:not(:first-of-type){
+        margin-left: 1.7%;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:nth-of-type(2){
+        width: 29.6%;  margin: 39px 4.02% 0 5.27%; display: none;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:nth-of-type(2) ul{
+        margin-left: 5.27%;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:nth-of-type(2) ul li{
+        background-size: 16px; 
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:nth-of-type(2) ul li:not(:last-of-type){
+      margin-bottom: 10px;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:last-of-type{
+        width: 80%; margin: 45px auto 72px;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:last-of-type input{
+        border: 1px solid #a38000; background-color: white; padding: 15px 55px;
+        color: #a38000; width: 100%; 
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:last-of-type input:last-of-type{
+        margin-top: 25px;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:last-of-type input[type="button"]:hover{
+        border: 1px solid #a38000; color: white; background-color: #a38000;
+    }
+    
+    .detailContainer .reviewBox .underArea,
+    .detailContainer .reviewBox .underArea ul.tabMenu{
+        clear: both; border-bottom: 3px solid #f1f1f1; width: 100%;
+    }
+    .detailContainer .reviewBox .underArea ul.tabMenu{
+        display: flex;
+    }
+    .detailContainer .reviewBox .underArea ul.tabMenu li{
+        width: 50%; text-align: center; padding-bottom: 17px;
+    }
+    .detailContainer .reviewBox .underArea ul.tabMenu li.active{
+        border-bottom: 3px solid #bd9400;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage{
+        display: none;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage.active{
+        display: block;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage #reviewWrite{
+        margin-top: 35px; display: none;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage #reviewWrite.active{
+        display: block;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage #reviewWrite span{
+        display: block; margin-bottom: 10px; color: #808080; font-size: 14px;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage #reviewWrite textarea{
+        margin: 30px 0; display: block; width: 100%; height: 200px;
+        padding: 17px 0 0 8px; border: 1px solid #808080; color: #808080; box-sizing: border-box;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage #reviewWrite > div{
+        display: flex; justify-content: space-between; margin-bottom: 48px;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage #reviewWrite > div span{
+        min-width: 32%; line-height: 50px;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage #reviewWrite > div span > input[type="file"]{
+        display: none;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage #reviewWrite > div span > input[type="file"] + label{
+        background: url('../images/camera_gold.png') 8% center / 12px no-repeat; color: #bd9400; 
+        font-size: 10px; border: 1px solid #bd9400; padding: 15px 10px 15px 25px;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage #reviewWrite > div > input{
+        background-color: #a38000; color: white; border: 1px solid #a38000;
+        font-size: 10px;  min-width: 32%; box-sizing: border-box;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage > ol > li{
+        border-bottom: 3px solid #f1f1f1; padding: 65px 0;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage > ol > li > div{
+        margin: 0 5.41%; color: #808080;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage > ol > li > div > ol{
+        margin-left: 5.76%;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage > ol > li > div time{
+        margin-left: 3%;  font-size: 14px;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage > ol > li > p{
+        margin: 50px 0 0 6%; color: #808080; font-weight: 300; font-size: 14px;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage > ol > li > div:last-of-type > p{
+        background: url('../images/reply_logo_03.gif') left top / 80px no-repeat; margin-top: 35px;
+        padding-top: 25px; font-size: 12px; font-weight: 300; line-height: 1.3;
+    }
+
+    .detailContainer .reviewBox .underArea #questPage{
+        margin-top: 35px; display: none;
+    }
+    .detailContainer .reviewBox .underArea #questPage.active{
+        display: block;
+    }
+    .detailContainer .reviewBox .underArea #questPage #questionWrite{
+        display: none;
+    }
+    .detailContainer .reviewBox .underArea #questPage #questionWrite.active{
+        display: block;
+    }
+    .detailContainer .reviewBox .underArea #questPage #questionWrite textarea{
+        width: 100%; height: 200px; padding: 17px 0 0 8px; font-size: 14px;
+        border: 1px solid #808080; margin-bottom: 32px; box-sizing: border-box;
+    } 
+    .detailContainer .reviewBox .underArea #questPage #questionWrite input[type="submit"]{
+        width:45%; color: white; background-color: #a38000; padding: 12px 40px; 
+        border: 1px solid #a38000; margin: 0 auto; display: block;
+    }
+    .detailContainer .reviewBox .underArea #questPage > ol li{
+        margin-top: 57px; color: #808080;
+    }
+    .detailContainer .reviewBox .underArea #questPage > ol li div{
+        margin-bottom: 30px; display: flex; justify-content: space-between;
+    }
+    .detailContainer .reviewBox .underArea #questPage > ol li div span{
+        margin: 0 5.41%; color: #808080;
+    }
+    .detailContainer .reviewBox .underArea #questPage > ol li div time{
+        margin-left: 3%;  font-size: 14px;
+    }
+    .detailContainer .reviewBox .underArea #questPage > ol li > p{
+        margin: 0 0 0 6%; color: #808080; font-weight: 300; font-size: 15px;
+    }
+    .detailContainer .reviewBox .underArea #questPage > ol > li > div:last-of-type{
+        margin-top: 35px;
+    }
+    .detailContainer .reviewBox .underArea #questPage > ol > li > div:last-of-type >p{
+        background: url('../images/reply_logo_03.gif') left top / 80px no-repeat;
+        padding-top: 25px; font-size: 12px; font-weight: 300; line-height: 1.3;
+    }
+
+    .detailContainer .relatedBox{
+        margin-top: 139px; display: none;
+    }
+    .detailContainer .relatedBox h2{
+        text-align: center; font-size: 20px; color: #4d4d4d;
+        margin-bottom: 104px;
+    }
+    .detailContainer .relatedBox > ul{
+        display: flex; justify-content: space-evenly;
+    }
+    .detailContainer .relatedBox > ul li > a{
+        position: relative; display: block; margin-bottom: 50px;
+    }
+    .detailContainer .relatedBox > ul li a mark{
+        position: absolute; top: 0; left: 0; color: white; background-color: #a38000;
+        padding: 15px 30px; font-size: 16px; letter-spacing: 0.1em;
+    }
+    .detailContainer .relatedBox > ul li > div{
+        margin-bottom: 137px;
+    }
+    .detailContainer .relatedBox > ul li > div >*{
+        display: block; letter-spacing: 0.01em;
+    }
+    .detailContainer .relatedBox > ul li > div span{
+        margin: 15px 0; font-size: 17px; color: #4d4d4d;
+    }
+    .detailContainer .relatedBox > ul li > div span > strong{
+        display: block; margin-top: 15px; font-size: 16px; color: #9d806c;
+    }
+    .detailContainer .relatedBox > ul li > div span del{
+        display: inline-block; color: #9d806c; font-size: 14px; margin-left: 2%;
+    }
+    .detailContainer > div:last-child{
+        clear: both;
+    }
+    
+    .newsContainer{
+        margin-top: 55px; 
+    }
+
+    .newsContainer img{
+        width: 100%;
+    }
+    .newsContainer >*{
+        color: #4d4d4d;
+    }
+    .newsContainer time{
+        font-size: 12px;
+    }
+    .newsContainer a{
+        display: block; color: #4d4d4d; font-size: 14px;
+    }
+    .newsContainer .latestNews{
+        background-color: #f9f3ef;
+    }
+    .newsContainer .latestNews > *:not(:last-child){
+        margin: 0 5%;
+    }
+    .newsContainer .latestNews h2{
+        padding: 55px 0; 
+        font-size: 16px;
+    }
+    .newsContainer .latestNews time{
+        font-weight: 300; 
+    }
+    .newsContainer .latestNews span{
+        padding-top: 10px; font-weight: 400; font-size: 16px;
+        display: block; word-spacing: 4; line-height: 1.3;
+    }
+    .newsContainer .latestNews p{
+        padding-top: 18px; line-height: 1.3; font-size: 12px; font-weight: 300;
+    }
+    .newsContainer .latestNews a{
+        padding: 50px 0;
+    }
+    
+    .newsContainer .latestNews img{
+        width: 100%;
+    }
+    .newsContainer .newsList h2{
+        font-size: 14px; font-weight: 300; margin: 25px 0; text-align: center;
+    }
+    .newsContainer .newsList ul li div{
+        margin: 40px 2%;
+    }
+    .newsContainer .newsList ul li div h3{
+        font-size: 14px; font-weight: 300; margin-bottom: 10px;
+    }
+    .newsContainer .newsList ul li div p{
+        margin-top: 18px; font-size: 10px; font-weight: 300; margin-bottom: 50px;
+    }
+
+    .login{
+        padding-top: 130px; margin: 0 auto;
+    }
+    .login h2{
+        font-size: 24px; font-weight: 400; margin-bottom: 16px; text-align: center;
+    }
+    .login div:first-of-type{
+        display: flex; justify-content: center; font-size: 12px; font-weight: 400;
+        margin-bottom: 14px; text-align: center;
+    }
+    .login div:first-of-type p{
+        margin-right: 12px; color: #808080;
+    }
+    .login div:first-of-type a{
+        display: block; color: #a38000; border-bottom: 1px solid #a38000;
+    }
+    .login div:last-of-type{
+        width: 30%; display: flex; justify-content: space-between;
+        margin: 0 auto 50px;
+    }
+    .login div:last-of-type a{
+        height: 35px; text-indent: -9999px; width: 55px; 
+    }
+    .login div:last-of-type a:first-child{
+        background: url('../images/wechat_color.png') center / contain no-repeat;
+    }
+    .login div:last-of-type a:last-child{
+        background: url('../images/tiktok_color.png') center / contain no-repeat;
+    }
+    .login form{
+        width: 90%; margin: 0 auto;
+    }
+    .login form input,
+    .login form a{
+        display: block; 
+    }
+    .login form input:not(:last-of-type){
+        width: 100%; padding: 12px 0 12px 14px; box-sizing: border-box;
+    }
+    .login form input:focus{
+        outline: 1px solid #bd9400;
+    }
+    .login form input:first-of-type,
+    .login form input:nth-of-type(2){
+        font-size: 14px; color: #4d4d4d; margin-bottom: 20px;
+    }
+    .login form a{
+        text-align: right; font-weight: 400; color: #4d4d4d;
+        font-size: 12px;
+    }
+    .login form input:last-of-type{
+        margin: 60px 0 80px; color: white; background-color: #bd9400;
+        border: 1px solid #bd9400; padding: 12px 0 12px; width: 100%;
+    }
+
+    .creatAccount{
+        padding-top: 130px; text-align: center;
+    }
+    .creatAccount h2{
+        font-size: 24px; font-weight: 400; margin-bottom: 16px;
+    }
+    .creatAccount > div{
+        font-size: 0;
+    }
+    .creatAccount > div a{
+        color: #a38000; border-bottom: 1px solid #a38000;
+        font-size: 12px; margin-bottom: 38px;
+    }
+    .creatAccount form{
+        width: 90%; margin: 0 auto; margin-top: 30px;
+    }
+    .creatAccount form input:not(:nth-of-type(5)){
+        display: block; width: 100%;
+    }
+    .creatAccount form input{
+        font-size: 14px; color: #4d4d4d; margin-bottom: 20px;
+        padding: 12px 0 12px 16px; box-sizing: border-box;
+    }
+    .creatAccount form input:focus{
+        outline: 1px solid #bd9400;
+    }
+    .creatAccount form label{
+        text-align: left; line-height: 16px; font-size: 12px;
+    }
+    .creatAccount form input:nth-of-type(5)+label{
+        background: url('../images/ico_noneChecked.gif') 65% center / contain no-repeat;
+        display: block;
+    }
+    .creatAccount form input:nth-of-type(5):checked + label{
+        background-image: url('../images/ico_checked.gif');
+
+    }
+    .creatAccount form input:last-of-type{
+        margin: 26px 0 140px; color: white; background-color: #bd9400;
+        border: 1px solid #bd9400;
+    }
+    
+
+    .forgetPassword{
+        padding-top: 130px; text-align: center;
+    }
+    .forgetPassword h2{
+        font-size: 24px; font-weight: 400; margin-bottom: 16px; color: #303030;
+    }
+    .forgetPassword p{
+        font-size: 10px; color: #808080; margin-bottom: 40px;
+        line-height: 1.3;
+    }
+    .forgetPassword form{
+        width: 90%; margin: 0 auto;
+    }
+    .forgetPassword form input{
+        display: block; width: 100%; font-size: 12px;
+    }
+    .forgetPassword form input[type="email"]{
+        color: #4d4d4d; margin-bottom: 35px;
+        padding: 12px 0 12px 16px; box-sizing: border-box;
+    }
+    .forgetPassword form input[type="email"]:focus{
+        outline: 1px solid #bd9400;
+    }
+    .forgetPassword form input[type="submit"]{
+        padding: 12px 0; color: white; background-color: #bd9400;
+        border: 1px solid #bd9400; margin-bottom: 80px;
+    }
+
+    .myAccount{
+        padding-top: 130px; text-align: center;
+    }
+    .myAccount h2{
+        font-size: 24px; font-weight: 400; margin-bottom: 16px; color: #303030;
+        margin-bottom: 20px;
+    }
+    .myAccount mark{
+        background-color: white; font-size: 16px; color: #a38000; font-weight: 400;
+        font-style: normal; 
+    }
+    .myAccount > div{
+        margin-top: 20px;
+    }
+    .myAccount > div > *{
+        margin-bottom: 40px;
+    }
+    .myAccount > div aside{
+        width: 80%; margin: 0 auto; background-color: #f1c4a6; 
+        border-radius: 6px;
+    }
+    .myAccount > div aside ul li{
+         padding: 16px 0; text-align: center; font-size: 14px; box-sizing: border-box;
+    }
+    .myAccount > div aside ul li.active{
+        background-color: #806858; border-radius: 6px;
+    }
+    .myAccount > div aside ul li a{
+        color: black; display: block; height: 100%;
+    }
+    .myAccount > div > div{
+        width: 90%; margin: 30px auto 0;
+    }
+    .myAccount > div > div label{
+        width: 90%; font-size: 14px; display: block; text-align: left; margin-bottom: 5px;
+        font-weight: 400;
+    }
+    .myAccount > div > div > label:after{
+        content: ':';
+    }
+    .myAccount > div > div > input{
+        width: 90%; box-sizing: border-box; line-height: 30px; border: 1px solid #616161; box-sizing: border-box;
+        background-color: #e0e0e0; 
+    }
+    .myAccount > div > div > input:not(:last-of-type){
+        margin-bottom: 19px;
+    }
+    .myAccount > div > div > input:last-of-type{
+        margin-bottom: 26px; 
+    }
+    .myAccount > div > div > input + label{
+        display: inline-block; 
+    }
+    .myAccount > div > div > div{
+        text-align: right; font-size: 18px; margin-bottom: 40px;
+    }
+    .myAccount > div > div > div input:first-of-type,
+    .myAccount > div > div > div input:last-of-type{
+        padding: 10px 18px;  border-radius: 6px; border: 1px solid black;
+    }
+    .myAccount > div > div > div input:first-of-type{
+        background-color: white; 
+    }
+    .myAccount > div > div > div input:last-of-type{
+        background-color: black; color: #c9a48b; margin-left: 10px;
+    }
+
+    .myAccount > div > div form label{
+        display: block; text-align: left; font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .myAccount > div > div > form input{
+        width: 100%; box-sizing: border-box; line-height: 40px; border: 1px solid #616161; box-sizing: border-box;
+        border-radius: 6px; background-color: white; 
+    }
+    .myAccount > div > div > form input:not(:last-of-type){
+        margin-bottom: 19px;
+    }
+    .myAccount > div > div > form input:last-of-type{
+        background-color: black; color: #c9a48b;
+        width: 25%; margin: 0 0 40px auto; display: block;
+    }
+
+
+    .myAccount > div > div > ul li{
+        border-bottom: 1px solid #bdbdbd; display: flex;
+        margin-bottom: 60px;
+    }
+    .myAccount > div > div > ul li img{
+        width: 30%;
+    }
+    .myAccount > div > div > ul li div:first-of-type{
+        text-align: left;
+    }
+    .myAccount > div > div > ul li div:last-of-type{
+        text-align: right; margin: 0 0 0 auto;
+    }
+    .myAccount > div > div > ul li div h3{
+        font-size: 16px; font-weight: 400; margin-bottom: 6px;
+    }
+    .myAccount > div > div > ul li div small,
+    .myAccount > div > div > ul li div span,
+    .myAccount > div > div > ul li div u,
+    .myAccount > div > div > ul li div .price{
+        display: block;
+    }
+    .myAccount > div > div > ul li div small,
+    .myAccount > div > div > ul li div span{
+        font-size: 10px; font-weight: 400; padding-left: 10px;
+    }
+    .myAccount > div > div > ul li div span{
+        color: #bd9a82; margin-top: 15px;
+    }
+    .myAccount > div > div > ul li div u{
+        font-size: 10px; color: #808080; cursor: pointer;
+    }
+    .myAccount > div > div > ul li div .price{
+        margin: 30px 0; font-size: 16px; font-weight: 400;
+    }
+    .cancelPopup{
+        display: none;
+    }
+    .cancelPopup.active{
+        top: 0; left: 0; width: 100%; height: 100vh; background: rgba(0, 0, 0, 0.5); z-index: 9999;
+        position: fixed; display: flex; justify-content: center; align-items: center;
+    }
+    .cancelPopup div{
+        width: 80%; height: 200px; background: white; outline: 1px solid #a38000; outline-offset: -1em;
+        position: relative;
+    }
+    .cancelPopup div > input:first-of-type{
+        position: absolute; top: 30px; left: 80%; background: url('../images/ico_close_gray.png')top right / 16px no-repeat;
+        height: 16px; border: none; text-indent: -9999px; width: 16px;
+    }
+    .cancelPopup div p{
+        margin-top: 80px; text-align: center; font-size: 14px;
+    }
+    .cancelPopup div > input:last-of-type{
+        display: block; margin: 15px auto; 
+    }
+
+    .contactContainer{
+        padding-top: 120px; width: 90%; margin: 0 auto;
+    }
+    .contactContainer form h2{
+        font-size: 22px; font-weight: 400; color: #303030; margin-bottom: 30px;
+        text-align: center;
+    }
+    .contactContainer form >*{
+        width: 100%;
+    }
+    .contactContainer form >*:not(:first-child){
+        font-size: 12px; font-weight: 400;
+    }
+    .contactContainer form input,
+    .contactContainer form textarea{
+        padding: 10px 0 10px 3%; box-sizing: border-box; color: #4d4d4d;
+    }
+    .contactContainer form input:not(:last-of-type){
+        margin-bottom: 20px;
+    }
+    .contactContainer form textarea{
+        margin-bottom: 12px;
+    }
+    .contactContainer form .checkExpress label{
+        color: #4d4d4d; padding-left: 25px;
+    }
+    .contactContainer form .checkExpress input + label{
+        background: url('../images/ico_noneChecked.gif') left center / contain no-repeat;
+        display: block; 
+    }
+    .contactContainer form .checkExpress input:checked + label{
+        background-image: url('../images/ico_checked.gif');
+    }
+    .contactContainer form input[type="submit"]{
+        width: 100%; border: 1px solid #a38000; background-color: #a38000; box-sizing: border-box;
+        color: white; height: 50px;  margin-top: 50px;
+    }
+    .contactContainer form a{
+        width: 50px; background: url('../images/ico_arrow_backG.gif')left center / 6px no-repeat;
+        text-align: right; display: block; font-size: 10px; color: #a38000; font-weight: 400;
+        margin: 18px 0 100px auto;
+    }
+
+    .newsDetail img{width: 100%;}
+    .newsDetail > img{
+        margin: 56px 0 65px;
+    }
+    .newsDetail > div{
+        margin: 0 auto;
+    }
+    .newsDetail > div > div{
+        margin: 0 3%;
+    }
+    .newsDetail > div > div h2{
+        margin-bottom: 40px; color: #303030; font-size: 18px; font-weight: 400;
+    }
+    .newsDetail > div > div h2:after,
+    .newsDetail > div aside h3:after{
+       content: ''; width: 100%; background-color:  #bdbdbd; height: 1px; 
+       display: inline-block; 
+    }
+    .newsDetail > div > div p{
+        color: #616161; line-height: 20px; font-size: 14px; margin-bottom: 65px;
+        text-indent: 1em; text-align: justify;
+    }
+    .newsDetail > div > div img{
+        display: none; margin-bottom: 20px;
+    }
+    .newsDetail > div > div > div{
+        margin-bottom: 65px; display: flex; justify-content: space-between;
+    }
+    .newsDetail > div > div > div time{
+        font-size: 14px;
+    }
+    .newsDetail > div > div > div a{
+        width: 16%; background: url('../images/ico_arrow_backG.gif')no-repeat left 0 / 5px 12px;
+        color: #a38000; font-size: 12px; text-align: right;  cursor: pointer;
+    }
+    .newsDetail > div aside{
+        padding-top: 39px; margin: 0 3% 50px 3%;
+    }
+    .newsDetail > div aside h3{
+        color: #616161; font-size: 18px; font-weight: 400;
+    }
+    .newsDetail > div aside ul{
+        margin-top: 30px; 
+    }
+    .newsDetail > div aside ul li{
+        border: 1px solid #616161; font-size: 10px; margin-bottom: 20px;
+    }
+    .newsDetail > div aside ul li a{
+        display: flex; 
+    }
+    .newsDetail > div aside ul li img{
+        width: 40%;
+    }
+    .newsDetail > div aside ul li p{
+        padding: 40px 0 25px 3%; color: #303030;
+    }
+    .newsDetail > div aside ul li time{
+        display: block; margin-top: 24px; color: #616161;
+    }
+    .subPage .rightSortBy{
+        width: 20%;   position: absolute; top: -300px; left: 70%;
+    }
+
+    .brandContainer{
+        margin-top: 55px; width: 100%; 
+    }
+    .brandContainer img{width: 100%;}
+    .brandContainer > div{position: relative;}
+    .brandContainer > div:first-child h2{
+        color: white; font-size: 16px; font-weight: 400;
+        position: absolute; top: 40%; left: 7%; text-align: center;
+    }
+    .brandContainer > div:nth-child(2){
+        text-align: center;
+    }
+    .brandContainer > div:nth-child(2) > *:not(ul){
+        background-color: #f9f3ef;
+    }
+    .brandContainer > div:nth-child(2) h3,
+    .brandContainer > div:nth-child(2) p{
+        color: #4d4d4d;
+    }
+    .brandContainer > div:nth-child(2) h3{
+        font-size: 20px; font-weight: 300; padding: 80px 0 20px;
+    }
+    .brandContainer > div:nth-child(2) > p{
+        padding-top: 63px; font-size: 12px; line-height: 19px; font-weight: 400;
+        padding: 0 5% 30px; text-align: justify; 
+    } 
+    .brandContainer > div:nth-child(2) ul li{
+        height: 129px;
+    }
+    .brandContainer > div:nth-child(2) ul li:first-child{
+        background: url('../images/brandIntro_listImg1.png') left top / contain no-repeat;
+    }
+    .brandContainer > div:nth-child(2) ul li:last-child{
+        background: url('../images/brandIntro_listImg2.png') left top / contain no-repeat #f9f3ef;
+    }
+    .brandContainer > div:nth-child(2) ul li p{
+        color: white;  font-size: 10px;  font-weight: 100;
+        line-height: 20px; 
+    }
+    .brandContainer > div:nth-child(2) ul li p u{
+        font-size: 14px; display: block; padding-top: 40px;
+    }
+    .brandVideo h3{
+        color: #4d4d4d; text-align: center; margin: 30px 0; font-size: 26px; font-weight: 300;
+    }
+    .brandVideo video{
+        width: 100%;
+    }
+    .cartContainer{
+        padding-top: 120px; margin: 0 3%;
+    }
+    .cartContainer div h2{
+        font-size: 26px; font-weight: 400; color: #303030; margin-bottom: 15px;
+    }
+    .cartContainer div nav ol{
+        display: flex;
+    }
+    .cartContainer div nav li{
+        background: url('../images/next_FILL.svg') right center / contain no-repeat;
+        padding-right: 15px; margin-bottom: 40px; font-size: 12px;
+    }
+    .cartContainer div nav li:first-of-type{
+        color: #a38000;
+    }
+    .cartContainer div nav li:not(:last-of-type){
+        margin-right: 10px; 
+    }
+    .cartContainer div nav a{
+        color: #4d4d4d;
+    }
+    .cartContainer div .cartList li{
+        display: flex; align-items: center; padding: 10px 0;
+    }
+    .cartContainer div .cartList li img{
+        width: 20%; height: 20%;
+    }
+    .cartContainer div .cartList li:first-of-type{
+        border-top: 1px solid #c9c9c9; border-bottom: 1px solid #c9c9c9;
+    }
+    .cartContainer div .cartList li:not(:first-of-type){
+        border-bottom: 1px solid #c9c9c9;
+    }
+    .cartContainer div .cartList li div:first-of-type h3{
+        font-size: 14px; font-weight: 500; color: #bd9400; margin-bottom: 5px;
+    }
+    .cartContainer div .cartList li div:first-of-type input{
+        font-size: 12px; color: #4d4d4d; border: none; background-color: white;
+        cursor: pointer;
+    }
+    .cartContainer div .cartList li strong{
+        margin-left: 10%; font-size: 12px; font-weight: 400;
+    }
+    .cartContainer div .cartList li .numberComponent{
+        margin: 0 0 0 auto;
+    }
+    .cartContainer div .cartList li .numberComponent input{
+        display: none;
+    }
+    .cartContainer div .cartList li .numberComponent span::before{
+        content: '数量：'; font-size: 10px; font-weight: 300;
+    }
+    .cartContainer div .cartList li .numberComponent span{
+         border: none; font-size: 10px; line-height: 35px;
+    }
+    .cartContainer div > div{
+        margin: 40px 0 80px; text-align: right; 
+    }
+    .cartContainer div > div small{
+        font-size: 16px; font-weight: 400; color: #808080;
+        margin-right: 3.12%;
+    }
+    .cartContainer div > div strong{
+        font-size: 24px; font-weight: 400;
+    }
+    
+    .cartContainer .orderBtn{
+        width: 100%; margin: 80px 0 125px;
+    }
+    .cartContainer .orderBtn a{
+        border: 1px solid #bd9400; display: block; text-align: center;
+        font-size: 14px; padding: 18px 0;
+    }
+    .cartContainer .orderBtn a:first-of-type{
+        color: white; background-color: #bd9400;
+    }
+    .cartContainer .orderBtn a:last-of-type{
+        color: #bd9400;
+    }
+    .cartContainer .orderBtn p{
+        font-size: 9px; color: #808080; font-weight: 400; text-align: right;
+        margin: 5px 0 28px;
+    }
+
+    .infoContainer,
+    .paymentContainer{
+         margin: 0 3%;
+    }
+    .infoContainer > div,
+    .paymentContainer > div{
+        width: 100%; padding-top: 100px; 
+    }
+    .infoContainer div h2,
+    .paymentContainer > div h2{
+        font-size: 24px; font-weight: 400; color: #303030; margin-bottom: 10px;
+    }
+    .infoContainer div nav ol,
+    .paymentContainer > div nav ol{
+        display: flex;
+    }
+    .infoContainer div nav li:not(:last-child),
+    .paymentContainer > div nav ol li:not(:last-child){
+        background: url('../images/next_FILL.svg') right center / contain no-repeat;
+        padding-right: 15px; margin-bottom: 40px;
+    }
+    .infoContainer div nav li:nth-of-type(2),
+    .paymentContainer div nav ol li:last-of-type{
+        color: #a38000; font-size: 14px;
+    }
+    .infoContainer div nav li:not(:last-of-type){
+        margin-right: 10px; 
+    }
+    .infoContainer div nav a{
+        color: #4d4d4d; font-size: 12px;
+    }
+    .infoContainer div form{
+        width: 100%;
+    }
+    .infoContainer div form fieldset:first-of-type{
+        margin-bottom: 50px;
+    }
+    .infoContainer div form fieldset:first-of-type legend{
+        font-size: 16px; font-weight: 400; color: #303030; width: 100%; display: block;
+        margin-bottom: 15px;
+    }
+    .infoContainer div form fieldset:first-of-type legend span{
+        font-size: 12px; font-weight: 400; color: #a3a3a3; display: block; text-align: right;
+    }
+    .infoContainer div form fieldset:first-of-type legend span a{
+        color: #a38000; display: block;
+    }
+    .infoContainer div form fieldset:first-of-type input:first-of-type,
+    .infoContainer div form fieldset:last-of-type input:not(:nth-of-type(11)){
+        padding: 14px 0 14px 1.38%; border: 1px solid #303030; box-sizing: border-box;
+    }
+
+    .infoContainer div form fieldset:first-of-type input:first-of-type,
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(1),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(2),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(5),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(8),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(9),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(10){
+        width: 100%;
+    } 
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(3),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(4),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(6),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(7){
+        width: 48.8%;
+    }
+
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(4),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(7){
+        margin-left: 1%;
+    }
+
+
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(1),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(2),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(3),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(4),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(5),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(6),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(7),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(8),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(9){
+        margin-bottom: 20px;
+    }
+    .infoContainer div form fieldset:first-of-type input:first-of-type{
+        margin-bottom: 16px;
+    }
+    .infoContainer div form fieldset:first-of-type label,
+    .infoContainer div form fieldset:last-of-type label{
+        padding-left: 25px; font-size: 12px;
+    }
+    .infoContainer div form fieldset:first-of-type input:last-of-type + label{
+        background: url('../images/ico_noneChecked.gif') left center / contain no-repeat;
+        display: block;
+    }
+    .infoContainer div form fieldset:first-of-type input:last-of-type:checked + label{
+        background-image: url('../images/ico_checked.gif');
+    }
+    .infoContainer div form fieldset:last-of-type legend{
+        margin-bottom: 35px;
+    }
+
+    .infoContainer form input:focus{
+        outline: 1px solid #bd9400;
+    }
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(11) + label{
+        background: url('../images/ico_noneChecked.gif') left center / contain no-repeat;
+        display: block; margin: 20px 0 48px;
+    }
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(11):checked + label{
+        background-image: url('../images/ico_checked.gif');
+    }
+    .infoContainer div form fieldset:last-of-type input:last-of-type{
+        width: 100%; border: 1px solid #a38000; background-color: #a38000; box-sizing: border-box;
+        color: white;
+    }
+    .infoContainer div form fieldset:last-of-type a{
+        width: 50px; background: url('../images/ico_arrow_backG.gif')left center / 7px no-repeat;
+        text-align: right; display: block; font-size: 12px; color: #a38000;
+        margin: 10px 0 70px auto;
+    }
+
+    .paymentRight{
+        width: 100%; background-color: #fafafa; margin: 0 0 0 auto;
+    }
+    .paymentRight > div{
+        padding: 0 3%;  box-sizing: border-box; margin-bottom: 30px;
+    }
+    .paymentRight > div ul li{
+        border-bottom: 1px solid #c9c9c9; padding: 8px 0 0; display: flex;
+    }
+    .paymentRight > div ul li img{
+        width: 30%; height: 30%;
+    }
+    .paymentRight > div ul li h3{
+        margin-left: 2.38%; font-size: 14px; font-weight: 500; color: #bd9400;
+    }
+    .paymentRight > div ul li h3,
+    .paymentRight > div ul li strong{
+        line-height: 80px;
+    }
+    .paymentRight > div ul li strong{
+        margin: 0 0 0 auto;
+    }
+    .paymentRight > div > div:first-of-type{
+        margin: 30px 0; border-bottom: 1px solid #c9c9c9; padding-bottom: 10px;
+    }
+    .paymentRight > div > div:first-of-type input{
+        height: 50px; box-sizing: border-box; border-radius: 6px; margin-bottom: 14px;
+    }
+    .paymentRight > div > div:first-of-type input:first-of-type{
+        width: 75%; padding: 19px 4.31%; border: 1px solid #c9c9c9;
+        font-size: 14px;
+    }
+    .paymentRight > div > div:first-of-type input:last-of-type{
+        width: 22%; padding: 19px auto; background-color: #c9c9c9; border: none;
+        font-size: 14px;
+    }
+    .paymentRight > div > div:nth-of-type(2){
+        border-bottom: 1px solid #c9c9c9;
+    }
+    .paymentRight > div > div:nth-of-type(2) div,
+    .paymentRight > div > div:last-of-type{
+        display: flex; justify-content: space-between;
+    }
+    .paymentRight > div > div:nth-of-type(2) div span,
+    .paymentRight > div > div:last-of-type{
+        font-size: 14px; font-weight: 400; color: #808080;
+    }
+    .paymentRight > div > div:nth-of-type(2) div span:first-of-type{
+        margin-bottom: 20px; display: block;
+    }
+    .paymentRight > div > div:nth-of-type(2) span strong{
+        font-size: 16px; font-weight: 400;
+    }
+    .paymentRight > div > div:last-of-type{
+        margin-top: 28px;
+    }
+    .paymentRight > div > div:last-of-type strong{
+        font-size: 24px; color: black; font-weight: 400; 
+        text-align: right; min-width: 200px; margin-bottom: 20px;
+    }
+    .paymentRight > div > div:last-of-type strong:before{
+        content: 'JPY'; color: #c9c9c9; margin-right: 10%; font-size: 14px;
+    }
+    .paymentContainer > div nav ol li a{
+        font-size: 14px;
+    }
+    .paymentContainer > div form fieldset:first-of-type{
+        margin-bottom: 30px;
+    }
+    .paymentContainer > div form fieldset:first-of-type legend{
+        display: none;
+    }
+    .paymentContainer > div form fieldset:first-of-type ol li{
+        display: flex; 
+    }
+    .paymentContainer > div form fieldset:first-of-type ol li input{
+        width: 93%; padding: 10px 0 10px 2.7%; border-top: 1px solid #bdbdbd; background-color: white;
+        border-bottom: 1px solid #bdbdbd; border-left: 1px solid #bdbdbd;
+        color: #4d4d4d; border-right: none;
+    }
+    .paymentContainer > div form fieldset:first-of-type ol li a{
+        width: 14%; padding: 10px 0 10px; border-top: 1px solid #bdbdbd;
+        border-bottom: 1px solid #bdbdbd; border-right: 1px solid #bdbdbd;
+        font-size: 12px; color: #a38000;
+    }
+    .paymentContainer > div form fieldset:nth-child(2){
+        margin-bottom: 50px;
+    }
+    .paymentContainer > div form fieldset:nth-child(2) legend{
+        margin-bottom: 35px;
+    }
+    .paymentContainer > div form fieldset:nth-child(2) legend,
+    .paymentContainer > div form fieldset:nth-child(2) strong{
+        font-size: 16px; font-weight: 400; color: #303030;
+    }
+    .paymentContainer > div form fieldset:nth-child(2) strong{
+        border: 1px solid #c9c9c9; border-radius: 6px 6px 0 0; padding: 18px 0 18px 4.16%;
+        display: block; box-sizing: border-box;
+    }
+    .paymentContainer > div form fieldset:nth-child(2) strong,
+    .paymentContainer > div form fieldset:nth-child(2) .cardDetail{
+        width: 100%;
+    }
+    .paymentContainer > div form fieldset:nth-child(2) .cardDetail{
+        height: 210px; width: 100%; background-color: #f1f1f1; padding: 20px 3% 0 3%; box-sizing: border-box; 
+    }
+    .paymentContainer > div form fieldset:nth-child(2) .cardDetail input{
+        display: block; width: 100%; padding: 16px 2.21%; box-sizing: border-box; border-radius: 6px; border: 1px solid #c9c9c9;
+        font-size: 10px;
+    }
+    .paymentContainer > div form fieldset:nth-child(2) .cardDetail input:nth-of-type(2){
+        margin: 13px 0; 
+    }
+    .paymentContainer > div form fieldset:nth-child(2) .cardDetail input:nth-of-type(3),
+    .paymentContainer > div form fieldset:nth-child(2) .cardDetail input:last-of-type{
+        width: 45.8%;
+    }
+    .paymentContainer > div form fieldset:nth-child(2) .cardDetail input:nth-of-type(3){
+        float: left;
+    }
+    .paymentContainer > div form fieldset:nth-child(2) .cardDetail input:last-of-type{
+        float: right;
+    }
+    .paymentContainer > div form fieldset:nth-child(2) .cardDetail input:first-of-type{
+        background: url('../images/ico_number.png') 98% center / 12px no-repeat, white;
+    }
+    .paymentContainer > div form fieldset:last-of-type{
+        margin-bottom: 40px; position: relative;
+    }
+    .paymentContainer > div form fieldset:last-of-type legend{
+        font-size: 16px; font-weight: 400; color: #303030; margin-bottom: 28px;
+    }
+    .paymentContainer > div form fieldset:last-of-type label{
+        display: block; padding: 21px 0 21px 15%; border: 1px solid #bdbdbd; font-size: 14px;
+    }
+    .paymentContainer > div form fieldset:last-of-type > input{
+        display: none;
+    }
+    .paymentContainer > div form fieldset:last-of-type label::before,
+    .paymentContainer > div form fieldset:last-of-type label::after{
+        content: ""; display: block; border-radius: 50%; position: absolute;
+        
+    }
+    .paymentContainer > div form fieldset:last-of-type label::before{
+        background-color: #fff; border: 1px solid #ddd; 
+        width: 15px; height: 15px; left: 15px;
+    }
+    .paymentContainer > div form fieldset:last-of-type label::after{
+        background-color: white; border: 5px solid #a38000; 
+        width: 7px; height: 7px; left: 15px; transform: translateY(-14px); opacity: 0;
+    }
+    .paymentContainer > div form fieldset:last-of-type input:checked + label:after{
+        opacity: 1;
+    }
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd{
+        background-color: #fafafa; border: 1px solid #c9c9c9;
+    }
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input{
+        padding: 14px 0 14px 2.21%; margin: 14px 3% 0 3%; 
+    }
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(1),
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(2),
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(5),
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(8),
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(9),
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(10){
+        width: 94%; box-sizing: border-box;
+    }
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(3),
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(4),
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(6),
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(7){
+        width: 44.8%; display: inline-block; box-sizing: border-box;
+    }
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(4),
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(7){
+        margin-left: 0;
+    }
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(10){
+        margin-bottom: 20px;
+    }
+    .paymentContainer > div form > div input{
+        width: 100%; border: 1px solid #a38000; background-color: #a38000; box-sizing: border-box;
+        color: white; height: 60px;
+    }
+    .paymentContainer > div form > div a{
+        width: 50px; background: url('../images/ico_arrow_backG.gif')left center / 7px no-repeat;
+        text-align: right; display: block; font-size: 12px; color: #a38000;
+        margin: 12px 0 80px auto;
+    }
+    
+    .PMDoneContainer{
+        margin: 130px 0 100px; text-align: center;
+    }
+    .PMDoneContainer p{
+        font-size: 14px; padding-bottom: 50px;
+    }
+    .PMDoneContainer a{
+        border: 1px solid #a38000; color: #a38000; padding: 12px 2%;
+        font-size: 14px; 
+    }
+
+    .stContainer{
+        margin-top: 100px; padding: 0 3%;
+    }
+    .stContainer h2{
+        font-size: 18px; font-weight: 400; text-align: center; margin-bottom: 30px;
+    }
+    .stContainer ul li h3{
+        font-size: 14px; font-weight: 400; margin-bottom: 16px;
+    }
+    .stContainer ul li p{
+        margin-bottom: 50px; font-size: 12px; text-indent: 1em; line-height: 1.2; text-align: justify;
+    }
+    .stContainer div{
+        text-align: right; font-size: 12px; font-weight: 400; margin-bottom: 70px;
+        line-height: 1.2;
+    }
+
+    .companyContainer{
+        margin-top: 100px;
+    }
+    .companyContainer h2{
+        font-size: 20px; font-weight: 400; text-align: center; margin-bottom: 30px;
+    }
+    .companyContainer p{
+        font-size: 12px; font-weight: 400; text-align: justify; text-indent: 1em;
+        margin-bottom: 60px; line-height: 1.2; padding: 0 3%;
+    }
+    .companyContainer img{width: 100%; margin-bottom: 60px;}
+    .companyContainer span{
+        font-size: 20px; font-weight: 400; text-align: center; display: block;
+    }
+    .companyContainer p:last-of-type{
+        margin-top: 30px;
+    }
+    .companyContainer a{
+        display: block; margin: 0 0 0 auto; color: #a38000; max-width: 12%; padding-left: 20px;
+        background: url('../images/ico_arrow_backG.gif') left center / 6px no-repeat;
+        font-size: 12px; margin-bottom: 55px; padding: 0 3%; text-align: right;
+    }
+
+    .recContainer{
+        margin-top: 100px; padding: 0 3%;
+    }
+    .recContainer table{width: 100%; margin-bottom: 200px; position: relative;}
+    .recContainer table caption{
+        text-align: center; font-size: 24px; margin-bottom: 40px;
+    }
+    .recContainer table thead{
+        background-color: #a38000; 
+    }
+    .recContainer table thead tr th{
+        padding: 15px 0; color: white; font-size: 12px; font-weight: 400;
+    }
+    .recContainer table thead tr th:not(:last-child){
+        width: 18%;
+    }
+    .recContainer table thead tr th:last-of-type{text-align: left; padding-left: 5px;}
+    .recContainer table thead,
+    .recContainer table tbody{border: 1px solid #a38000;}
+    .recContainer table tbody tr td{
+        padding: 10px 1%; text-align: center; font-size: 10px; line-height: 15px; vertical-align: middle;
+    }
+    .recContainer table tbody tr td input{
+        border: 1px solid #a38000; background-color: white; color: #a38000;
+        padding: 5px 1%; font-size: 10px; box-sizing: border-box; width: 100%;
+    }
+    .recruitDetail{
+        position: absolute; top: 280px; left: 3.5%; width: 93%; background-color: #f1f1f1;
+        padding: 15px 15px 0 15px; box-sizing: border-box; z-index: 100; border-radius: 6px;
+    }
+    .recruitDetail::before{
+        width: 0; height: 0; border: 50px solid transparent; border-bottom: 50px solid #f1f1f1;
+        position: absolute; top: 0; left: 5%;
+    }
+    .recruitDetail ul li{
+        display: inline-block; width: 90%; margin-bottom: 15px; font-size: 12px;
+    }
+    .recruitDetail > div{
+        border-top: 1px solid white; padding: 30px 3.7%;
+    }
+    .recruitDetail > div > div:first-of-type h3{
+        font-size: 14px; font-weight: 400; color: #616161; margin-bottom: 30px;
+    }
+    .recruitDetail > div > div ol li{
+        font-size: 12px; font-weight: 400; color: #616161; margin-bottom: 16px; 
+    }
+    .recruitDetail > div > div p{
+        margin-top: 30px; font-size: 14px; font-weight: 400; color: #616161;
+    }
+    .recruitDetail > div > div p span{
+        display: block; margin: 10px 0 50px; font-size: 12px;
+    }
+    .recruitDetail > div > div strong{
+        font-size: 12px; font-weight: 400; color: #616161;
+    }
+    .recruitDetail > div > div:last-of-type{
+        margin-top: 50px;
+    }
+    .recruitDetail > div > div:last-of-type h3{
+        font-size: 14px; font-weight: 400; color: #616161; margin-bottom: 10px;
+    }
+    .recruitDetail > div > div:last-of-type span{
+        color: #616161; font-size: 12px;
+    }
+    
+}
+/* Mobile */
+
+@media screen and (min-width: 768px) and (max-width: 1279px){
+
+    .pcSize{display: block !important;}
+    .spSize{display: none !important;}
+    .mainContainer .bx-wrapper .bx-controls-direction a{
+        position: absolute;
+        top: 50%;
+        margin-top: -16px;
+        outline: 0;
+        width: 22px;
+        height: 39px;
+        text-indent: -9999px;
+        z-index: 10;
+        color: #805705;
+
+    }
+    .mainContainer .bx-wrapper .bx-controls-direction a{
+        background-size: 21px 34px; background-position: center; background-repeat: no-repeat;
+    }
+    .mainContainer .bx-wrapper .bx-controls-direction a.bx-prev{
+        background-image: url('../images/mainSlider_left.gif'); 
+    }
+    .mainContainer .bx-wrapper .bx-controls-direction a.bx-next{
+        background-image: url('../images/mainSlider_right.gif');
+    }
+    .mainContainer ul.mainSlider li{
+        position: relative; width: 80%;
+    }
+    .mainContainer .mainSlider li h2{
+        position: absolute;  top: 75%;  left: 5%;
+        font-size: 45px; color: #fbf8f6; font-weight: 300; text-shadow: 1px 1px black;
+    }
+    .mainContainer .mainSlider li img{
+        color: #fbf8f6; height: 500px; margin-top: 140px;
+    }
+
+    .mainContainer > blockquote{
+        background-color: #FAF4F0;
+        height: 400px;  
+    }
+    .mainContainer > blockquote div{
+        height: 400px; margin: 15px 0; display: flex; justify-content: center; align-items: center;
+    }
+    .mainContainer > blockquote div p{
+        color: #4d4d4d; 
+        font-size: 28px; ; text-align: center;
+    }
+    .mainContainer .categorySliderBox h2{
+        font-size: 25px; color: #605953; text-align: center; margin-bottom: 30px;
+        font-weight: 400;
+    }
+    .mainContainer .categorySliderBox{
+        padding: 45px 0 45px 2%;
+    }
+    .mainContainer .categorySliderBox ul.categorySlider{
+        padding-left: 2.91%;
+    }
+    .mainContainer .categorySliderBox ul.categorySlider li{
+        width: 240px; 
+    }
+    .mainContainer .categorySliderBox ul.categorySlider li a{
+        width: 100%; display: block;
+    }
+    .mainContainer .categorySliderBox ul.categorySlider li img{
+        width: 60%; 
+    }
+    .mainContainer .categorySliderBox ul.categorySlider li dl{
+        margin-top: 30px; display: flex; justify-content: space-between;
+        color: #605953;
+    }
+    .mainContainer .categorySliderBox ul.categorySlider li dl dt{
+        font-size: 10px;
+    }
+    .mainContainer .categorySliderBox ul.categorySlider li dl dd{
+        font-size: 8px;
+    }
+    
+
+    .mainContainer > div:nth-of-type(3){
+        background-color: #f9f3ef; padding-bottom: 50px; margin: auto;
+    }
+    .mainContainer > div:nth-of-type(3)::after{
+        content: ''; display: block; clear: both;
+    }
+    .mainContainer > div:nth-of-type(3) h2{
+        text-align: center; font-size: 35px; color: #605953; font-weight: 400; padding: 45px 0;
+    }
+    .mainContainer > div:nth-of-type(3) figure{
+        float: left;  width: 32.34%; position: relative; left: 15%;
+    }
+    .mainContainer > div:nth-of-type(3) figure img{
+        width: 100%; margin-bottom: 36px;
+    }
+    .mainContainer > div:nth-of-type(3) figure:last-of-type{
+        margin-left: 6.8%; 
+    }
+    .mainContainer > div:nth-of-type(3) figure figcaption{
+        display: flex; justify-content: space-between; 
+    }
+    .mainContainer > div:nth-of-type(3) figure figcaption strong{
+        font-size: 16px; font-weight: 400; color: #312419; line-height: 34px; 
+    }
+    .mainContainer > div:nth-of-type(3) figure figcaption a{
+        color: #a38000;  min-width: 99px; font-size: 12px; background-image: none;
+        line-height: 34px; position: relative; text-align: center;
+        border: 1px solid #A38000;
+    }
+
+    .mainContainer > div:nth-of-type(4){
+        background: url('../images/main_marrige_bg.jpg') center / cover no-repeat;
+        height: 510px; 
+    }
+    .mainContainer > div:nth-of-type(4) > div{
+        position: relative;
+    }
+    .mainContainer > div:nth-of-type(4) > div h2{
+        color: white; font-size: 35px; font-weight: 400; position: absolute; right: 10%; top: 308px;
+    }
+    .mainContainer > div:nth-of-type(4) > div a{
+        width: 15%;  position: absolute; right: 10%; top: 370px; text-align: center;
+        color: white; background-image: none; border: 1px solid white; padding: 10px;
+    }
+    .mainContainer > div:nth-of-type(5){
+        margin-bottom: 60px;
+    }
+    .mainContainer > div:nth-of-type(5) h2{
+        padding: 40px 0; font-size: 35px; font-weight: 400; color: #605953; text-align: center;
+    }
+    .mainContainer > div:nth-of-type(5) ul{
+        display: flex; justify-content: space-evenly;
+    }
+    .mainContainer > div:nth-of-type(5) ul li{
+        width: 31.52%; margin-bottom: 50px;
+    }
+    .mainContainer > div:nth-of-type(5) ul li a{
+        position: relative; 
+    }
+    .mainContainer > div:nth-of-type(5) ul li a img{
+        width: 100%; 
+    }
+    .mainContainer > div:nth-of-type(5) ul li a span{
+        width: 70px; height: 70px; background-color: white; border: 1px solid #bd7f07;
+        display: inline-block; transform: rotate(45deg); position: absolute; top: -19px; left: 35%;
+        display: flex; align-items: center; justify-content: center; text-align: center;
+        
+    } 
+    .mainContainer > div:nth-of-type(5) ul li a span time{
+        font-size: 24px; font-weight: 400;  color: #c99633; transform: rotate(-45deg);
+        
+    }
+    .mainContainer > div:nth-of-type(5) ul li dl{
+        margin: 70px 0 0; color: #605953;
+    }
+    .mainContainer > div:nth-of-type(5) ul li dl dt{
+        font-size: 12px; font-weight: 400; margin-bottom: 18px;
+    }
+    .mainContainer > div:nth-of-type(5) ul li dl dd{
+        font-size: 10px;
+    }
+    .mainContainer > div:nth-of-type(5) > a{
+        max-width: 100px; padding-right: 10px; color: #a38000; margin: 0 auto;
+        font-size: 16px; text-align: center;  display: block; position: relative;
+        background-image: none; border: 1px solid #A38000; padding: 15px 10px;
+    }
+    /* .mainContainer > div:nth-of-type(5) > a::before{
+        content: ''; position: absolute; left: 50%; top: -10px; display: inline-block; 
+        transform: translateX(-100%); width: 60px; height: 1px; 
+
+    }
+    .mainContainer > div:nth-of-type(5) > a::after{
+        content: ''; position: absolute; right: 50%; bottom: -9px; display: inline-block; 
+        transform: translateX(100%); width: 60px; height: 1px; 
+    } */
+
+    .mainContainer #videoPart{
+       position: relative;
+    }
+    .mainContainer #videoPart p{
+       position: absolute; top: 40%; left: 17%;  color: white;
+       text-align: center; font-style: italic;
+    }
+    .mainContainer #videoPart p strong{
+        display: block; font-size: 20px; font-weight: 600; margin-bottom: 20px;
+    }
+    .mainContainer #videoPart p:not(strong){
+        font-size: 25px; font-weight: 500;
+    }
+    .mainContainer #videoPart video{
+        z-index: -1;
+    }
+
+    .listContainer{
+        margin: 147px 0 0; box-sizing: border-box; width: 100%;
+    }
+    .listPcSize{display: block; width: 100%;}
+    .listSpSize{display: none;}
+    .listContainer img{width: 100%;}
+    .listContainer > h2{
+        font-size: 30px; font-weight: 300; color: #616161;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .listContainer > p{
+        font-size: 12px; font-weight: 400; text-align: center; color: #616161;
+        line-height: 20px; margin: 28px 0 96px;
+    }
+    .listContainer aside{
+        width: 20%; margin-right: 2.6%; padding-left: 2%; box-sizing: border-box;
+        position: relative;
+    }
+    .listContainer aside .toggleFilter{
+        border: none; background: url('../images/ico_leftArrow.gif') left center / 6px no-repeat;
+        min-width: 123px; padding-left: 22px; font-size: 14px; line-height: 14px; color: #f1bd00;
+        right: 0; text-align: right; margin-bottom: 20px;
+    }
+    .listContainer aside .mainfilter{
+        position: absolute; top: 30px; left: -500px;
+    }
+    .listContainer aside .mainfilter.active{
+        left: 5%; position: absolute; top: 30px; transition: 1s;
+    }
+    .listContainer aside .mainfilter h3{
+        font-size: 14px; font-weight: 300; margin-bottom: 35px;
+    }
+    .listContainer aside .mainfilter > fieldset > legend{
+        font-size: 14px; border-bottom: 1px solid #c9c9c9; display: block; padding-bottom: 10px;
+        width: 100%; background: url('../images/ico_downArrow.gif') right center / 10px no-repeat;
+        font-weight: 300;
+    }
+    .listContainer aside .mainfilter > fieldset label{
+        font-size: 12px; color: #616161; padding: 5px ; margin-top: 10px; display: block;
+    }
+    .listContainer aside .mainfilter > fieldset label:last-child{
+        margin-bottom: 43px;
+    }
+    .listContainer aside .mainfilter > fieldset  input[type='checkbox']+label{
+        background: url('../images/ico_noneChecked.gif')5% center / 15px no-repeat; padding-left: 19.2%;
+        display: block;
+    }
+    .listContainer aside .mainfilter > fieldset  input[type='checkbox']+label:not(:first-child){
+        padding: 5px 0 5px 20%;
+    }
+    .listContainer aside .mainfilter > fieldset  input[type='checkbox']:checked + label{
+        background: url('../images/ico_checked.gif')5% center / 15px no-repeat;
+    }
+    .listContainer aside .mainfilter > fieldset:first-of-type input{
+        padding-right: 50px; 
+    }
+    
+    
+    
+    .listContainer .itemsList{
+        width: 70%; margin-left: 30%;
+    }   
+    .listContainer .itemsList .rightSortBy{
+        width: 14%;  margin-left:  82.18%; position: relative;
+    }
+    .listContainer .itemsList .rightSortBy input{
+        border: none; background: url('../images/ico_downArrow.gif') right center / 10px no-repeat;
+        width: 80px; text-align: left; margin-left: auto; display: block;
+    }
+    .listContainer .itemsList .rightSortBy > input[type='button'].active{
+        background-image: url('../images/ico_up');
+    }
+    .listContainer .itemsList .rightSortBy > ul#sortList{
+        display: none;
+        text-align: center; border: 1px solid #616161; box-sizing: border-box;
+        position: absolute; top: 20px; width: 100%; background-color: white;
+    }
+    .listContainer .itemsList .rightSortBy > input[type='button'].active+ul#sortList{
+        display: block;
+    }
+    .listContainer .itemsList .rightSortBy > ul#sortList > li{
+        padding: 13px 0; color: #616161;  font-size: 12px;
+    }
+    .listContainer .itemsList .rightSortBy > ul#sortList > li:first-child{
+        border: 1px solid black; box-sizing: border-box; background-color: black;
+        color: white;
+    }
+    .listContainer .itemsList .rightSortBy > ul#sortList > li:hover{
+        background-color: #616161; color: white;
+    }
+    
+    .listContainer .itemsList > ul{
+        display: block; margin-bottom: 50px;
+    }
+    .listContainer .itemsList > ul:after{
+        content: ''; display: block; clear: both;
+    }
+    .listContainer .itemsList > ul > li{
+        float: left; width: 48%;
+    }
+    .listContainer .itemsList > ul > li:nth-child(2n){
+        padding-left: 2%;
+    }
+    .listContainer .itemsList > ul > li a{
+        display: block;
+    }
+    .listContainer .itemsList > ul > li a img{
+        width: 100%;
+    }
+    .listContainer .itemsList > ul > li span{
+        color: #614f43; font-size: 14px; font-weight: 400; margin-top: 13px; 
+        line-height: 20px;
+    }
+    .listContainer .itemsList ul li span strong{
+        color: #9d806c; font-size: 14px; font-weight: 400; display: block;
+    }
+    
+    .listContainer > div:last-child{
+        display: flex; height: 300px; clear: both; 
+    }
+    .listContainer > div:last-child .textBox{
+        width: 50%; background-color: #605953; display: flex; justify-content: center; align-items: center;
+    }
+    .listContainer > div:last-child .textBox > div{
+         
+    }
+    .listContainer > div:last-child .textBox > div h3,
+    .listContainer > div:last-child .textBox > div p{
+        color: white; text-align: left; font-weight: 400;
+    }
+    .listContainer > div:last-child .textBox > div h3{
+        font-size: 20px; margin-bottom: 24px; padding-top: 70px;
+    }
+    .listContainer > div:last-child .textBox > div p{
+        font-size: 14px; line-height: 20px; margin-bottom: 24px;
+    }
+    .listContainer > div:last-child .textBox > div a{
+        display: inline-block; color: #614f43; font-size: 12px; background-color: white;
+        padding: 12px 40px;
+    }
+    .listContainer > div:last-child img{
+        width: 50%;
+    }
+
+    .listContainer .paging{
+        position: relative;  width: 40%; margin: 0 auto 125px; line-height: 35px; 
+    }
+    .listContainer .paging a{
+        display: block; padding: 0 10px; border-radius: 5px;
+    }
+    .listContainer .paging > a{
+        position: absolute; top: 0; 
+    }
+    .listContainer .paging > a:first-of-type{
+        left: 0;
+    }
+    .listContainer .paging > a:last-of-type{
+        right: 0;
+    }
+    .listContainer .paging ol{
+        text-align: center;
+    }
+    .listContainer .paging ol li{
+        display: inline-block;
+    }
+    .listContainer .paging ol li a{
+        color: #808080;
+    }
+    .listContainer .paging ol li:hover a,
+    .listContainer .paging ol li a.active{
+        background-color: #bd9400; color: white; 
+    }
+    
+   .detailContainer .leftBox{
+        width: 30%; float: left; 
+    }
+    .detailContainer .leftBox .detailSlider{
+        display: block; width: 100%;
+    }
+    .detailContainer .leftBox .detailSlider li{
+        width: 100%;
+    }
+    .detailContainer .leftBox > ol.thumbPager{
+        display: flex; flex-flow: row wrap; justify-content: flex-start; padding-left: 15%;
+    }
+    .detailContainer .leftBox > ol.thumbPager > li{
+        border: 1px solid #bdbdbd; max-width: 40px; 
+    }
+    .detailContainer .leftBox > ol.thumbPager > li:not(:first-child){
+        margin-left: 2%;
+    }
+    .detailContainer .leftBox > ol.thumbPager > li a{
+        display: block; width: 100%;
+    }
+    .detailContainer .leftBox > ol.thumbPager > li img{
+       width: 100%;
+    }
+
+    .detailContainer .rightBox{
+        margin: 200px 0 0 0; box-sizing: border-box;
+    }
+    .detailContainer .rightBox h2 b{
+        font-size: 12px; color: #a3a3a3; display: block; font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .detailContainer .rightBox h2:not(b){
+        font-size: 24px; color: #4d4d4d; font-weight: 300; margin-bottom: 42px;
+    }
+    .detailContainer .rightBox > div strong{
+        font-size: 24px; color: #9d806c; 
+    }
+    .detailContainer .rightBox > div:first-of-type{
+        display: flex; justify-content: space-between; margin-bottom: 72px;
+    }
+    .detailContainer .rightBox > div:first-of-type > div{
+        width: 36%; display: flex; justify-content: space-between;
+    }
+    .detailContainer .rightBox > div:first-of-type > div > ol > li{
+        font-size: 19px;
+    }
+    .detailContainer .rightBox > div:last-of-type{
+        display: flex; justify-content: space-between; margin-bottom: 70px;
+    }
+    .detailContainer .rightBox > div:last-of-type > span.selectNumber{
+        width: 25%; font-size: 16px; font-weight: 300; color: black;
+        box-sizing: border-box; background: url('../images/down_03.gif') no-repeat 90% center;
+        border: 1px solid #a3a3a3;
+    }
+    .detailContainer .rightBox > div:last-of-type > span.selectNumber select{
+        padding: 16px 30px;  width: 100%; background-color: transparent;
+        -webkit-appearance: none;  -moz-appearance: none; border: none;
+    }
+    .detailContainer .rightBox > div:last-of-type > input{
+        width: 63.96%; background-color: #bd9400; border: 1px solid #bd9400;
+        box-sizing: border-box; color: white; font-size: 14px; font-weight: 400;
+    }
+    .detailContainer .rightBox > p{
+        line-height: 24px; font-size: 14px; font-weight: 400; color: #4d4d4d; letter-spacing: -0.1em;
+        display: block; padding-left: 5%;
+    }
+    .detailContainer .rightBox > p u{
+        margin-bottom: 30px; padding-bottom: 8px; font-size: 18px; letter-spacing: 0.02em; text-decoration: none;
+        border-bottom: 1px solid #4d4d4d; display: block; width: 80px; 
+        margin-right: 450px;
+    }
+
+    .detailContainer .accBox{
+        clear: both; margin-top: 100px;
+    }
+    .detailContainer .accBox ul li{
+        padding: 25px 0 25px 55px; color: #a3a3a3;
+        
+    }
+    .detailContainer .accBox ul li:first-of-type{
+        border-top: 1px solid #c9c9c9; 
+    }
+    .detailContainer .accBox ul li:last-of-type{
+        border-top: 1px solid #c9c9c9; border-bottom: 1px solid #c9c9c9;
+    }
+    .detailContainer .accBox ul li.active{
+        display: block; 
+    }
+    .detailContainer .accBox ul li:first-child{
+        text-transform: uppercase;
+    }
+    .detailContainer .accBox ul li > span{
+        font-size: 16px; display: block; background: url('../images/ico_plus_gold.png') 96% center / 18px no-repeat;
+    }
+    .detailContainer .accBox ul li > span.active{
+        display: block; background: url('../images/ico_remove.png') 96% top / 18px no-repeat;
+    }
+    .detailContainer .accBox ul li > span + div{
+        font-size: 16px; display: none;
+    }
+    .detailContainer .accBox ul li div{
+        padding: 40px 0 0 0; overflow: hidden;
+    }
+    .detailContainer .accBox ul li div p:not(:last-of-type){
+        margin-bottom: 35px; line-height: 1.3;
+    }
+    .detailContainer .accBox ul li div p span{
+        margin-bottom: 20px; display: block;
+    }
+    .detailContainer .reviewBox{
+        margin-top: 90px; width: 100%;
+    }
+    .detailContainer .reviewBox >div:first-of-type{
+        position: relative; margin-bottom: 30px;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div{
+        float: left; 
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:first-of-type{
+        width: 20.4%; text-align: center; margin-left: 5.2%;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:first-of-type h2{
+        font-size: 20px; margin-bottom: 45px;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:first-of-type span strong{
+        font-size: 36px; margin-right: 20px; display: block;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:first-of-type span:not(strong){
+        font-size: 16px; font-weight: 300;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:first-of-type ol.starCount{
+        margin-top: 15px; display: block; text-align: center;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:first-of-type ol.starCount li{
+        background-size: 30px;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:nth-of-type(2){
+        width: 29.6%;  margin: 39px 4.02% 50px 5.27%;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:nth-of-type(2) ul{
+        margin-left: 5.27%;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:nth-of-type(2) ul li{
+        background-size: 16px; 
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:nth-of-type(2) ul > li:not(:last-of-type){
+      margin-bottom: 15px;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:nth-of-type(2) ul li ol{
+        display: block;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:nth-of-type(2) ul li meter{
+        display: inline-block;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:last-of-type{
+        position: absolute; top: 86px; left: 65.69%;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:last-of-type input{
+        border: 1px solid #a38000; background-color: white; padding: 15px 55px;
+        color: #a38000;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:last-of-type input:last-of-type{
+        margin-top: 15px;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:last-of-type input.active{
+        border: 1px solid #a38000; color: white; background-color: #a38000;
+    }
+    
+    .detailContainer .reviewBox .underArea{
+        clear: both;
+    }
+    .detailContainer .reviewBox .underArea,
+    .detailContainer .reviewBox .underArea ul.tabMenu{
+        clear: both; border-bottom: 3px solid #f1f1f1;
+    }
+    .detailContainer .reviewBox .underArea ul.tabMenu li{
+        display: inline-block; padding: 0 40px 23px 40px;
+    }
+    /* .detailContainer .reviewBox .underArea ul.tabMenu li:hover{
+        border-bottom: 3px solid #bd9400;
+    } */
+    .detailContainer .reviewBox .underArea ul.tabMenu li.active{
+        border-bottom: 3px solid #bd9400;
+    }
+    .detailContainer .reviewBox .underArea > div{
+        display: none;
+    }
+    .detailContainer .reviewBox .underArea > div.active{
+        display: block;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage #reviewWrite{
+        margin-top: 35px; display: none;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage #reviewWrite.active{
+        display: block;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage #reviewWrite span{
+        display: block; margin-bottom: 10px; color: #808080;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage #reviewWrite textarea{
+        margin: 30px 0; display: block; width: 100%; height: 200px; box-sizing: border-box;
+        padding: 17px 26px; border: 1px solid #808080; color: #808080;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage #reviewWrite > div{
+        display: flex; justify-content: space-between; margin-bottom: 48px;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage #reviewWrite > div span{
+        min-width: 178px; line-height: 40px;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage #reviewWrite > div span > input[type="file"]{
+        display: none;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage #reviewWrite > div span > input[type="file"] + label{
+        background: url('../images/camera_gold.png') 15px center / 20px no-repeat; color: #bd9400; 
+        font-size: 12px; border: 1px solid #bd9400; padding: 14px 14px 14px 49px;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage #reviewWrite > div > input{
+        width: 150px; background-color: #a38000; color: white; border: 1px solid #a38000;
+        font-size: 12px;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage > ol > li{
+        margin-bottom: 60px; 
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage > ol > li > div{
+        margin: 5.41%; color: #808080;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage > ol > li > div > ol{
+        margin-left: 5.76%;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage > ol > li > div time{
+        margin-left: 35px;  font-size: 12px;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage > ol > li > p{
+        margin-left: 6.45%; color: #808080; font-weight: 300;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage > ol > li > div:last-of-type >p{
+        background: url('../images/reply_logo_03.gif') left center / 90px no-repeat;
+        margin-left: 6%;  padding-left: 18%; font-size: 12px; font-weight: 300;
+        line-height: 1.3;
+    }
+
+    .detailContainer .reviewBox .underArea #questPage{
+        margin-top: 80px;
+    }
+    .detailContainer .reviewBox .underArea #questPage #questionWrite{
+        display: none;
+    }
+    .detailContainer .reviewBox .underArea #questPage #questionWrite.active{
+        display: block;
+    }
+    .detailContainer .reviewBox .underArea #questPage #questionWrite textarea{
+        width: 100%; height: 201px; padding: 17px 25px; font-size: 14px;
+        border: 1px solid #808080; margin-bottom: 32px; box-sizing: border-box;
+    } 
+    .detailContainer .reviewBox .underArea #questPage #questionWrite input[type="submit"]{
+        width: 12.36%; color: white; background-color: #a38000; padding: 17px 100px 17px 75px; 
+        border: 1px solid #a38000; margin-left: auto; display: block;
+    }
+    .detailContainer .reviewBox .underArea #questPage > ol{
+        margin-top: 32px;
+    }
+    .detailContainer .reviewBox .underArea #questPage > ol li{
+        margin-top: 57px; color: #808080;
+    }
+    .detailContainer .reviewBox .underArea #questPage > ol li >*:not(:last-child){
+        margin-left: 6.66%;
+    }
+    .detailContainer .reviewBox .underArea #questPage > ol li div{
+        margin-bottom: 30px;
+    }
+    .detailContainer .reviewBox .underArea #questPage > ol li div span{
+        font-size: 19px; font-weight: 300; 
+    }
+    .detailContainer .reviewBox .underArea #questPage > ol li div time{
+        margin-left: 4.51%; font-size: 16px; font-weight: 300;
+    }
+    .detailContainer .reviewBox .underArea #questPage > ol li > p{
+        font-size: 15px; font-weight: 300;
+    }
+    .detailContainer .reviewBox .underArea #questPage > ol > li > div:last-of-type{
+        margin-top: 59px;
+    }
+    .detailContainer .reviewBox .underArea #questPage > ol > li > div:last-of-type >p{
+        background: url('../images/reply_logo_03.gif') left center / 80px no-repeat;
+        margin-left: 9.65%;  padding-left: 14%; font-size: 12px; font-weight: 300;
+    }
+
+    .detailContainer .relatedBox{
+        margin-top: 60px; width: 100%;
+    }
+    .detailContainer .relatedBox h2{
+        text-align: center; font-size: 20px; color: #4d4d4d;
+        margin-bottom: 70px;
+    }
+    .detailContainer .relatedBox > ul{
+        width: 100%;
+    }
+    .detailContainer .relatedBox > ul > li{
+        width: 33%; float: left;
+    }
+    .detailContainer .relatedBox > ul > li > a{
+        position: relative; display: block; margin-bottom: 30px;
+    }
+    .detailContainer .relatedBox > ul > li > a img{
+        width: 100%;
+    }
+    .detailContainer .relatedBox > ul > li a mark{
+        position: absolute; top: 0; left: 0; color: white; background-color: #a38000;
+        padding: 10px 20px; font-size: 12px; letter-spacing: 0.1em;
+    }
+    .detailContainer .relatedBox > ul > li > div{
+        margin-bottom: 60px;
+    }
+    .detailContainer .relatedBox > ul > li > div >*{
+        display: block; letter-spacing: 0.01em;
+    }
+    .detailContainer .relatedBox > ul > li > div span{
+        margin: 15px 0; font-size: 17px; color: #4d4d4d;
+    }
+    .detailContainer .relatedBox > ul > li > div span > strong{
+        display: block; margin-top: 15px; font-size: 16px; color: #9d806c;
+    }
+    .detailContainer .relatedBox > ul > li > div span del{
+        display: inline-block; color: #9d806c; font-size: 14px; margin-left: 2%;
+    }
+    .detailContainer > div:last-child{
+        display: flex; clear: both; background: url('../images/lastImg_aboutUs.png') 100% / 50% no-repeat , #605953; 
+    }
+    .detailContainer > div:last-child .textBox{
+        width: 100%;  height: 238px;
+    }
+    .detailContainer > div:last-child .textBox > div{
+         padding: 80px 0 20px 5%; box-sizing: border-box;
+    }
+    .detailContainer > div:last-child .textBox > div h3,
+    .detailContainer > div:last-child .textBox > div p{
+        color: white; text-align: left;
+    }
+    .detailContainer > div:last-child .textBox > div h3{
+        font-size: 18px; margin-bottom: 24px;
+    }
+    .detailContainer > div:last-child .textBox > div p{
+        font-size: 14px; line-height: 15px; margin-bottom: 24px;
+    }
+    .detailContainer > div:last-child .textBox > div a{
+        display: inline-block; color: #614f43; font-size: 12px; background-color: white;
+        padding: 10px 15px;
+    }
+    
+    .detailContainer > div:last-child img{
+        width: 50%;
+    }
+
+    
+    .newsContainer{
+        margin-top: 120px; 
+    }
+    .newsContainer img{
+        width: 100%;
+    }
+    .newsContainer >*{
+        color: #4d4d4d;
+    }
+    .newsContainer time{
+        font-size: 12px;
+    }
+    .newsContainer a{
+        display: block; color: #4d4d4d;
+    }
+    .newsContainer .latestNews{
+        background-color: #f9f3ef; position: relative; height: 650px;
+    }
+    .newsContainer .latestNews > *:not(:last-child){
+        margin-left: 5%; padding-right: 55%;
+    }
+    .newsContainer .latestNews h2{
+        padding-top: 85px; margin-bottom: 100px;   
+        font-size: 16px;
+    }
+    .newsContainer .latestNews time{
+        font-weight: 400; 
+    }
+    .newsContainer .latestNews span{
+        margin-top: 20px; font-weight: 400; font-size: 18px;
+        display: block; word-spacing: 5; line-height: 1.5;
+    }
+    .newsContainer .latestNews p{
+        margin-top: 28px; line-height: 1.5; font-size: 12px; font-weight: 300;
+    }
+    .newsContainer .latestNews a{
+        margin-top: 100px;
+    }
+    
+    .newsContainer .latestNews img{
+        position: absolute; top: 0; right: 0; width: 50%; height: 650px;
+        object-fit: cover;
+    }
+    .newsContainer .newsList h2{
+        font-size: 20px; font-weight: 300; margin: 40px 0; text-align: center;
+    }
+    .newsContainer .newsList ul{
+        height: 550px;
+    }
+    .newsContainer .newsList ul li{
+        width: 50%; float: left;
+    }
+    .newsContainer .newsList ul li div{
+        margin: 40px 1% 40px 3.125%; clear: both;
+    }
+    .newsContainer .newsList ul li div h3{
+        font-size: 14px; font-weight: 300; margin-bottom: 7px;
+    }
+    .newsContainer .newsList ul li div p{
+        margin-top: 18px; font-size: 10px; font-weight: 300; margin-bottom: 50px;
+    }
+    
+    .newsDetail > img{
+        margin: 122px 0 65px;
+    }
+    .newsDetail > div{
+        width: 900px; margin: 0 auto;
+    }
+    .newsDetail > div > div h2{
+        margin-bottom: 40px; color: #303030; font-size: 20px;
+    }
+    .newsDetail > div > div h2:after,
+    .newsDetail > div aside h3:after{
+       content: ''; width: 100%; background-color:  #bdbdbd; height: 1px; 
+       display: inline-block; 
+    }
+    .newsDetail > div > div p{
+        color: #616161; line-height: 32px; font-size: 16px; margin-bottom: 65px;
+        text-indent: 1em;
+    }
+    .newsDetail > div > div img{
+        width: 64%; margin-bottom: 20px;
+    }
+    .newsDetail > div > div > div{
+        margin-bottom: 65px; display: flex; justify-content: space-between;
+    }
+    .newsDetail > div > div > div a{
+        width: 5%; background: url('../images/ico_arrow_backG.gif')no-repeat left 0 / 5px 12px;
+        color: #a38000; font-size: 12px; text-align: right;  cursor: pointer;
+    }
+    .newsDetail > div aside{
+        padding-top: 39px;
+    }
+    .newsDetail > div aside h3{
+        color: #616161; font-size: 18px; font-weight: 400;
+    }
+    .newsDetail > div aside ul{
+        margin: 39px 0 0 20px;
+    }
+    .newsDetail > div aside ul li{
+        border: 1px solid #616161; font-size: 16px; margin-bottom: 40px;
+    }
+    .newsDetail > div aside ul li a{
+        display: flex; 
+    }
+    .newsDetail > div aside ul li img{
+        width: 32.5%;
+    }
+    .newsDetail > div aside ul li p{
+        padding: 40px 0 25px 3%; color: #303030;
+    }
+    .newsDetail > div aside ul li time{
+        display: block; margin-top: 24px; color: #616161;
+    }
+
+    .login{
+        padding-top: 200px; margin: 0 auto;
+    }
+    .login h2{
+        font-size: 28px; font-weight: 400; margin-bottom: 18px; text-align: center;
+    }
+    .login div:first-of-type{
+        display: flex; justify-content: center; font-size: 12px; font-weight: 400;
+        margin-bottom: 14px; text-align: center;
+    }
+    .login div:first-of-type p{
+        margin-right: 12px; color: #808080;
+    }
+    .login div:first-of-type a{
+        display: block; color: #a38000; border-bottom: 1px solid #a38000;
+    }
+    .login div:last-of-type{
+        width: 14%; display: flex; justify-content: space-between;
+        margin: 0 auto 50px;
+    }
+    .login div:last-of-type a{
+        height: 45px; text-indent: -9999px; width: 55px; 
+    }
+    .login div:last-of-type a:first-child{
+        background: url('../images/wechat_color.png') center / contain no-repeat;
+    }
+    .login div:last-of-type a:last-child{
+        background: url('../images/tiktok_color.png') center / contain no-repeat;
+    }
+    .login form{
+        width: 60%; margin: 0 auto;
+    }
+    .login form input,
+    .login form a{
+        display: block; 
+    }
+    .login form input:not(:last-of-type){
+        width: 100%; padding: 12px 0 12px 20px; box-sizing: border-box;
+    }
+    .login form input:focus{
+        outline: 1px solid #bd9400;
+    }
+    .login form input:first-of-type,
+    .login form input:nth-of-type(2){
+        font-size: 16px; color: #4d4d4d; margin-bottom: 26px;
+    }
+    .login form a{
+        text-align: right; font-weight: 400; color: #4d4d4d;
+    }
+    .login form input:last-of-type{
+        margin: 60px 0 80px; color: white; background-color: #bd9400;
+        border: 1px solid #bd9400; padding: 12px 0 12px; width: 100%;
+    }
+
+    .creatAccount{
+        padding-top: 200px; text-align: center;
+    }
+    .creatAccount h2{
+        font-size: 28px; font-weight: 400; margin-bottom: 18px;
+    }
+    .creatAccount > div{
+        font-size: 0;
+    }
+    .creatAccount > div a{
+        color: #a38000; border-bottom: 1px solid #a38000;
+        font-size: 12px; margin-bottom: 38px;
+    }
+    .creatAccount form{
+        width: 60%; margin: 0 auto; margin-top: 30px;
+    }
+    .creatAccount form input:not(:nth-of-type(5)){
+        display: block; width: 100%;
+    }
+    .creatAccount form input{
+        font-size: 14px; color: #4d4d4d; margin-bottom: 18px;
+        padding: 12px 0 12px 19px; box-sizing: border-box;
+    }
+    .creatAccount form input:focus{
+        outline: 1px solid #bd9400;
+    }
+    .creatAccount form label{
+        text-align: left; line-height: 16px; font-size: 14px;
+    }
+    .creatAccount form input:nth-of-type(5)+label{
+        background: url('../images/ico_noneChecked.gif') 42% center / contain no-repeat;
+        display: block;
+    }
+    .creatAccount form input:nth-of-type(5):checked + label{
+        background-image: url('../images/ico_checked.gif');
+
+    }
+    .creatAccount form input:last-of-type{
+        margin: 26px 0 157px; color: white; background-color: #bd9400;
+        border: 1px solid #bd9400;
+    }
+    
+
+    .forgetPassword{
+        padding-top: 200px; text-align: center
+    }
+    .forgetPassword h2{
+        font-size: 28px; font-weight: 400; margin-bottom: 18px; color: #303030;
+    }
+    .forgetPassword p{
+        font-size: 12px; color: #808080; margin-bottom: 40px;
+    }
+    .forgetPassword form{
+        width: 60%; margin: 0 auto;
+    }
+    .forgetPassword form input{
+        display: block; width: 100%; font-size: 14px;
+    }
+    .forgetPassword form input[type="email"]{
+        color: #4d4d4d; margin-bottom: 35px;
+        padding: 12px 0 12px 16px; box-sizing: border-box;
+    }
+    .forgetPassword form input[type="email"]:focus{
+        outline: 1px solid #bd9400;
+    }
+    .forgetPassword form input[type="submit"]{
+        padding: 12px 0; color: white; background-color: #bd9400;
+        border: 1px solid #bd9400; margin-bottom: 80px;
+    }
+
+    .myAccount{
+        padding-top: 200px; text-align: center;
+    }
+    .myAccount h2{
+        font-size: 28px; font-weight: 400; margin-bottom: 18px; color: #303030;
+        margin-bottom: 20px;
+    }
+    .myAccount mark{
+        background-color: white; font-size: 20px; color: #a38000; font-weight: 400;
+        font-style: normal; 
+    }
+    .myAccount > div{
+        display: flex; margin-top: 60px;
+    }
+    .myAccount > div > *{
+        margin-bottom: 220px;
+    }
+    .myAccount > div aside{
+        width: 21%; text-align: left; background-color: #f1c4a6; margin-right: 5%; box-sizing: border-box;
+        border-radius: 6px;
+    }
+    .myAccount > div aside ul li{
+         padding: 24px 0; text-align: center; font-size: 14px; box-sizing: border-box;
+    }
+    .myAccount > div aside ul li.active{
+        background-color: #806858; border-radius: 6px;
+    }
+    .myAccount > div aside ul li a{
+        color: black; display: block; height: 100%; width: 100%;
+    }
+    .myAccount > div > div{
+        width: 70%; margin: 10px 2% 0 0;  font-size: 14px;  
+    }
+    .myAccount > div > div > label{
+        width: 23%; display: inline-block; text-align: left; font-weight: 400;
+        vertical-align: middle; padding-bottom: 22px;
+    }
+    .myAccount > div > div > label:after{
+        content: ':';
+    }
+    .myAccount > div > div > input{
+        width: 75%; box-sizing: border-box; line-height: 40px; border: 1px solid #616161; box-sizing: border-box;
+        border-radius: 6px; background-color: #e0e0e0; 
+    }
+    .myAccount > div > div > input:not(:last-of-type){
+        margin-bottom: 20px;
+    }
+    .myAccount > div > div > input:last-of-type{
+        margin-bottom: 26px; 
+    }
+    .myAccount > div > div > input + label{
+        display: inline-block; 
+    }
+    .myAccount > div > div > div{
+        text-align: right; font-size: 18px;
+    }
+    .myAccount > div > div > div input:first-of-type,
+    .myAccount > div > div > div input:last-of-type{
+        padding: 15px 25px;  border-radius: 6px; border: 1px solid black;
+    }
+    .myAccount > div > div > div input:first-of-type{
+        background-color: white; 
+    }
+    .myAccount > div > div > div input:last-of-type{
+        background-color: black; color: #c9a48b; margin-left: 20px;
+    }
+
+    .myAccount > div > div form > label{
+        display: block; text-align: left; font-size: 14px; margin-bottom: 10px;
+    }
+    .myAccount > div > div > form input{
+        width: 100%; box-sizing: border-box; line-height: 40px; border: 1px solid #616161; box-sizing: border-box;
+        border-radius: 6px; background-color: white; 
+    }
+    .myAccount > div > div > form input:not(:last-of-type){
+        margin-bottom: 19px;
+    }
+    .myAccount > div > div > form input:last-of-type{
+        background-color: black; color: #c9a48b;
+        width: 15%; margin: 0 0 0 auto; display: block;
+    }
+
+
+    .myAccount > div > div > ul li{
+        border-bottom: 1px solid #bdbdbd; display: flex;
+
+    }
+    .myAccount > div > div > ul li div:first-of-type{
+        text-align: left;
+    }
+    .myAccount > div > div > ul li div:last-of-type{
+        text-align: right; margin: 0 0 0 auto;
+    }
+    .myAccount > div > div > ul li div h3{
+        font-size: 18px; font-weight: 400; margin-bottom: 11px;
+    }
+    .myAccount > div > div > ul li div small,
+    .myAccount > div > div > ul li div span,
+    .myAccount > div > div > ul li div u,
+    .myAccount > div > div > ul li div .price{
+        display: block;
+    }
+    .myAccount > div > div > ul li div small,
+    .myAccount > div > div > ul li div span{
+        font-size: 12px; font-weight: 400; padding-left: 24px;
+    }
+    .myAccount > div > div > ul li div span{
+        color: #bd9a82; margin-top: 21px;
+    }
+    .myAccount > div > div > ul li div u{
+        font-size: 12px; color: #808080; cursor: pointer;
+    }
+    .myAccount > div > div > ul li div .price{
+        margin: 30px 0; font-size: 18px; font-weight: 400;
+    }
+    .cancelPopup{
+        display: none;
+    }
+    .cancelPopup.active{
+        top: 0; left: 0; width: 100%; height: 100vh; background: rgba(0, 0, 0, 0.5); z-index: 9999;
+        position: fixed; display: flex; justify-content: center; align-items: center;
+    }
+    .cancelPopup div{
+        width: 40%; height: 200px; background: white; outline: 1px solid #a38000; outline-offset: -1em;
+        position: relative;
+    }
+    .cancelPopup div > input:first-of-type{
+        position: absolute; top: 30px; left: 85%; background: url('../images/ico_close_gray.png')top right / 16px no-repeat;
+        height: 16px; border: none; text-indent: -9999px; width: 16px;
+    }
+    .cancelPopup div p{
+        margin-top: 80px; text-align: center;
+    }
+    .cancelPopup div > input:last-of-type{
+        display: block; margin: 15px auto; 
+    }
+
+    .contactContainer{
+        padding-top: 200px; width: 60%; margin: 0 auto;
+    }
+    .contactContainer form h2{
+        font-size: 28px; font-weight: 400; color: #303030; margin-bottom: 30px;
+        text-align: center;
+    }
+    .contactContainer form >*{
+        width: 100%;
+    }
+    .contactContainer form >*:not(:first-child){
+        font-size: 14px; font-weight: 400;
+    }
+    .contactContainer form input,
+    .contactContainer form textarea{
+        padding: 12px 0 12px 3%; box-sizing: border-box; color: #4d4d4d;
+    }
+    .contactContainer form input:not(:last-of-type){
+        margin-bottom: 20px;
+    }
+    .contactContainer form textarea{
+        margin-bottom: 18px;
+    }
+    .contactContainer form .checkExpress label{
+        color: #4d4d4d; padding-left: 25px;
+    }
+    .contactContainer form .checkExpress input + label{
+        background: url('../images/ico_noneChecked.gif') left center / contain no-repeat;
+        display: block; 
+    }
+    .contactContainer form .checkExpress input:checked + label{
+        background-image: url('../images/ico_checked.gif');
+    }
+    .contactContainer form input[type="submit"]{
+        width: 100%; border: 1px solid #a38000; background-color: #a38000; box-sizing: border-box;
+        color: white; height: 50px;  margin-top: 50px;
+    }
+    .contactContainer form a{
+        width: 50px; background: url('../images/ico_arrow_backG.gif')left center / 6px no-repeat;
+        text-align: right; display: block; font-size: 10px; color: #a38000; font-weight: 400;
+        margin: 18px 0 160px auto;
+    }
+
+    .brandContainer{
+        margin-top: 120px; width: 100%; 
+    }
+    .brandContainer img{width: 100%;}
+    .brandContainer > div{position: relative;}
+    .brandContainer > div:first-child h2{
+        color: white; font-size: 24px; font-weight: 400;
+        position: absolute; top: 47%; left: 25%; text-align: center;
+    }
+    .brandContainer > div:nth-child(2){
+        text-align: center;
+    }
+    .brandContainer > div:nth-child(2) > *:not(ul){
+        background-color: #f9f3ef;
+    }
+    .brandContainer > div:nth-child(2) h3,
+    .brandContainer > div:nth-child(2) p{
+        color: #4d4d4d;
+    }
+    .brandContainer > div:nth-child(2) h3{
+        font-size: 28px; font-weight: 300; padding: 80px 0 20px;
+    }
+    .brandContainer > div:nth-child(2) > p{
+        padding-top: 63px; font-size: 14px; line-height: 26px; font-weight: 400;
+        padding: 0 5% 108px;
+    } 
+    .brandContainer > div:nth-child(2) ul li{
+        height: 176px;
+    }
+    .brandContainer > div:nth-child(2) ul li:first-child{
+        background: url('../images/brandIntro_listImg1.png') no-repeat left top / 50%;
+    }
+    .brandContainer > div:nth-child(2) ul li:last-child{
+        background: url('../images/brandIntro_listImg2.png') no-repeat right top / 50%, #f9f3ef;
+    }
+    .brandContainer > div:nth-child(2) ul li p{
+        color: black;  font-size: 14px; position: absolute; top: 40px;
+        line-height: 24px;
+    }
+    .brandContainer > div:nth-child(2) ul li p u{
+        font-size: 20px; display: block; margin-bottom: 20px;
+    }
+    .brandContainer > div:nth-child(2) ul li:first-child,
+    .brandContainer > div:nth-child(2) ul li:last-child{
+        position: relative;
+    }
+    .brandContainer > div:nth-child(2) ul li:first-child p{
+        right: 10%;
+    }
+    .brandContainer > div:nth-child(2) ul li:last-child p{
+        left: 6%;
+    }
+    .brandVideo h3{
+        color: #4d4d4d; text-align: center; margin: 50px 0; font-size: 40px; font-weight: 300;
+    }
+    .brandVideo video{
+        width: 100%;
+    }
+
+    .cartContainer{
+        padding-top: 200px; display: flex; justify-content: space-between;
+    }
+    .cartContainer > div:first-of-type{
+        width: 73%;
+    }
+    
+    .cartContainer div h2{
+        font-size: 30px; font-weight: 400; color: #303030; margin-bottom: 20px;
+    }
+    .cartContainer div nav ol{
+        display: flex;
+    }
+    .cartContainer div nav li{
+        background: url('../images/next_FILL.svg') right center / contain no-repeat;
+        padding-right: 15px; margin-bottom: 40px;
+    }
+    .cartContainer div nav li:first-of-type{
+        color: #a38000;
+    }
+    .cartContainer div nav li:not(:last-of-type){
+        margin-right: 10px; 
+    }
+    .cartContainer div nav a{
+        color: #4d4d4d;
+    }
+    .cartContainer div .cartList li{
+        display: flex; align-items: center;
+    }
+    .cartContainer div .cartList li:first-of-type{
+        border-top: 1px solid #c9c9c9; border-bottom: 1px solid #c9c9c9;
+    }
+    .cartContainer div .cartList li:not(:first-of-type){
+        border-bottom: 1px solid #c9c9c9;
+    }
+    .cartContainer div .cartList li div:first-of-type h3{
+        font-size: 16px; font-weight: 500; color: #bd9400; margin-bottom: 10px;
+    }
+    .cartContainer div .cartList li div:first-of-type input{
+        font-size: 14px; color: #4d4d4d; border: none; background-color: white;
+        cursor: pointer;
+    }
+    .cartContainer div .cartList li strong{
+        margin-left: 24.3%; font-size: 14px; font-weight: 400;
+    }
+    .cartContainer div .cartList li .numberComponent{
+        margin: 0 0 0 auto;
+    }
+    .cartContainer div .cartList li .numberComponent span{
+        color: #bdbdbd;
+    }
+    .cartContainer div > div{
+        margin: 44px 0 134px; text-align: right; 
+    }
+    .cartContainer div > div small{
+        font-size: 16px; font-weight: 400; color: #808080;
+        margin-right: 3.12%;
+    }
+    .cartContainer div > div strong{
+        font-size: 24px; font-weight: 400;
+    }
+    
+    .cartContainer .orderBtn{
+        width: 22%; margin: 105px 0 125px;
+    }
+    .cartContainer .orderBtn a{
+        border: 1px solid #bd9400; display: block; text-align: center;
+        font-size: 14px; padding: 18px 0;
+    }
+    .cartContainer .orderBtn a:first-of-type{
+        color: white; background-color: #bd9400;
+    }
+    .cartContainer .orderBtn a:last-of-type{
+        color: #bd9400;
+    }
+    .cartContainer .orderBtn p{
+        font-size: 9px; color: #808080; font-weight: 400; text-align: right;
+        margin: 5px 0 28px;
+    }
+
+    .infoContainer,
+    .paymentContainer{
+         margin: 0 3%;
+    }
+    .infoContainer > div,
+    .paymentContainer > div{
+        width: 100%; padding-top: 200px; 
+    }
+    .infoContainer div h2,
+    .paymentContainer > div h2{
+        font-size: 30px; font-weight: 400; color: #303030; margin-bottom: 18px;
+    }
+    .infoContainer div nav ol,
+    .paymentContainer > div nav ol{
+        display: flex;
+    }
+    .infoContainer div nav li:not(:last-child),
+    .paymentContainer > div nav ol li:not(:last-child){
+        background: url('../images/next_FILL.svg') right center / contain no-repeat;
+        padding-right: 15px; margin-bottom: 40px;
+    }
+    .infoContainer div nav li:nth-of-type(2),
+    .paymentContainer div nav ol li:last-of-type{
+        color: #a38000; font-size: 14px;
+    }
+    .infoContainer div nav li:not(:last-of-type){
+        margin-right: 10px; 
+    }
+    .infoContainer div nav a{
+        color: #4d4d4d;
+    }
+    .infoContainer div form{
+        width: 100%;
+    }
+    .infoContainer div form fieldset:first-of-type{
+        margin-bottom: 50px;
+    }
+    .infoContainer div form fieldset:first-of-type legend{
+        font-size: 16px; font-weight: 400; color: #303030; width: 100%; display: block;
+        margin-bottom: 30px;
+    }
+    .infoContainer div form fieldset:first-of-type legend span{
+        font-size: 14px; font-weight: 400; color: #a3a3a3; display: block; text-align: right;
+    }
+    .infoContainer div form fieldset:first-of-type legend span a{
+        color: #a38000;
+    }
+    .infoContainer div form fieldset:first-of-type input:first-of-type,
+    .infoContainer div form fieldset:last-of-type input:not(:nth-of-type(11)){
+        padding: 16px 0 16px 1.38%; border: 1px solid #303030; box-sizing: border-box;
+    }
+
+    .infoContainer div form fieldset:first-of-type input:first-of-type,
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(1),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(2),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(5),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(8),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(9),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(10){
+        width: 100%;
+    } 
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(3),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(4),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(6),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(7){
+        width: 49.2%;
+    }
+
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(4),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(7){
+        margin-left: 1%;
+    }
+
+
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(1),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(2),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(3),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(4),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(5),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(6),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(7),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(8),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(9){
+        margin-bottom: 20px;
+    }
+    .infoContainer div form fieldset:first-of-type input:first-of-type{
+        margin-bottom: 22px;
+    }
+    .infoContainer div form fieldset:first-of-type label,
+    .infoContainer div form fieldset:last-of-type label{
+        padding-left: 35px; font-size: 14px;
+    }
+    .infoContainer div form fieldset:first-of-type input:last-of-type + label{
+        background: url('../images/ico_noneChecked.gif') left center / contain no-repeat;
+        display: block;
+    }
+    .infoContainer div form fieldset:first-of-type input:last-of-type:checked + label{
+        background-image: url('../images/ico_checked.gif');
+    }
+    .infoContainer div form fieldset:last-of-type legend{
+        margin-bottom: 35px;
+    }
+
+    .infoContainer form input:focus{
+        outline: 1px solid #bd9400;
+    }
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(11) + label{
+        background: url('../images/ico_noneChecked.gif') left center / contain no-repeat;
+        display: block; margin: 20px 0 48px;
+    }
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(11):checked + label{
+        background-image: url('../images/ico_checked.gif');
+    }
+    .infoContainer div form fieldset:last-of-type input:last-of-type{
+        width: 100%; border: 1px solid #a38000; background-color: #a38000; box-sizing: border-box;
+        color: white; height: 60px;
+    }
+    .infoContainer div form fieldset:last-of-type a{
+        width: 50px; background: url('../images/ico_arrow_backG.gif')left center / 7px no-repeat;
+        text-align: right; display: block; font-size: 12px; color: #a38000;
+        margin: 20px 0 70px auto;
+    }
+
+    .paymentRight{
+        width: 100%; background-color: #fafafa; margin: 0 0 0 auto;
+    }
+    .paymentRight > div{
+        padding: 0 3%;  box-sizing: border-box; margin-bottom: 30px;
+    }
+    .paymentRight > div ul li{
+        border-bottom: 1px solid #c9c9c9; padding: 16px 0; display: flex;
+    }
+    .paymentRight > div ul li h3{
+        margin-left: 2.38%; font-size: 18px; font-weight: 500; color: #bd9400;
+    }
+    .paymentRight > div ul li h3,
+    .paymentRight > div ul li strong{
+        line-height: 100px;
+    }
+    .paymentRight > div ul li strong{
+        margin: 0 0 0 auto;
+    }
+    .paymentRight > div > div:first-of-type{
+        margin: 30px 0; border-bottom: 1px solid #c9c9c9; padding-bottom: 16px;
+    }
+    .paymentRight > div > div:first-of-type input{
+        height: 55px; box-sizing: border-box; border-radius: 6px; 
+    }
+    .paymentRight > div > div:first-of-type input:first-of-type{
+        width: 45%; padding: 19px 4.31%; border: 1px solid #c9c9c9;
+        font-size: 14px;
+    }
+    .paymentRight > div > div:first-of-type input:last-of-type{
+        width: 16%; padding: 19px auto; background-color: #c9c9c9; border: none;
+        font-size: 14px;
+    }
+    .paymentRight > div > div:nth-of-type(2){
+        border-bottom: 1px solid #c9c9c9;
+    }
+    .paymentRight > div > div:nth-of-type(2) div,
+    .paymentRight > div > div:last-of-type{
+        display: flex; justify-content: space-between;
+    }
+    .paymentRight > div > div:nth-of-type(2) div span,
+    .paymentRight > div > div:last-of-type{
+        font-size: 16px; font-weight: 400; color: #808080;
+    }
+    .paymentRight > div > div:nth-of-type(2) div span:first-of-type{
+        margin-bottom: 20px; display: block;
+    }
+    .paymentRight > div > div:nth-of-type(2) span strong{
+        font-size: 18px;
+    }
+    .paymentRight > div > div:last-of-type{
+        margin-top: 28px;
+    }
+    .paymentRight > div > div:last-of-type strong{
+        font-size: 24px; color: black; font-weight: 400; 
+        text-align: right; min-width: 200px; margin-bottom: 20px;
+    }
+    .paymentRight > div > div:last-of-type strong:before{
+        content: 'JPY'; color: #c9c9c9; margin-right: 10%; font-size: 14px;
+    }
+    .paymentContainer > div form fieldset:first-of-type{
+        margin-bottom: 50px;
+    }
+    .paymentContainer > div form fieldset:first-of-type legend{
+        display: none;
+    }
+    .paymentContainer > div form fieldset:first-of-type ol li{
+        display: flex; 
+    }
+    .paymentContainer > div form fieldset:first-of-type ol li input{
+        width: 93%; padding: 18px 0 18px 2.7%; border-top: 1px solid #bdbdbd; background-color: white;
+        border-bottom: 1px solid #bdbdbd; border-left: 1px solid #bdbdbd;
+        color: #4d4d4d; border-right: none;
+    }
+    .paymentContainer > div form fieldset:first-of-type ol li a{
+        width: 7%; padding: 18px 0 18px; border-top: 1px solid #bdbdbd;
+        border-bottom: 1px solid #bdbdbd; border-right: 1px solid #bdbdbd;
+        font-size: 14px; color: #a38000;
+    }
+    .paymentContainer > div form fieldset:nth-child(2){
+        margin-bottom: 50px;
+    }
+    .paymentContainer > div form fieldset:nth-child(2) legend{
+        margin-bottom: 35px;
+    }
+    .paymentContainer > div form fieldset:nth-child(2) legend,
+    .paymentContainer > div form fieldset:nth-child(2) strong{
+        font-size: 18px; font-weight: 400; color: #303030;
+    }
+    .paymentContainer > div form fieldset:nth-child(2) strong{
+        border: 1px solid #c9c9c9; border-radius: 6px 6px 0 0; padding: 22px 0 22px 4.16%;
+        display: block; box-sizing: border-box;
+    }
+    .paymentContainer > div form fieldset:nth-child(2) strong,
+    .paymentContainer > div form fieldset:nth-child(2) .cardDetail{
+        width: 100%;
+    }
+    .paymentContainer > div form fieldset:nth-child(2) .cardDetail{
+        height: 264px; width: 100%; background-color: #f1f1f1; padding: 24px 3% 0 3%; box-sizing: border-box; 
+    }
+    .paymentContainer > div form fieldset:nth-child(2) .cardDetail input{
+        display: block; width: 100%; padding: 20px 2.21%; box-sizing: border-box; border-radius: 6px; border: 1px solid #c9c9c9;
+    }
+    .paymentContainer > div form fieldset:nth-child(2) .cardDetail input:nth-of-type(2){
+        margin: 13px 0; 
+    }
+    .paymentContainer > div form fieldset:nth-child(2) .cardDetail input:nth-of-type(3),
+    .paymentContainer > div form fieldset:nth-child(2) .cardDetail input:last-of-type{
+        width: 45.8%;
+    }
+    .paymentContainer > div form fieldset:nth-child(2) .cardDetail input:nth-of-type(3){
+        float: left;
+    }
+    .paymentContainer > div form fieldset:nth-child(2) .cardDetail input:last-of-type{
+        float: right;
+    }
+    .paymentContainer > div form fieldset:nth-child(2) .cardDetail input:first-of-type{
+        background: url('../images/ico_number.png') 98% center / 15px no-repeat, white;
+    }
+    .paymentContainer > div form fieldset:last-of-type{
+        margin-bottom: 40px; position: relative;
+    }
+    .paymentContainer > div form fieldset:last-of-type legend{
+        font-size: 20px; font-weight: 400; color: #303030; margin-bottom: 35px;
+    }
+    .paymentContainer > div form fieldset:last-of-type label{
+        display: block; padding: 21px 0 21px 7%; border: 1px solid #bdbdbd;
+    }
+    .paymentContainer > div form fieldset:last-of-type > input{
+        display: none;
+    }
+    .paymentContainer > div form fieldset:last-of-type label::before,
+    .paymentContainer > div form fieldset:last-of-type label::after{
+        content: ""; display: block; border-radius: 50%; position: absolute;
+        
+    }
+    .paymentContainer > div form fieldset:last-of-type label::before{
+        background-color: #fff; border: 1px solid #ddd; 
+        width: 15px; height: 15px; left: 15px;
+    }
+    .paymentContainer > div form fieldset:last-of-type label::after{
+        background-color: white; border: 5px solid #a38000; 
+        width: 7px; height: 7px; left: 16px; transform: translateY(-16px); opacity: 0;
+    }
+    .paymentContainer > div form fieldset:last-of-type input:checked + label:after{
+        opacity: 1;
+    }
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd{
+        background-color: #fafafa; border: 1px solid #c9c9c9;
+    }
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input{
+        padding: 18px 0 18px 2.21%; margin: 20px 3% 0 3%; 
+    }
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(1),
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(2),
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(5),
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(8),
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(9),
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(10){
+        width: 94%; box-sizing: border-box;
+    }
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(3),
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(4),
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(6),
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(7){
+        width: 45.2%; display: inline-block; box-sizing: border-box;
+    }
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(4),
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(7){
+        margin-left: 0;
+    }
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(10){
+        margin-bottom: 20px;
+    }
+    .paymentContainer > div form > div input{
+        width: 100%; border: 1px solid #a38000; background-color: #a38000; box-sizing: border-box;
+        color: white; height: 60px;
+    }
+    .paymentContainer > div form > div a{
+        width: 50px; background: url('../images/ico_arrow_backG.gif')left center / 7px no-repeat;
+        text-align: right; display: block; font-size: 12px; color: #a38000;
+        margin: 20px 0 80px auto;
+    }
+    
+    .PMDoneContainer{
+        padding-top: 248px; text-align: center;  margin-bottom: 100px;
+    }
+    .PMDoneContainer p{
+        font-size: 18px; margin-bottom: 80px;
+    }
+    .PMDoneContainer a{
+        border: 1px solid #a38000; color: #a38000; padding: 14px 1.35%;
+        font-size: 14px;
+    }
+
+    .stContainer{
+        margin-top: 180px;
+    }
+    .stContainer h2{
+        font-size: 24px; font-weight: 400; text-align: center; margin-bottom: 48px;
+    }
+    .stContainer ul li h3{
+        font-size: 16px; font-weight: 400; margin-bottom: 20px;
+    }
+    .stContainer ul li p{
+        margin-bottom: 50px; font-size: 14px; text-indent: 1em; line-height: 1.2;
+    }
+    .stContainer div{
+        text-align: right; font-size: 12px; font-weight: 400; margin-bottom: 125px;
+        line-height: 1.2;
+    }
+
+    .companyContainer{
+        margin-top: 170px;
+    }
+    .companyContainer h2{
+        font-size: 28px; font-weight: 400; text-align: center; margin-bottom: 55px;
+    }
+    .companyContainer p{
+        font-size: 12px; font-weight: 400; text-align: justify; text-indent: 1em;
+        margin-bottom: 85px; line-height: 1.2;
+    }
+    .companyContainer img{width: 100%; margin-bottom: 85px;}
+    .companyContainer span{
+        font-size: 20px; font-weight: 400; text-align: center; display: block;
+    }
+    .companyContainer p:last-of-type{
+        margin-top: 30px;
+    }
+    .companyContainer a{
+        display: block; margin: 0 0 0 auto; color: #a38000; max-width: 5%; padding-left: 25px;
+        background: url('../images/ico_arrow_backG.gif') left center / 6px no-repeat;
+        font-size: 12px; margin-bottom: 63px;
+    }
+    
+    .recContainer{
+        margin-top: 180px;
+    }
+    .recContainer table{width: 100%; margin-bottom: 200px; position: relative;}
+    .recContainer table caption{
+        text-align: center; font-size: 30px; margin-bottom: 50px;
+    }
+    .recContainer table thead{
+        background-color: #a38000; 
+    }
+    .recContainer table thead tr th{
+        padding: 20px 0; color: white; font-size: 14px; font-weight: 400;
+    }
+    .recContainer table thead tr th:not(:last-child){
+        width: 22%;
+    }
+    .recContainer table thead tr th:last-of-type{text-align: left; padding-left: 25px;}
+    .recContainer table thead,
+    .recContainer table tbody{border: 1px solid #a38000;}
+    .recContainer table tbody tr td{
+        padding: 20px 0; text-align: center; font-size: 12px;
+    }
+    .recContainer table tbody tr td input{
+        border: 1px solid #a38000; background-color: white; color: #a38000;
+        padding: 10px; font-size: 12px;
+    }
+    .recruitDetail{
+        position: absolute; top: 420px; left: 3.5%; width: 93%; background-color: #f1f1f1;
+        padding: 40px 40px 0 40px; box-sizing: border-box; z-index: 100; border-radius: 6px;
+    }
+    .recruitDetail::before{
+        width: 0; height: 0; border: 50px solid transparent; border-bottom: 50px solid red;
+        position: absolute; top: 0; left: 5%;
+    }
+    .recruitDetail ul li{
+        display: inline-block; width: 33%; margin-bottom: 25px;
+    }
+    .recruitDetail > div{
+        border-top: 1px solid white; display: flex; padding: 30px 3.7%;
+    }
+    .recruitDetail > div > div:first-of-type{
+        width: 48%; margin-right: 5%;
+    }
+    .recruitDetail > div > div h3{
+        font-size: 16px; font-weight: 400; color: #616161; margin-bottom: 30px;
+    }
+    .recruitDetail > div > div ol li{
+        font-size: 14px; font-weight: 400; color: #616161; margin-bottom: 20px; 
+    }
+    .recruitDetail > div > div p{
+        margin-top: 30px; font-size: 16px; font-weight: 400; color: #616161;
+    }
+    .recruitDetail > div > div p span{
+        display: block; margin: 10px 0 50px; font-size: 14px;
+    }
+    .recruitDetail > div > div strong{
+        font-size: 16px; font-weight: 400; color: #616161;
+    }
+    .recruitDetail > div > div:last-of-type span{
+        color: #616161;
+    }
+}
+/* Tablet */
+
+@media screen and (min-width: 1280px){
+    .pcSize{display: block !important;}
+    .spSize{display: none !important;}
+    .mainContainer .bx-wrapper .bx-controls-direction a{
+        position: absolute;
+        top: 50%;
+        margin-top: -16px;
+        outline: 0;
+        width: 22px;
+        height: 39px;
+        text-indent: -9999px;
+        z-index: 10;
+        color: #805705;
+
+    }
+    .mainContainer .bx-wrapper .bx-controls-direction a{
+        background-size: 21px 34px; background-position: center; background-repeat: no-repeat;
+    }
+    .mainContainer .bx-wrapper .bx-controls-direction a.bx-prev{
+        background-image: url('../images/mainSlider_left.gif'); 
+    }
+    .mainContainer .bx-wrapper .bx-controls-direction a.bx-next{
+        background-image: url('../images/mainSlider_right.gif');
+    }
+    .mainContainer ul.mainSlider li{
+        position: relative; 
+    }
+    .mainContainer .mainSlider li h2{
+        position: absolute;  top: 50%;  right: 10%;
+        font-size: 60px; color: #fbf8f6; font-weight: 300; text-shadow: 1px 1px black;
+    }
+
+    .mainContainer .mainSlider li img{
+        color: #fbf8f6; height: 1000px;
+    }
+
+    .mainContainer > blockquote{
+        background: url('../images/index_scrollImg.png') center / cover no-repeat fixed;
+        height: 430px; 
+    }
+    .mainContainer > blockquote div{
+        background-color: rgba(0, 0, 0, 0.3); height: 430px;
+        position: relative;
+    }
+    .mainContainer > blockquote div p{
+        color: white; position: absolute; top: 42.33%; left: 37.58%;
+        font-size: 32px; ; text-align: center;
+    }
+    
+    .mainContainer .categorySliderBox h2{
+        font-size: 38px; color: #605953; text-align: center; margin-bottom: 25px;
+        font-weight: 400;
+    }
+    .mainContainer .categorySliderBox{
+        padding: 100px 0;
+    }
+    .mainContainer .categorySliderBox .bx-wrapper{
+        margin: 0 auto;
+    }
+    .mainContainer .categorySliderBox ul.categorySlider{
+        padding-left: 2.91%;
+    }
+    .mainContainer .categorySliderBox ul.categorySlider li dl{
+        margin-top: 30px; display: flex; justify-content: space-between;
+        color: #605953;
+    }
+    .mainContainer .categorySliderBox ul.categorySlider li dl dt{
+        font-size: 16px;
+    }
+    .mainContainer .categorySliderBox ul.categorySlider li dl dd{
+        font-size: 12px;
+    }
+    
+
+    .mainContainer > div:nth-of-type(3){
+        background-color: #f9f3ef; padding-bottom: 100px; margin: auto;
+    }
+    .mainContainer > div:nth-of-type(3)::after{
+        content: ''; display: block; clear: both;
+    }
+    .mainContainer > div:nth-of-type(3) h2{
+        text-align: center; font-size: 60px; color: #605953; font-weight: 400; padding: 90px 0;
+    }
+    .mainContainer > div:nth-of-type(3) figure{
+        float: left;  width: 32.34%; position: relative; left: 15%;
+    }
+    .mainContainer > div:nth-of-type(3) figure img{
+        width: 100%; margin-bottom: 36px;
+    }
+    .mainContainer > div:nth-of-type(3) figure:last-of-type{
+        margin-left: 6.8%; 
+    }
+    .mainContainer > div:nth-of-type(3) figure figcaption{
+        display: flex; justify-content: space-between; 
+    }
+    .mainContainer > div:nth-of-type(3) figure figcaption strong{
+        font-size: 28px; font-weight: 400; color: #312419; 
+    }
+    .mainContainer > div:nth-of-type(3) figure figcaption a{
+        color: #312419;  min-width: 99px;
+        padding-right: 23px; line-height: 34px; position: relative;
+        
+    }
+    .mainContainer > div:nth-of-type(3) figure figcaption a:before{
+       width: 60px; height: 1px; 
+        background-color: #c1aa82; 
+    }
+    .mainContainer > div:nth-of-type(3) figure figcaption a:after{
+        width: 60px; height: 1px;
+        background-color: #c1aa82; 
+    } 
+    .mainContainer > div:nth-of-type(3) figure figcaption a:hover:before{
+        width: 100%;  transform: translateX(-50%); transition: 0.3s;
+    }
+    .mainContainer > div:nth-of-type(3) figure figcaption a:hover:after{
+        width: 100%;  transform: translateX(50%); transition: 0.3s;
+    }
+
+    .mainContainer > div:nth-of-type(4){
+        background: url('../images/main_marrige_bg.jpg') center / cover no-repeat;
+        height: 510px; 
+    }
+    .mainContainer > div:nth-of-type(4) > div{
+        position: relative;
+    }
+    .mainContainer > div:nth-of-type(4) > div h2{
+        color: white; font-size: 54px; font-weight: 400; position: absolute; right: 0; top: 308px;
+    }
+    .mainContainer > div:nth-of-type(4) > div a{
+        width: 6.94%; padding-right: 23px; position: absolute; right: 0; top: 308px; top: 393px;
+        color: white;
+    }
+    .mainContainer > div:nth-of-type(4) > div a:before{
+        content: ''; position: absolute; left: 50%; top: -10px; display: inline-block; 
+        transform: translateX(-100%); width: 60px; height: 1px; 
+        background-color: white;
+    }
+    .mainContainer > div:nth-of-type(4) > div a:after{
+        content: ''; position: absolute; right: 50%; bottom: -9px; display: inline-block; 
+        transform: translateX(100%); width: 60px; height: 1px; 
+        background-color: white;
+    }
+    .mainContainer > div:nth-of-type(4) > div a:hover:before{
+        width: 100%;  transform: translateX(-50%); transition: 0.3s;
+    }
+    .mainContainer > div:nth-of-type(4) > div a:hover:after{
+        width: 100%;  transform: translateX(50%); transition: 0.3s;
+    }
+
+    .mainContainer > div:nth-of-type(5){
+        margin-bottom: 110px;
+    }
+    .mainContainer > div:nth-of-type(5) h2{
+        padding: 110px 0; font-size: 60px; font-weight: 400; color: #605953; text-align: center;
+    }
+    .mainContainer > div:nth-of-type(5) ul{
+        display: flex; justify-content: space-evenly;
+    }
+    .mainContainer > div:nth-of-type(5) ul li{
+        width: 31.52%; margin-bottom: 112px;
+    }
+    .mainContainer > div:nth-of-type(5) ul li a{
+        position: relative; 
+    }
+    .mainContainer > div:nth-of-type(5) ul li a img{
+        width: 100%; 
+    }
+    .mainContainer > div:nth-of-type(5) ul li a span{
+        width: 70px; height: 70px; background-color: white; border: 1px solid #bd7f07;
+        display: inline-block; transform: rotate(45deg); position: absolute; top: -19px; left: 42.3%;
+        display: flex; align-items: center; justify-content: center; text-align: center;
+        
+    } 
+    .mainContainer > div:nth-of-type(5) ul li a span time{
+        font-size: 24px; font-weight: 400;  color: #c99633; transform: rotate(-45deg);
+        
+    }
+    .mainContainer > div:nth-of-type(5) ul li dl{
+        margin: 80px 0 0; color: #605953;
+    }
+    .mainContainer > div:nth-of-type(5) ul li dl dt{
+        font-size: 15px; font-weight: 400; margin-bottom: 18px;
+    }
+    .mainContainer > div:nth-of-type(5) ul li dl dd{
+        font-size: 10px;
+    }
+    .mainContainer > div:nth-of-type(5) > a{
+        max-width: 100px; padding: 10px 10px 10px 0; color: #312419; margin: 0 auto;
+        font-size: 16px; text-align: center;  display: block; position: relative;
+    }
+    .mainContainer > div:nth-of-type(5) > a::before{
+        width: 60px; height: 1px;  color: red;
+    }
+    .mainContainer > div:nth-of-type(5) > a::after{
+        width: 60px; height: 1px; 
+    }
+    .mainContainer #videoPart{
+       position: relative;
+    }
+    .mainContainer #videoPart p{
+       position: absolute; top: 45%; left: 30%;  color: #805705;
+       text-align: center; font-style: italic;
+    }
+    .mainContainer #videoPart p strong{
+        display: block; font-size: 37px; font-weight: 600; margin-bottom: 20px;
+    }
+    .mainContainer #videoPart p:not(strong){
+        font-size: 31px; font-weight: 500;
+    }
+    .mainContainer #videoPart video{
+        z-index: -1;
+    }
+
+    .listContainer{
+        margin: 120px 0 0; box-sizing: border-box;
+    }
+    .listContainer img{
+        width: 100%;
+    }
+    .listContainer:after{
+        content: ''; display: block; clear: both;
+    }
+    .listPcSize{display: block; width: 100%;}
+    .listSpSize{display: none;}
+    .listContainer > h2{
+        font-size: 30px; font-weight: 300; color: #616161;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .listContainer > p{
+        font-size: 16px; font-weight: 400; text-align: center; color: #616161;
+        line-height: 25px; margin: 28px 0 96px;
+    }
+    .listContainer aside{
+        width: 14%; margin-right: 2.6%; padding-left: 2%;
+        position: relative;
+    }
+    .listContainer aside .toggleFilter{
+        border: none; background: url('../images/ico_leftArrow.gif') left center / 6px no-repeat;
+        min-width: 123px; padding-left: 22px; font-size: 14px; line-height: 14px; color: #f1bd00;
+        right: 0; text-align: right; margin-bottom: 20px;
+    }
+    .listContainer aside .mainfilter{
+        position: absolute; left: -250px; top: 30px;
+    }
+    .listContainer aside .mainfilter.active{
+        left: 5%; transition: 1s;
+    }
+    .listContainer aside .mainfilter h3{
+        font-size: 18px; font-weight: 300; margin-bottom: 35px;
+    }
+    .listContainer aside .mainfilter > fieldset{
+        margin-bottom: 15px;
+    }
+    .listContainer aside .mainfilter > fieldset > legend{
+        font-size: 16px; border-bottom: 1px solid #c9c9c9; display: block; padding-bottom: 16px;
+        width: 100%; background: url('../images/ico_downArrow.gif') right center / 10px no-repeat;
+        font-weight: 300;
+    }
+    .listContainer aside .mainfilter > fieldset > div{
+        display: none;
+    }
+    .listContainer aside .mainfilter > fieldset > div label{
+        font-size: 12px; color: #616161; padding: 5px; margin-top: 30px;
+    }
+    .listContainer aside .mainfilter > fieldset > div label:last-child{
+        margin-bottom: 43px;
+    }
+    .listContainer aside .mainfilter > fieldset > div > input[type='checkbox']+label{
+        background: url('../images/ico_noneChecked.gif') no-repeat 5% center; padding-left: 19.2%;
+        display: block; 
+    }
+    .listContainer aside .mainfilter > fieldset > div > input[type='checkbox']+label:not(:first-child){
+        padding: 5px 0 5px 25%;
+    }
+    .listContainer aside .mainfilter > fieldset > div > input[type='checkbox']:checked + label{
+        background-image: url('../images/ico_checked.gif');
+    }
+    .listContainer aside .mainfilter .priceRange{
+        margin-top: 28px;
+    }
+    
+    
+    .listContainer .itemsList{
+        width: 81.4%; margin-left: 15%;
+    }   
+    .listContainer .itemsList .rightSortBy{
+        width: 14%;  margin-left:  82.18%; position: relative;
+    }
+    .listContainer .itemsList .rightSortBy input{
+        border: none; background: url('../images/ico_downArrow.gif') right center / 10px no-repeat;
+        width: 80px; text-align: left; margin-left: auto; display: block;
+    }
+    .listContainer .itemsList .rightSortBy > input[type='button'].active{
+        background-image: url('../images/ico_up');
+    }
+    .listContainer .itemsList .rightSortBy > ul#sortList{
+        display: none;
+        text-align: center; border: 1px solid #616161; box-sizing: border-box;
+        position: absolute; top: 20px; width: 100%; background-color: white;
+    }
+    .listContainer .itemsList .rightSortBy > input[type='button'].active+ul#sortList{
+        display: block;
+    }
+    .listContainer .itemsList .rightSortBy > ul#sortList > li{
+        padding: 13px 0; color: #616161;  font-size: 12px;
+    }
+    .listContainer .itemsList .rightSortBy > ul#sortList > li:first-child{
+        border: 1px solid black; box-sizing: border-box; background-color: black;
+        color: white;
+    }
+    .listContainer .itemsList .rightSortBy > ul#sortList > li:hover{
+        background-color: #616161; color: white;
+    }
+    .listContainer .itemsList > ul{
+        display: block; margin-bottom: 50px;
+    }
+    .listContainer .itemsList > ul:after{
+        content: ''; display: block; clear: both;
+    }
+    .listContainer .itemsList > ul > li{
+        float: left; width: 33%; 
+    }
+    .listContainer .itemsList > ul > li:not(:nth-child(3n-2)){
+        padding-left: 0.5%;
+    }
+    .listContainer .itemsList > ul > li a{
+        display: block;
+    }
+    .listContainer .itemsList > ul > li a img{
+        width: 100%;
+    }
+    .listContainer .itemsList > ul > li span{
+        color: #614f43; font-size: 14px; font-weight: 400; margin-top: 13px; 
+        line-height: 20px;
+    }
+    .listContainer .itemsList ul li span strong{
+        color: #9d806c; font-size: 14px; font-weight: 400; display: block;
+    }
+    
+    .listContainer > div:last-child{
+        display: flex; clear: both; width: 100%;
+        background: url('../images/lastImg_aboutUs.png') 100% / 50% no-repeat
+    }
+    .listContainer > div:last-child .textBox{
+        width: 50%; background-color: #605953;
+    }
+    .listContainer > div:last-child .textBox > div{
+         padding: 240px 0 40px 10%;
+    }
+    .listContainer > div:last-child .textBox > div h3,
+    .listContainer > div:last-child .textBox > div p{
+        color: white; text-align: left;
+    }
+    .listContainer > div:last-child .textBox > div h3{
+        font-size: 29px; margin-bottom: 24px;
+    }
+    .listContainer > div:last-child .textBox > div p{
+        font-size: 16px; line-height: 30px; margin-bottom: 24px;
+    }
+    .listContainer > div:last-child .textBox > div a{
+        display: inline-block; color: #614f43; font-size: 16px; background-color: white;
+        padding: 19px 47px;
+    }
+    
+    .listContainer > div:last-child img{
+        width: 50%;
+    }
+
+    .listContainer .paging{
+        display: none;
+    }
+    .listContainer .paging a{
+        display: block; padding: 0 10px; border-radius: 5px;
+    }
+    .listContainer .paging > a{
+        position: absolute; top: 0; 
+    }
+    .listContainer .paging > a:first-of-type{
+        left: 0;
+    }
+    .listContainer .paging > a:last-of-type{
+        right: 0;
+    }
+    .listContainer .paging ol{
+        text-align: center;
+    }
+    .listContainer .paging ol li{
+        display: inline-block;
+    }
+    .listContainer .paging ol li a{
+        color: #808080;
+    }
+    .listContainer .paging ol li:hover a,
+    .listContainer .paging ol li a.active{
+        background-color: #bd9400; color: white; 
+    }
+    
+   .detailContainer .leftBox{
+        width: 50%; float: left;
+    }
+    .detailContainer .leftBox .detailSlider{
+        display: block;
+    }
+    .detailContainer .leftBox .detailSlider li img{
+       margin-top: 50px; width: 100%;
+    }
+    .detailContainer .leftBox > ol.thumbPager{
+        display: flex; flex-flow: row nowrap; justify-content: flex-start; padding: 0 0 30px 3%;
+    }
+    .detailContainer .leftBox > ol.thumbPager > li{
+        border: 1px solid #bdbdbd; max-width: 100px;
+    }
+    .detailContainer .leftBox > ol.thumbPager > li:not(:first-child){
+        margin-left: 2%;
+    }
+    .detailContainer .leftBox > ol.thumbPager > li a{
+        display: block; width: 100%;
+    }
+    .detailContainer .leftBox > ol.thumbPager > li img{
+       width: 100%;
+    }
+
+    .detailContainer .rightBox{
+        margin: 200px 3% 0 0; float: left; width: 47%;
+    }
+    .detailContainer .rightBox h2 b{
+        font-size: 14px; color: #a3a3a3; display: block; font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .detailContainer .rightBox h2:not(b){
+        font-size: 36px; color: #4d4d4d; font-weight: 300; margin-bottom: 42px;
+    }
+    .detailContainer .rightBox > div strong{
+        font-size: 30px; color: #9d806c; 
+    }
+    .detailContainer .rightBox > div:first-of-type{
+        display: flex; justify-content: space-between; margin-bottom: 72px;
+    }
+    .detailContainer .rightBox > div:first-of-type > div{
+        width: 36%; display: flex; justify-content: space-between;
+    }
+    .detailContainer .rightBox > div:first-of-type > div > ol > li{
+        font-size: 19px;
+    }
+    .detailContainer .rightBox > div:last-of-type{
+        display: flex; justify-content: space-between; margin-bottom: 103px;
+    }
+    .detailContainer .rightBox > div:last-of-type > span.selectNumber{
+        width: 27%; font-size: 16px; font-weight: 300; color: #4d4d4d;
+        display: inline-block; box-sizing: border-box; background: url('../images/down_03.gif') no-repeat 90% center;
+        border: 1px solid #a3a3a3;
+    }
+    .detailContainer .rightBox > div:last-of-type > span.selectNumber select{
+        padding: 27px 66px;  width: 100%; background-color: transparent;
+        -webkit-appearance: none;  -moz-appearance: none; border: none; color: #adadad;
+    }
+    .detailContainer .rightBox > div:last-of-type > input{
+        width: 63.96%; background-color: #bd9400; border: 1px solid #bd9400;
+        box-sizing: border-box; color: white; font-size: 16px; font-weight: 400;
+    }
+    .detailContainer .rightBox > p{
+        line-height: 24px; font-size: 16px; font-weight: 400; color: #4d4d4d; letter-spacing: -0.1em;
+        display: block;
+    }
+    .detailContainer .rightBox > p u{
+        margin-bottom: 36px; padding-bottom: 8px; font-size: 18px; letter-spacing: 0.02em; text-decoration: none;
+        border-bottom: 1px solid #4d4d4d; display: block; width: 80px; 
+        margin-right: 450px;
+    }
+
+    .detailContainer .accBox{
+        clear: both; margin-top: 300px;
+    }
+    .detailContainer .accBox ul li{
+        border-top: 1px solid #c9c9c9; 
+        padding: 35px 0 35px 55px; color: #a3a3a3;
+    }
+    .detailContainer .accBox ul li:first-child{
+        text-transform: uppercase;
+    }
+    .detailContainer .accBox ul li:last-child{
+        border-bottom: 1px solid #c9c9c9; overflow: hidden;
+    }
+    .detailContainer .accBox ul li > span{
+        font-size: 24px; background: url('../images/ico_plus_gold.png') right / 20px no-repeat; display: block;
+    }
+    .detailContainer .accBox ul li > span.active{
+        background: url('../images/ico_remove.png') right / 20px no-repeat;
+    }
+    .detailContainer .accBox ul li div{
+        padding: 40px 0; display: none;
+    }
+    .detailContainer .accBox ul li div p{
+        padding-bottom: 30px; width: 50%; float: left; box-sizing: border-box;
+    }
+    .detailContainer .accBox ul li div p:not(span){
+        font-size: 16px;
+    }
+    .detailContainer .accBox ul li div p span{
+        margin-bottom: 24px; display: block; font-size: 18px;
+    }
+    .detailContainer .accBox ul li:last-of-type{
+        clear: both;
+    }
+
+    .detailContainer .reviewBox{
+        margin-top: 150px; width: 100%;
+    }
+    .detailContainer .reviewBox >div:first-of-type{
+        position: relative;
+    }
+    .detailContainer .reviewBox >div:first-of-type:after{
+        content: ''; display: block; clear: both;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div{
+        float: left;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:first-of-type{
+        width: 20.4%; text-align: center; margin-left: 5.2%;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:first-of-type h2{
+        font-size: 20px; margin-bottom: 45px;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:first-of-type span strong{
+        font-size: 38px; margin-right: 20px;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:first-of-type span:not(strong){
+        font-size: 16px; font-weight: 300;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:first-of-type ol.starCount{
+        margin-top: 15px; display: block; text-align: center;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:first-of-type ol.starCount li{
+        background-size: 30px;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:first-of-type ol.starCount li:not(:first-of-type){
+        margin-left: 1.7%;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:nth-of-type(2){
+        width: 29.6%;  margin: 39px 4.02% 0 5.27%; width: 20.4%
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:nth-of-type(2) ul{
+        margin-left: 5.27%;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:nth-of-type(2) ul li{
+        background-size: 16px; 
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:nth-of-type(2) ul li:not(:last-of-type){
+      margin-bottom: 10px;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:last-of-type{
+        width: 30%; position: absolute; top: 86px; right:  0;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:last-of-type input{
+        border: 1px solid #a38000; background-color: white; padding: 15px 55px;
+        color: #a38000;
+    }
+    .detailContainer .reviewBox >div:first-of-type > div:last-of-type input[type="button"]:hover{
+        border: 1px solid #a38000; color: white; background-color: #a38000;
+    }
+    
+    .detailContainer .reviewBox .underArea ul.tabMenu{
+        clear: both; border-bottom: 3px solid #f1f1f1;
+    }
+    .detailContainer .reviewBox .underArea ul.tabMenu li{
+        display: inline-block; padding: 0 40px 23px 40px;
+    }
+    .detailContainer .reviewBox .underArea ul.tabMenu li.active{
+        border-bottom: 3px solid #bd9400;
+    }
+    .detailContainer .reviewBox .underArea > div{
+        display: none;
+    }
+    .detailContainer .reviewBox .underArea > div.active{
+        display: block;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage #reviewWrite{
+        margin-top: 35px; display: none;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage #reviewWrite.active{
+        display: block;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage #reviewWrite span{
+        display: block; margin-bottom: 10px; color: #808080;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage #reviewWrite textarea{
+        margin: 30px 0; display: block; width: 100%; height: 200px;
+        padding: 17px 0 0 26px; border: 1px solid #808080; color: #808080;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage #reviewWrite > div{
+        display: flex; justify-content: space-between; margin-bottom: 48px;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage #reviewWrite > div span{
+        min-width: 178px; line-height: 50px;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage #reviewWrite > div span > input[type="file"]{
+        display: none;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage #reviewWrite > div span > input[type="file"] + label{
+        background: url('../images/camera_gold.png') 15px center / 24px no-repeat; color: #bd9400; 
+        font-size: 15px; border: 1px solid #bd9400; padding: 14px 14px 14px 49px;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage #reviewWrite > div > input{
+        width: 180px; background-color: #a38000; line-height: 50px; color: white; border: 1px solid #a38000;
+        font-size: 15px;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage > ol > li{
+        margin-bottom: 88px; border-bottom: 3px solid #f1f1f1;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage > ol > li > div{
+        margin: 5.41%; color: #808080;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage > ol > li > div > ol{
+        margin-left: 5.76%;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage > ol > li > div time{
+        margin-left: 35px; 
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage > ol > li > p{
+        margin-left: 6.45%; color: #808080; font-weight: 300;
+    }
+    .detailContainer .reviewBox .underArea #reviewsPage > ol > li > div:last-of-type >p{
+        background: url('../images/reply_logo_03.gif') left center / contain no-repeat;
+        margin-left: 9.65%;  padding-left: 12%; font-size: 15px; font-weight: 300;
+    }
+
+    .detailContainer .reviewBox .underArea #questPage{
+        margin-top: 80px;
+    }
+    .detailContainer .reviewBox .underArea #questPage #questionWrite{
+        display: none;
+    }
+    .detailContainer .reviewBox .underArea #questPage #questionWrite.active{
+        display: block;
+    }
+    .detailContainer .reviewBox .underArea #questPage #questionWrite textarea{
+        width: 100%; height: 201px; padding: 17px 0 0 25px; font-size: 16px;
+        border: 1px solid #808080; margin-bottom: 32px;
+    } 
+    .detailContainer .reviewBox .underArea #questPage #questionWrite input[type="submit"]{
+        width: 12.36%; color: white; background-color: #a38000; padding: 17px 75px; 
+        border: 1px solid #a38000; margin-left: auto; display: block;
+    }
+    .detailContainer .reviewBox .underArea #questPage > ol{
+        margin-top: 32px;
+    }
+    .detailContainer .reviewBox .underArea #questPage > ol li{
+        margin-top: 57px; color: #808080; border-bottom: 3px solid #f1f1f1;
+        padding-bottom: 50px;
+    }
+    .detailContainer .reviewBox .underArea #questPage > ol li >*:not(:last-child){
+        margin-left: 6.66%;
+    }
+    .detailContainer .reviewBox .underArea #questPage > ol li div{
+        margin-bottom: 30px;
+    }
+    .detailContainer .reviewBox .underArea #questPage > ol li div span{
+        font-size: 19px; font-weight: 300; 
+    }
+    .detailContainer .reviewBox .underArea #questPage > ol li div time{
+        margin-left: 4.51%; font-size: 16px; font-weight: 300;
+    }
+    .detailContainer .reviewBox .underArea #questPage > ol li > p{
+        font-size: 15px; font-weight: 300;
+    }
+    .detailContainer .reviewBox .underArea #questPage > ol > li > div:last-of-type{
+        margin-top: 59px;
+    }
+    .detailContainer .reviewBox .underArea #questPage > ol > li > div:last-of-type >p{
+        background: url('../images/reply_logo_03.gif') left center / contain no-repeat;
+        margin-left: 9.65%;  padding-left: 10%; font-size: 15px; font-weight: 300;
+    }
+
+    .detailContainer .relatedBox{
+        margin-top: 139px;
+    }
+    .detailContainer .relatedBox h2{
+        text-align: center; font-size: 20px; color: #4d4d4d;
+        margin-bottom: 104px; font-weight: 400;
+    }
+    .detailContainer .relatedBox > ul{
+        display: flex; justify-content: space-evenly;
+    }
+    .detailContainer .relatedBox > ul li > a{
+        position: relative; display: block; margin-bottom: 50px;
+    }
+    .detailContainer .relatedBox > ul li a mark{
+        position: absolute; top: 0; left: 0; color: white; background-color: #a38000;
+        padding: 15px 30px; font-size: 16px; letter-spacing: 0.1em;
+    }
+    .detailContainer .relatedBox > ul li > div{
+        margin-bottom: 137px;
+    }
+    .detailContainer .relatedBox > ul li > div >*{
+        display: block; letter-spacing: 0.01em;
+    }
+    .detailContainer .relatedBox > ul li > div span{
+        margin: 15px 0; font-size: 17px; color: #4d4d4d;
+    }
+    .detailContainer .relatedBox > ul li > div span > strong{
+        display: block; margin-top: 15px; font-size: 16px; color: #9d806c;
+    }
+    .detailContainer .relatedBox > ul li > div span del{
+        display: inline-block; color: #9d806c; font-size: 14px; margin-left: 2%;
+    }
+    .detailContainer > div:last-child{
+        display: flex; clear: both; background: url('../images/lastImg_aboutUs.png') 100% / 50% no-repeat , #605953; 
+    }
+    .detailContainer > div:last-child .textBox{
+        width: 100%; 
+    }
+    .detailContainer > div:last-child .textBox > div{
+         padding: 240px 0 40px 10%; box-sizing: border-box;
+    }
+    .detailContainer > div:last-child .textBox > div h3,
+    .detailContainer > div:last-child .textBox > div p{
+        color: white; text-align: left;
+    }
+    .detailContainer > div:last-child .textBox > div h3{
+        font-size: 29px; margin-bottom: 24px;
+    }
+    .detailContainer > div:last-child .textBox > div p{
+        font-size: 16px; line-height: 30px; margin-bottom: 24px;
+    }
+    .detailContainer > div:last-child .textBox > div a{
+        display: inline-block; color: #614f43; font-size: 16px; background-color: white;
+        padding: 19px 47px;
+    }
+    
+    .brandContainer{
+        margin-top: 120px; 
+    }
+    .brandContainer > div:first-child{
+        position: relative;
+    }
+    .brandContainer > div:first-child h2{
+        color: white; font-size: 35.95px; font-weight: 400;
+        position: absolute; top: 43.5%; left: 30%; text-align: center;
+    }
+    .brandContainer > div:nth-child(2){
+        text-align: center;
+    }
+    .brandContainer > div:nth-child(2) > *:not(ul){
+        background-color: #f9f3ef;
+    }
+    .brandContainer > div:nth-child(2) h3,
+    .brandContainer > div:nth-child(2) p{
+        color: #4d4d4d;
+    }
+    .brandContainer > div:nth-child(2) h3{
+        font-size: 36px; font-weight: 300; padding-top: 95px;
+    }
+    .brandContainer > div:nth-child(2) > p{
+        padding-top: 63px; font-size: 14px; line-height: 38px; font-weight: 400;
+        padding-bottom: 108px;
+    } 
+    .brandContainer > div:nth-child(2) ul li{
+        height: 350px;
+    }
+    .brandContainer > div:nth-child(2) ul li:first-child{
+        background: url('../images/brandIntro_listImg1.png') no-repeat left top / 50%;
+    }
+    .brandContainer > div:nth-child(2) ul li:last-child{
+        background: url('../images/brandIntro_listImg2.png') no-repeat right top / 50%, #f9f3ef;
+    }
+    .brandContainer > div:nth-child(2) ul li p{
+        color: black;  font-size: 20px; position: absolute; top: 100px;
+        line-height: 36px;
+    }
+    .brandContainer > div:nth-child(2) ul li p u{
+        font-size: 28px; display: block; margin-bottom: 40px;
+    }
+    .brandContainer > div:nth-child(2) ul li:first-child,
+    .brandContainer > div:nth-child(2) ul li:last-child{
+        position: relative;
+    }
+    .brandContainer > div:nth-child(2) ul li:first-child p{
+        right: 15%;
+    }
+    .brandContainer > div:nth-child(2) ul li:last-child p{
+        left: 10%;
+    }
+    .brandVideo h3{
+        color: #4d4d4d; text-align: center; margin: 80px 0; font-size: 60px; font-weight: 300;
+    }
+    .brandVideo video{
+        width: 100%;
+    }
+
+    .newsContainer{
+        margin-top: 120px; 
+    }
+    .newsContainer >*{
+        color: #4d4d4d;
+    }
+    .newsContainer time{
+        font-size: 12px;
+    }
+    .newsContainer a{
+        display: block; color: #4d4d4d;
+    }
+    .newsContainer a:hover{
+        color: #9d806c;
+    }
+    .newsContainer .latestNews{
+        background-color: #f9f3ef; position: relative; height: 985px;
+    }
+    .newsContainer .latestNews > *:not(:last-child){
+        margin-left: 7%; padding-right: 55%;
+    }
+    .newsContainer .latestNews h2{
+        padding-top: 107px; margin-bottom: 275px;
+        font-size: 16px;
+    }
+    .newsContainer .latestNews time{
+        font-weight: 400; 
+    }
+    .newsContainer .latestNews span{
+        margin-top: 30px; font-weight: 300; font-size: 27px;
+        display: block; word-spacing: 5;
+    }
+    .newsContainer .latestNews p{
+        margin-top: 28px; line-height: 25px; font-size: 14px; font-weight: 300;
+    }
+    .newsContainer .latestNews a{
+        margin-top: 50px;
+    }
+    
+    .newsContainer .latestNews img{
+        position: absolute; top: 0; right: 0; width: 50%; height: 985px;
+        object-fit: cover;
+    }
+    .newsContainer .newsList h2{
+        font-size: 30px; font-weight: 300; margin: 72px 0; text-align: center;
+    }
+    .newsContainer .newsList ul{
+        height: 750px;
+    }
+    .newsContainer .newsList ul li{
+        width: 50%; float: left;
+    }
+    .newsContainer .newsList ul li div{
+        margin: 40px 0 40px 3.125%; clear: both;
+    }
+    .newsContainer .newsList ul li div h3{
+        font-size: 16px; font-weight: 300; margin-bottom: 7px;
+    }
+    .newsContainer .newsList ul li div p{
+        margin-top: 18px; font-size: 12px; font-weight: 300; margin-bottom: 34px;
+    }
+
+
+    .newsDetail > img{
+        margin: 122px 0 65px;
+    }
+    .newsDetail > div{
+        display: flex; justify-content: space-between;
+    }
+    .newsDetail > div > div{
+        width: 65%;
+    }
+    .newsDetail > div > div h2{
+        margin-bottom: 40px; color: #303030; font-size: 20px;
+    }
+    .newsDetail > div > div h2:after,
+    .newsDetail > div aside h3:after{
+       content: ''; width: 100%; background-color:  #bdbdbd; height: 1px; 
+       display: inline-block; 
+    }
+    .newsDetail > div > div p{
+        color: #616161; line-height: 32px; font-size: 16px; margin-bottom: 65px;
+        text-indent: 1em;
+    }
+    .newsDetail > div > div img{
+        width: 64%; margin-bottom: 20px;
+    }
+    .newsDetail > div > div > div{
+        margin-bottom: 65px; display: flex; justify-content: space-between;
+    }
+    .newsDetail > div > div > div a{
+        width: 5%; background: url('../images/ico_arrow_backG.gif')no-repeat left 0 / 5px 12px;
+        color: #a38000; font-size: 12px; text-align: right;  cursor: pointer;
+    }
+    .newsDetail > div aside{
+        width: 27.7%; padding-top: 39px;
+    }
+    .newsDetail > div aside h3{
+        color: #616161; font-size: 18px; font-weight: 400;
+    }
+    .newsDetail > div aside ul{
+        margin: 39px 0 0 20px;
+    }
+    .newsDetail > div aside ul li{
+        border: 1px solid #616161; font-size: 16px; margin-bottom: 40px;
+    }
+    .newsDetail > div aside ul li a{
+        display: flex; 
+    }
+    .newsDetail > div aside ul li img{
+        width: 32.5%;
+    }
+    .newsDetail > div aside ul li p{
+        padding: 40px 0 25px 3%; color: #303030;
+    }
+    .newsDetail > div aside ul li time{
+        display: block; margin-top: 24px; color: #616161;
+    }
+
+
+    .login{
+        padding-top: 200px; margin: 0 auto;
+    }
+    .login h2{
+        font-size: 36px; font-weight: 400; margin-bottom: 30px; text-align: center;
+    }
+    .login div:first-of-type{
+        display: flex; justify-content: center; font-size: 13px; font-weight: 400;
+        margin-bottom: 20px; text-align: center;
+    }
+    .login div:first-of-type p{
+        margin-right: 12px; color: #808080;
+    }
+    .login div:first-of-type a{
+        display: block; color: #a38000; border-bottom: 1px solid #a38000;
+    }
+    .login div:last-of-type{
+        height: 55px; width: 8%; display: flex; justify-content: space-between;
+        margin: 0 auto 80px;
+    }
+    .login div:last-of-type a{
+        height: 55px; text-indent: -9999px; width: 55px; 
+    }
+    .login div:last-of-type a:first-child{
+        background: url('../images/wechat_color.png') center / contain no-repeat;
+    }
+    .login div:last-of-type a:last-child{
+        background: url('../images/tiktok_color.png') center / contain no-repeat;
+    }
+    .login form{
+        width: 32%; margin: 0 auto;
+    }
+    .login form input,
+    .login form a{
+        display: block; 
+    }
+    .login form input:not(:last-of-type){
+        width: 100%; padding: 12px 0 12px 40px; box-sizing: border-box;
+    }
+    .login form input:focus{
+        outline: 1px solid #bd9400;
+    }
+    .login form input:first-of-type,
+    .login form input:nth-of-type(2){
+        font-size: 16px; color: #4d4d4d; margin-bottom: 26px;
+    }
+    .login form a{
+        margin-top: 26px; text-align: right; font-weight: 14px; color: #4d4d4d;
+    }
+    .login form a:hover{
+        color: #bd9400;
+    }
+    .login form input:last-of-type{
+        margin: 82px 0 80px; color: white; background-color: #bd9400;
+        border: 1px solid #bd9400; padding: 12px 0 12px; width: 100%;
+    }
+
+    .creatAccount{
+        padding-top: 200px; text-align: center;
+    }
+    .creatAccount h2{
+        font-size: 36px; font-weight: 400; margin-bottom: 30px;
+    }
+    .creatAccount > div{
+        font-size: 0;
+    }
+    .creatAccount > div > *{
+        display: inline-block; font-size: 13px; margin-bottom: 38px;
+    }
+    .creatAccount > div p{
+        color: #808080; margin-right: 41px;
+    }
+    .creatAccount > div a{
+        color: #a38000; border-bottom: 1px solid #a38000;
+    }
+    .creatAccount form{
+        width: 32%; margin: 0 auto;
+    }
+    .creatAccount form input:not(:nth-of-type(5)){
+        display: block; width: 100%;
+    }
+    .creatAccount form input{
+        font-size: 16px; color: #4d4d4d; margin-bottom: 26px;
+        padding: 15px 0 15px 19px; box-sizing: border-box;
+    }
+    .creatAccount form input:focus{
+        outline: 1px solid #bd9400;
+    }
+    .creatAccount form label{
+        text-align: left; line-height: 16px; max-width: 220px;
+    }
+    .creatAccount form input:nth-of-type(5)+label{
+        background: url('../images/ico_noneChecked.gif') right center / contain no-repeat;
+        display: block;
+    }
+    .creatAccount form input:nth-of-type(5):checked + label{
+        background-image: url('../images/ico_checked.gif');
+
+    }
+    .creatAccount form input:last-of-type{
+        margin: 26px 0 157px; color: white; background-color: #bd9400;
+        border: 1px solid #bd9400;
+    }
+    
+
+    .forgetPassword{
+        padding-top: 200px; text-align: center
+    }
+    .forgetPassword h2{
+        font-size: 36px; font-weight: 400; margin-bottom: 17px; color: #303030;
+    }
+    .forgetPassword p{
+        font-size: 13px; color: #808080; margin-bottom: 56px;
+    }
+    .forgetPassword form{
+        width: 32%; margin: 0 auto;
+    }
+    .forgetPassword form input{
+        display: block; width: 100%; font-size: 16px;
+    }
+    .forgetPassword form input[type="email"]{
+        color: #4d4d4d; margin-bottom: 35px;
+        padding: 15px 0 15px 19px; box-sizing: border-box;
+    }
+    .forgetPassword form input[type="email"]:focus{
+        outline: 1px solid #bd9400;
+    }
+    .forgetPassword form input[type="submit"]{
+        padding: 15px 0; color: white; background-color: #bd9400;
+        border: 1px solid #bd9400; margin-bottom: 80px;
+    }
+
+    .myAccount{
+        padding-top: 200px; text-align: center;
+    }
+    .myAccount h2{
+        font-size: 36px; font-weight: 400; margin-bottom: 17px; color: #303030;
+        margin-bottom: 40px;
+    }
+    .myAccount mark{
+        background-color: white; font-size: 20px; color: #a38000; font-weight: 400;
+        font-style: normal; 
+    }
+    .myAccount > div{
+        display: flex; margin-top: 40px;
+    }
+    .myAccount > div > *{
+        margin-bottom: 282px;
+    }
+    .myAccount > div aside{
+        width: 21%; text-align: left; background-color: #f1c4a6; margin-right: 14%; box-sizing: border-box;
+        border-radius: 6px;
+    }
+    .myAccount > div aside ul li{
+         padding: 28px 0; text-align: center; font-size: 16px; box-sizing: border-box;
+    }
+    .myAccount > div aside ul li:first-of-type:hover{
+        border: 1px solid #806858; border-radius: 6px 6px 0 0; 
+    }
+    .myAccount > div aside ul li:nth-last-of-type(2):hover,
+    .myAccount > div aside ul li:nth-last-of-type(3):hover,
+    .myAccount > div aside ul li:nth-last-of-type(4):hover{
+        border: 1px solid #806858;
+    }
+    .myAccount > div aside ul li.active{
+        background-color: #806858;
+    }
+    .myAccount > div aside ul li:last-of-type:hover{
+        border: 1px solid #806858; border-radius: 0 0 6px 6px;
+    }
+    .myAccount > div aside ul li a{
+        color: black; display: block; height: 100%;
+    }
+    .myAccount > div > div{
+        width: 53%; margin-right: 12%;
+    }
+    .myAccount > div > div label{
+        width: 28%; display: inline-block; text-align: left; font-size: 20px;
+    }
+    .myAccount > div > div > label:after{
+        content: ':';
+    }
+    .myAccount > div > div > input{
+        width: 71%; box-sizing: border-box; line-height: 40px; border: 1px solid #616161; box-sizing: border-box;
+        border-radius: 6px; background-color: #e0e0e0; 
+    }
+    .myAccount > div > div > input:not(:last-of-type){
+        margin-bottom: 19px;
+    }
+    .myAccount > div > div > input:last-of-type{
+        margin-bottom: 26px; 
+    }
+    .myAccount > div > div > input + label{
+        display: inline-block; 
+    }
+    .myAccount > div > div > div{
+        text-align: right; font-size: 18px;
+    }
+    .myAccount > div > div > div input:first-of-type,
+    .myAccount > div > div > div input:last-of-type{
+        padding: 15px 25px;  border-radius: 6px; border: 1px solid black;
+    }
+    .myAccount > div > div > div input:first-of-type{
+        background-color: white; 
+    }
+    .myAccount > div > div > div input:last-of-type{
+        background-color: black; color: #c9a48b; margin-left: 20px;
+    }
+
+    .myAccount > div > div form label{
+        display: block; text-align: left; font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .myAccount > div > div > form input{
+        width: 100%; box-sizing: border-box; line-height: 40px; border: 1px solid #616161; box-sizing: border-box;
+        border-radius: 6px; background-color: white; 
+    }
+    .myAccount > div > div > form input:not(:last-of-type){
+        margin-bottom: 19px;
+    }
+    .myAccount > div > div > form input:last-of-type{
+        background-color: black; color: #c9a48b;
+        width: 10%; margin: 0 0 0 auto; display: block;
+    }
+
+
+    .myAccount > div > div > ul li{
+        border-bottom: 1px solid #bdbdbd; display: flex;
+
+    }
+    .myAccount > div > div > ul li div:first-of-type{
+        text-align: left;
+    }
+    .myAccount > div > div > ul li div:last-of-type{
+        text-align: right; margin: 0 0 0 auto;
+    }
+    .myAccount > div > div > ul li div h3{
+        font-size: 18px; font-weight: 400; margin-bottom: 11px;
+    }
+    .myAccount > div > div > ul li div small,
+    .myAccount > div > div > ul li div span,
+    .myAccount > div > div > ul li div u,
+    .myAccount > div > div > ul li div .price{
+        display: block;
+    }
+    .myAccount > div > div > ul li div small,
+    .myAccount > div > div > ul li div span{
+        font-size: 12px; font-weight: 400; padding-left: 24px;
+    }
+    .myAccount > div > div > ul li div span{
+        color: #bd9a82; margin-top: 21px;
+    }
+    .myAccount > div > div > ul li div u{
+        font-size: 12px; color: #808080; cursor: pointer;
+    }
+    .myAccount > div > div > ul li div .price{
+        margin: 30px 0; font-size: 18px; font-weight: 400;
+    }
+    .cancelPopup{
+        display: none;
+    }
+    .cancelPopup.active{
+        top: 0; left: 0; width: 100%; height: 100vh; background: rgba(0, 0, 0, 0.5); z-index: 9999;
+        position: fixed; display: flex; justify-content: center; align-items: center;
+    }
+    .cancelPopup div{
+        width: 30%; height: 200px; background: white; outline: 1px solid #a38000; outline-offset: -1em;
+        position: relative;
+    }
+    .cancelPopup div > input:first-of-type{
+        position: absolute; top: 30px; left: 90%; background: url('../images/ico_close_gray.png')top right / 16px no-repeat;
+        height: 16px; border: none; text-indent: -9999px; width: 16px;
+    }
+    .cancelPopup div p{
+        margin-top: 80px; text-align: center;
+    }
+    .cancelPopup div > input:last-of-type{
+        display: block; margin: 15px auto; 
+        background-color: black; color: #c9a48b;
+        padding: 6px 12px; border-radius: 6px; border: 1px solid black;
+    }
+
+    .cartContainer{
+        padding-top: 200px; display: flex; justify-content: space-between;
+    }
+    .cartContainer > div:first-of-type{
+        width: 73%;
+    }
+    
+    .cartContainer div h2{
+        font-size: 36px; font-weight: 400; color: #303030; margin-bottom: 29px;
+    }
+    .cartContainer div nav ol{
+        display: flex;
+    }
+    .cartContainer div nav li{
+        background: url('../images/next_FILL.svg') right center / contain no-repeat;
+        padding-right: 15px; margin-bottom: 40px;
+    }
+    .cartContainer div nav li:first-of-type{
+        color: #a38000;
+    }
+    .cartContainer div nav li:not(:last-of-type){
+        margin-right: 10px; 
+    }
+    .cartContainer div nav a{
+        color: #4d4d4d;
+    }
+    .cartContainer div .cartList li{
+        display: flex; align-items: center;
+    }
+    .cartContainer div .cartList li:first-of-type{
+        border-top: 1px solid #c9c9c9; border-bottom: 1px solid #c9c9c9;
+    }
+    .cartContainer div .cartList li:not(:first-of-type){
+        border-bottom: 1px solid #c9c9c9;
+    }
+    .cartContainer div .cartList li div:first-of-type h3{
+        font-size: 18px; font-weight: 500; color: #bd9400; margin-bottom: 20px;
+    }
+    .cartContainer div .cartList li div:first-of-type input{
+        font-size: 14px; color: #4d4d4d; border: none; background-color: white;
+        cursor: pointer;
+    }
+    .cartContainer div .cartList li strong{
+        margin-left: 24.3%; font-size: 18px; font-weight: 400;
+    }
+    .cartContainer div .cartList li .numberComponent{
+        margin: 0 0 0 auto;
+    }
+    .cartContainer div .cartList li .numberComponent span{
+        color: #bdbdbd;
+    }
+    .cartContainer div > div{
+        margin: 44px 0 134px; text-align: right; 
+    }
+    .cartContainer div > div small{
+        font-size: 18px; font-weight: 400; color: #808080;
+        margin-right: 3.12%;
+    }
+    .cartContainer div > div strong{
+        font-size: 28px; font-weight: 400;
+    }
+    
+    .cartContainer .orderBtn{
+        width: 22%; margin: 145px 0 125px;
+    }
+    .cartContainer .orderBtn a{
+        border: 1px solid #bd9400; display: block; text-align: center;
+        font-size: 16px; padding: 25px 0;
+    }
+    .cartContainer .orderBtn a:first-of-type{
+        color: white; background-color: #bd9400;
+    }
+    .cartContainer .orderBtn a:last-of-type{
+        color: #bd9400;
+    }
+    .cartContainer .orderBtn p{
+        font-size: 14px; color: #808080; font-weight: 400; text-align: right;
+        margin: 10px 0 28px;
+    }
+
+    .infoContainer,
+    .paymentContainer{
+        display: flex; justify-content: space-between;
+        margin-left: 4%;
+    }
+    .infoContainer > div,
+    .paymentContainer > div{
+        width: 50%; padding-top: 200px; 
+    }
+    .infoContainer div h2,
+    .paymentContainer > div h2{
+        font-size: 36px; font-weight: 400; color: #303030; margin-bottom: 29px;
+    }
+    .infoContainer div nav ol,
+    .paymentContainer > div nav ol{
+        display: flex;
+    }
+    .infoContainer div nav li:not(:last-child),
+    .paymentContainer > div nav ol li:not(:last-child){
+        background: url('../images/next_FILL.svg') right center / contain no-repeat;
+        padding-right: 15px; margin-bottom: 40px;
+    }
+    .infoContainer div nav li:nth-of-type(2),
+    .paymentContainer div nav ol li:last-of-type{
+        color: #a38000;
+    }
+    .infoContainer div nav li:not(:last-of-type){
+        margin-right: 10px; 
+    }
+    .infoContainer div nav a{
+        color: #4d4d4d;
+    }
+    .infoContainer div form{
+        width: 100%;
+    }
+    .infoContainer div form fieldset:first-of-type{
+        margin-bottom: 50px;
+    }
+    .infoContainer div form fieldset:first-of-type legend{
+        font-size: 20px; font-weight: 400; color: #303030; width: 100%; display: block;
+        margin-bottom: 30px;
+    }
+    .infoContainer div form fieldset:first-of-type legend span{
+        font-size: 16px; font-weight: 400; color: #a3a3a3; text-align: right;
+    }
+    .infoContainer div form fieldset:first-of-type legend span a{
+        color: #a38000;
+    }
+    .infoContainer div form fieldset:first-of-type input:first-of-type,
+    .infoContainer div form fieldset:last-of-type input:not(:nth-of-type(11)){
+        padding: 16px 0 16px 1.38%; border: 1px solid #303030; box-sizing: border-box;
+    }
+
+    .infoContainer div form fieldset:first-of-type input:first-of-type,
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(1),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(2),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(5),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(8),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(9),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(10){
+        width: 100%;
+    } 
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(3),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(4),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(6),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(7){
+        width: 49.2%;
+    }
+
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(4),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(7){
+        margin-left: 1%;
+    }
+
+
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(1),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(2),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(3),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(4),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(5),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(6),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(7),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(8),
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(9){
+        margin-bottom: 25px;
+    }
+    .infoContainer div form fieldset:first-of-type input:first-of-type{
+        margin-bottom: 22px;
+    }
+    .infoContainer div form fieldset:first-of-type label{
+        padding-left: 35px;
+    }
+    .infoContainer div form fieldset:first-of-type input:last-of-type + label{
+        background: url('../images/ico_noneChecked.gif') left center / contain no-repeat;
+        display: block;
+    }
+    .infoContainer div form fieldset:first-of-type input:last-of-type:checked + label{
+        background-image: url('../images/ico_checked.gif');
+    }
+    .infoContainer div form fieldset:last-of-type legend{
+        margin-bottom: 35px;
+    }
+
+    .infoContainer form input:focus{
+        outline: 1px solid #bd9400;
+    }
+    .infoContainer div form fieldset:last-of-type label{
+        padding-left: 35px;
+    }
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(11) + label{
+        background: url('../images/ico_noneChecked.gif') left center / contain no-repeat;
+        display: block; margin: 20px 0 48px;
+    }
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(11):checked + label{
+        background-image: url('../images/ico_checked.gif');
+    }
+    .infoContainer div form fieldset:last-of-type input:last-of-type{
+        width: 100%; border: 1px solid #a38000; background-color: #a38000; box-sizing: border-box;
+        color: white; height: 74px;
+    }
+    .infoContainer div form fieldset:last-of-type a{
+        width: 50px; background: url('../images/ico_arrow_backG.gif')left center / 7px no-repeat;
+        text-align: right; display: block; font-size: 12px; color: #a38000;
+        margin: 20px 0 199px auto;
+    }
+
+    .paymentRight{
+        width: 40%; background-color: #fafafa; margin: 0 0 0 auto;
+    }
+    .paymentRight > div{
+        padding: 175px 6% 0;  box-sizing: border-box;
+    }
+    .paymentRight > div ul li{
+        border-bottom: 1px solid #c9c9c9; padding: 16px 0; display: flex;
+    }
+    .paymentRight > div ul li h3{
+        margin-left: 2.38%; font-size: 18px; font-weight: 500; color: #bd9400;
+    }
+    .paymentRight > div ul li h3,
+    .paymentRight > div ul li strong{
+        line-height: 100px;
+    }
+    .paymentRight > div ul li strong{
+        margin: 0 0 0 auto;
+    }
+    .paymentRight > div > div:first-of-type{
+        margin: 30px 0; border-bottom: 1px solid #c9c9c9; padding-bottom: 16px;
+    }
+    .paymentRight > div > div:first-of-type input{
+        height: 55px; box-sizing: border-box; border-radius: 6px; 
+    }
+    .paymentRight > div > div:first-of-type input:first-of-type{
+        width: 45%; padding: 19px 4.31%; border: 1px solid #c9c9c9;
+        font-size: 14px;
+    }
+    .paymentRight > div > div:first-of-type input:last-of-type{
+        width: 16%; padding: 19px auto; background-color: #c9c9c9; border: none;
+        font-size: 14px;
+    }
+    .paymentRight > div > div:nth-of-type(2){
+        border-bottom: 1px solid #c9c9c9;
+    }
+    .paymentRight > div > div:nth-of-type(2) div,
+    .paymentRight > div > div:last-of-type{
+        display: flex; justify-content: space-between;
+    }
+    .paymentRight > div > div:nth-of-type(2) div span,
+    .paymentRight > div > div:last-of-type{
+        font-size: 16px; font-weight: 400; color: #808080;
+    }
+    .paymentRight > div > div:nth-of-type(2) div span:first-of-type{
+        margin-bottom: 20px; display: block;
+    }
+    .paymentRight > div > div:nth-of-type(2) span strong{
+        font-size: 18px;
+    }
+    .paymentRight > div > div:last-of-type{
+        margin-top: 28px;
+    }
+    .paymentRight > div > div:last-of-type strong{
+        font-size: 30px; color: black; font-weight: 400; 
+        text-align: right; min-width: 200px;
+    }
+    .paymentRight > div > div:last-of-type strong:before{
+        content: 'JPY'; color: #c9c9c9; margin-right: 10%; font-size: 14px;
+    }
+    .paymentContainer > div form fieldset:first-of-type{
+        margin-bottom: 50px;
+    }
+    .paymentContainer > div form fieldset:first-of-type legend{
+        display: none;
+    }
+    .paymentContainer > div form fieldset:first-of-type ol li{
+        display: flex; 
+    }
+    .paymentContainer > div form fieldset:first-of-type ol li input{
+        width: 93%; padding: 18px 0 18px 2.7%; border-top: 1px solid #bdbdbd; background-color: white;
+        border-bottom: 1px solid #bdbdbd; border-left: 1px solid #bdbdbd;
+        color: #4d4d4d; border-right: none;
+    }
+    .paymentContainer > div form fieldset:first-of-type ol li a{
+        width: 7%; padding: 18px 0 18px; border-top: 1px solid #bdbdbd;
+        border-bottom: 1px solid #bdbdbd; border-right: 1px solid #bdbdbd;
+        font-size: 14px; color: #a38000;
+    }
+    .paymentContainer > div form fieldset:nth-child(2){
+        margin-bottom: 50px;
+    }
+    .paymentContainer > div form fieldset:nth-child(2) legend{
+        margin-bottom: 35px;
+    }
+    .paymentContainer > div form fieldset:nth-child(2) legend,
+    .paymentContainer > div form fieldset:nth-child(2) strong{
+        font-size: 20px; font-weight: 400; color: #303030;
+    }
+    .paymentContainer > div form fieldset:nth-child(2) strong{
+        border: 1px solid #c9c9c9; border-radius: 6px 6px 0 0; padding: 22px 0 22px 4.16%;
+        display: block; box-sizing: border-box;
+    }
+    .paymentContainer > div form fieldset:nth-child(2) strong,
+    .paymentContainer > div form fieldset:nth-child(2) .cardDetail{
+        width: 100%;
+    }
+    .paymentContainer > div form fieldset:nth-child(2) .cardDetail{
+        height: 264px; width: 100%; background-color: #f1f1f1; padding: 24px 3%; box-sizing: border-box; 
+    }
+    .paymentContainer > div form fieldset:nth-child(2) .cardDetail input{
+        display: block; width: 100%; padding: 22px 2.21%; box-sizing: border-box; border-radius: 6px; border: 1px solid #c9c9c9;
+    }
+    .paymentContainer > div form fieldset:nth-child(2) .cardDetail input:nth-of-type(2){
+        margin: 13px 0; 
+    }
+    .paymentContainer > div form fieldset:nth-child(2) .cardDetail input:nth-of-type(3),
+    .paymentContainer > div form fieldset:nth-child(2) .cardDetail input:last-of-type{
+        width: 45.8%;
+    }
+    .paymentContainer > div form fieldset:nth-child(2) .cardDetail input:nth-of-type(3){
+        float: left;
+    }
+    .paymentContainer > div form fieldset:nth-child(2) .cardDetail input:last-of-type{
+        float: right;
+    }
+    .paymentContainer > div form fieldset:nth-child(2) .cardDetail input:first-of-type{
+        background: url('../images/ico_number.png') 98% center / 15px no-repeat, white;
+    }
+    .paymentContainer > div form fieldset:last-of-type{
+        margin-bottom: 40px; position: relative;
+    }
+    .paymentContainer > div form fieldset:last-of-type legend{
+        font-size: 20px; font-weight: 400; color: #303030; margin-bottom: 35px;
+    }
+    .paymentContainer > div form fieldset:last-of-type label{
+        display: block; padding: 21px 0 21px 7%; border: 1px solid #bdbdbd;
+    }
+    .paymentContainer > div form fieldset:last-of-type > input{
+        display: none;
+    }
+    .paymentContainer > div form fieldset:last-of-type label::before,
+    .paymentContainer > div form fieldset:last-of-type label::after{
+        content: ""; display: block; border-radius: 50%; position: absolute;
+        
+    }
+    .paymentContainer > div form fieldset:last-of-type label::before{
+        background-color: #fff; border: 1px solid #ddd; 
+        width: 15px; height: 15px; left: 15px;
+    }
+    .paymentContainer > div form fieldset:last-of-type label::after{
+        background-color: white; border: 5px solid #a38000; 
+        width: 7px; height: 7px; left: 16px; transform: translateY(-16px); opacity: 0;
+    }
+    .paymentContainer > div form fieldset:last-of-type input:checked + label:after{
+        opacity: 1;
+    }
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd{
+        background-color: #fafafa; border: 1px solid #c9c9c9;
+    }
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input{
+        padding: 22px 0 22px 2.21%; margin: 20px 3% 0 3%; 
+    }
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(1),
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(2),
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(5),
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(8),
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(9),
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(10){
+        width: 94%; box-sizing: border-box;
+    }
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(3),
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(4),
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(6),
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(7){
+        width: 45.2%; display: inline-block; box-sizing: border-box;
+    }
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(4),
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(7){
+        margin-left: 0;
+    }
+    .paymentContainer > div form fieldset:last-of-type .putInNewAd input:nth-of-type(10){
+        margin-bottom: 20px;
+    }
+    .paymentContainer > div form > div input{
+        width: 100%; border: 1px solid #a38000; background-color: #a38000; box-sizing: border-box;
+        color: white; height: 74px;
+    }
+    .paymentContainer > div form > div a{
+        width: 50px; background: url('../images/ico_arrow_backG.gif')left center / 7px no-repeat;
+        text-align: right; display: block; font-size: 12px; color: #a38000;
+        margin: 20px 0 199px auto;
+    }
+    
+    .PMDoneContainer{
+        padding-top: 248px; text-align: center;  margin-bottom: 125px;
+    }
+    .PMDoneContainer p{
+        font-size: 24px; margin-bottom: 80px;
+    }
+    .PMDoneContainer a{
+        border: 1px solid #a38000; color: #a38000; padding: 17px 1.35%;
+    }
+
+    .contactContainer{
+        padding-top: 200px; width: 38.6%; margin: 0 auto;
+    }
+    .contactContainer form h2{
+        font-size: 36px; font-weight: 400; color: #303030; margin-bottom: 50px;
+        text-align: center;
+    }
+    .contactContainer form >*{
+        width: 100%;
+    }
+    .contactContainer form >*:not(:first-child){
+        font-size: 16px; font-weight: 400;
+    }
+    .contactContainer form input,
+    .contactContainer form textarea{
+        padding: 15px 0 15px 3.87%; box-sizing: border-box; color: #4d4d4d;
+    }
+    .contactContainer form input:not(:last-of-type){
+        margin-bottom: 26px;
+    }
+    .contactContainer form textarea{
+        margin-bottom: 21px;
+    }
+    .contactContainer form .checkExpress label{
+        color: #4d4d4d; padding-left: 25px;
+    }
+    .contactContainer form .checkExpress input + label{
+        background: url('../images/ico_noneChecked.gif') left center / contain no-repeat;
+        display: block; 
+    }
+    .contactContainer form .checkExpress input:checked + label{
+        background-image: url('../images/ico_checked.gif');
+    }
+    .contactContainer form input[type="submit"]{
+        width: 100%; border: 1px solid #a38000; background-color: #a38000; box-sizing: border-box;
+        color: white; height: 70px;  margin-top: 50px;
+    }
+    .contactContainer form a{
+        width: 50px; background: url('../images/ico_arrow_backG.gif')left center / 7px no-repeat;
+        text-align: right; display: block; font-size: 12px; color: #a38000; font-weight: 400;
+        margin: 21px 0 199px auto;
+    }
+
+    
+
+    .infoContainer div form fieldset:last-of-type label{
+        
+    }
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(11) + label{
+        
+    }
+    .infoContainer div form fieldset:last-of-type input:nth-of-type(11):checked + label{
+        
+    }
+
+    .stContainer{
+        margin-top: 165px;
+    }
+    .stContainer h2{
+        font-size: 36px; font-weight: 400; text-align: center; margin-bottom: 48px;
+    }
+    .stContainer ul li h3{
+        font-size: 20px; font-weight: 400; margin-bottom: 32px;
+    }
+    .stContainer ul li p{
+        margin-bottom: 50px;
+    }
+    .stContainer div{
+        text-align: right; font-size: 12px; font-weight: 400; margin-bottom: 125px;
+    }
+
+    .companyContainer{
+        margin-top: 170px;
+    }
+    .companyContainer h2{
+        font-size: 28px; font-weight: 400; text-align: center; margin-bottom: 55px;
+    }
+    .companyContainer p{
+        font-size: 12px; font-weight: 400; text-align: justify; text-indent: 1em;
+        margin-bottom: 85px; line-height: 1.2;
+    }
+    .companyContainer img{width: 100%; margin-bottom: 85px;}
+    .companyContainer span{
+        font-size: 20px; font-weight: 400; text-align: center; display: block;
+    }
+    .companyContainer p:last-of-type{
+        margin-top: 30px;
+    }
+    .companyContainer a{
+        display: block; margin: 0 0 0 auto; color: #a38000; max-width: 5%; padding-left: 20px;
+        background: url('../images/ico_arrow_backG.gif') left center / 6px no-repeat;
+        font-size: 12px; margin-bottom: 63px;
+    }
+
+    .recContainer{
+        margin-top: 172px;
+    }
+    .recContainer table{width: 100%; margin-bottom: 200px; position: relative;}
+    .recContainer table caption{
+        text-align: center; font-size: 32px; margin-bottom: 50px;
+    }
+    .recContainer table thead{
+        background-color: #a38000; 
+    }
+    .recContainer table thead tr th{
+        padding: 25px 0; color: white; font-size: 20px; font-weight: 400;
+    }
+    .recContainer table thead tr th:not(:last-child){
+        width: 20%;
+    }
+    .recContainer table thead tr th:last-of-type{text-align: left; padding-left: 110px;}
+    .recContainer table thead,
+    .recContainer table tbody{border: 1px solid #a38000; margin-bottom: 0px;}
+    .recContainer table tbody tr td{
+        padding: 30px 0; text-align: center; 
+    }
+    .recContainer table tbody tr td input{
+        border: 1px solid #a38000; background-color: white; color: #a38000;
+        padding: 10px;
+    }
+    .recruitDetail{
+        top: 420px; left: 3.5%; background-color: #f1f1f1;
+        padding: 50px; box-sizing: border-box; z-index: 100; border-radius: 6px;
+    }
+    .recruitDetail::before{
+        display: block; content: '▲'; color: #f1f1f1; font-size: 20px;
+        position: absolute; top: -14px; left: 5%;
+    }
+    .recruitDetail ul li{
+        display: inline-block; width: 33%; margin-bottom: 30px;
+    }
+    .recruitDetail > div{
+        border-top: 1px solid white; display: flex; padding: 30px 3.7%;
+    }
+    .recruitDetail > div > div h3{
+        font-size: 24px; font-weight: 400; color: #616161; margin-bottom: 30px;
+    }
+    .recruitDetail > div > div ol li{
+        font-size: 16px; font-weight: 400; color: #616161; margin-bottom: 30px; 
+    }
+    .recruitDetail > div > div p{
+        margin-top: 20px; font-size: 16px; font-weight: 400; color: #616161;
+    }
+    .recruitDetail > div > div p span{
+        display: block; margin: 20px 0 50px;
+    }
+    .recruitDetail > div > div strong{
+        font-size: 18px; font-weight: 400; color: #616161;
+    }
+    .recruitDetail > div > div:last-of-type span{
+        color: #616161;
+    }
+}
+  /*desktop  */

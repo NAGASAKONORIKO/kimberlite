@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kimberlite</title>
+    <script src="js/jquery-3.7.0.min.js" ></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/kimberlite.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div id="searchPanel">
+        <input type="button" value="close" class="closeBtn">
+        <div>
+            <input type="search" placeholder="search for">
+            <input type="submit" value="searching">
+        </div>
+    </div>
+    <aside id="cartPanel">
+        <div>
+            <div>
+                <h2>YOUR CART(1)</h2>
+                <input type="button" value="close" class="closeBtn">
+            </div>
+            <div id="emptyBox">
+                <h3>YOUR CART IS EMPTY!</h3>
+                <p>ADD YOUR FAVORITE ITEMS TO YOUR CART.</p>
+                <a href="allItems.html">商品をさがす</a>
+            </div>
+            <div id="haveBox">
+                <ul>
+                    <li>
+                        <img src="images/mainCartImg01.png" alt="item Image1">
+                        <div>
+                            <h3>fall in love</h3>
+                            <div class="numberComponent">
+                                <input type="button" value="minus" class="countUp">
+                                <span>1</span>
+                                <input type="button" value="plus" class="countDown">
+                            </div>
+                        </div>
+                        <div>
+                            <input type="button" value="deleteItem" data-panel="emptyBox">
+                            <strong class="price">
+                                90000
+                            </strong>
+                        </div>
+                    </li>
+                </ul>
+                <mark>こちらの商品はいかがですか？</mark>
+                
+                <ul class="recommendList">
+                    <li>
+                        <img src="images/mainCartImg02.png" alt="item Image2">
+                        <div>
+                            <h3>feelings</h3>
+                            <strong class="price">
+                                138000
+                            </strong>
+                        </div>
+                        <input type="button" value="insertCart">
+                    </li>
+                    <li>
+                        <img src="images/mainCartImg03.png" alt="item Image3">
+                        <div>
+                            <h3>emotional</h3>
+                            <strong class="price">
+                                98000
+                            </strong>
+                        </div>
+                        <input type="button" value="insertCart">
+                    </li>
+                </ul>
+                <span>
+                    <small>
+                        小計
+                    </small>
+                    <strong class="price">
+                        90000
+                    </strong>
+                </span> 
+                <a href="cart.html">カート</a>
+                <a href="information.html">注文する</a>  
+            </div>
+        </div>
+    </aside>
+    <header>
+        <ul class="rollingSlider">
+            <li>
+                Spend 20000 yen more for free shipping
+            </li>
+            <li>
+                100yen from each purchase benefits to the Kimberlite Diamond Founda
+            </li>
+        </ul>
+        <div>
+            <div>
+                <h1>
+                    <a href="index.html">
+                        <img src="images/logo2.png" alt="welcome to kimberlite">
+                    </a>
+                </h1>
+                <nav>
+                    <ul>
+                        <li><a href="allItems1.html">全商品</a></li>
+                        <li>
+                            <u>WEDDING</u>
+                            <div>
+                                <ul>
+                                    <li><a href="pairRing.html">ペアリング</a></li>
+                                    <li><a href="caratDiamond.html">カラットダイヤモンド</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <!-- <a href="#diamond">ダイヤモンド</a> -->
+                            <u>ダイヤモンド</u>
+                            <div>
+                                <ul>
+                                    <li><a href="weddingRing.html">結婚指輪</a></li>
+                                    <li><a href="neckless.html">ネックレス</a></li>
+                                    <li><a href="earing.html">ピアス</a></li>
+                                    <li><a href="setSeries.html">セットシリーズ</a></li>
+                                    <li><a href="diamondPairRing.html">ペアリング</a></li>
+                                    <li><a href="bracelet.html">ブレスレット</a></li>
+                                    <li><a href="mensJewelly.html">Mens</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <!-- <a href="#brandIntro">ブランド紹介</a> -->
+                            <u>ブランド紹介</u>
+                            <div>
+                                <ul>
+                                    <li><a href="brandIntro.html">ブランド文化</a></li>
+                                    <li><a href="brandIntro.html#videoArea">Brand film</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="newsEvent.html">News&amp;Event</a></li>
+                        <li><a href="contactUs.html">お問い合わせ</a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <input type="button" value="searchOpen" data-panel="searchPanel">
+                    <a href="login.html">
+                        account Info
+                    </a>
+                    <input type="button" value="cartOpen" data-panel="cartPanel">
+                    <span class="selectComponent">
+                        <select>
+                            <option>日本語</option>
+                            <option>中文</option>
+                        </select>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </header>
+<!-- header Fin -->
+
+    <section class="listAllContainer">
+        <img src="images/allItemsMainImg.png" alt="list page Image">
+        <h2>All Items</h2>
+        <p>人生は折り重なる輝く瞬間の組み合わせによって構成されており、すべての瞬間が思い出として記憶される価値があります。<br>
+            ジュエリーは、その美しい思い出を刻むだけでなく、無限の想いを込めて運ぶことができます。</p>
+
+        <aside id="filterPanel">
+            <input type="button" value="フィルターを隠す" class="toggleFilter" data-panel="filterPanel">
+            <div class="mainfilter">
+                <h3>何をお探しですか？</h3>
+                <fieldset>
+                    <legend>カテゴリー</legend>
+                    <input type="checkbox"  id="categoryname1">
+                    <label for="categoryname1">ダイヤモンド</label>
+                    <input type="checkbox"  id="categoryname2">
+                    <label for="categoryname2">ネックレス</label>
+                    <input type="checkbox"  id="categoryname3">
+                    <label for="categoryname3">ピアス</label>
+                    <input type="checkbox"  id="categoryname4">
+                    <label for="categoryname4">セットシリーズ</label>
+                    <input type="checkbox"  id="categoryname5">
+                    <label for="categoryname5">ペアリング</label>
+                    <input type="checkbox"  id="categoryname6">
+                    <label for="categoryname6">ブレスレット</label>
+                    <input type="checkbox"  id="categoryname7">
+                    <label for="categoryname7">メンズジュエリー</label>
+                </fieldset>
+                <fieldset>
+                    <legend>価格</legend>
+                    <!-- <input type="range" min="50000円" max="1000000円" value="0"> -->
+                    <div class="priceRange">
+                        <input type="text" id="minPrice" placeholder="50000￥">
+                        <span>to</span>
+                        <input type="text" id="maxPrice" placeholder="1000000￥">
+                    </div>
+                </fieldset>
+            </div>
+        </aside>
+
+
+        <div class="itemsList">
+            <div class="rightSortBy">
+                <input type="button" value="並び替え" data-panel="sortList">
+                <ul id="sortList">
+                    <li>Best Match</li>
+                    <li>新着順</li>
+                    <li>価格：高→低</li>
+                    <li>価格：低→高</li>
+                </ul>
+            </div>
+            <ul>
+                <li class="itemBox pairRing">
+                    <a href="itemsDetail_loveOnly.html">
+                        <img src="images/allItems_loveOnly01.png" alt="image love only">
+                    </a>
+                    <span>
+                        love only
+                        <strong class="price">158000</strong>
+                    </span>
+                </li>
+                <li class="itemBox pairRing">
+                    <a href="itemsDetail_alongside.html">
+                        <img src="images/allItems_alongside01.png" alt="image alongside">
+                    </a>
+                    <span>
+                        alongside
+                        <strong class="price">186000</strong>
+                    </span>
+                </li>
+                <li class="itemBox pairRing">
+                    <a href="itemsDetail_lovePromise.html">
+                        <img src="images/allItems_lovePromise01.png" alt="image love promise">
+                    </a>
+                    <span>
+                        love promise
+                        <strong class="price">198000</strong>
+                    </span>
+                </li>
+                <li class="itemBox pairRing">
+                    <a href="itemsDetail_sweetHeart.html">
+                        <img src="images/allItems_sweetHeart01.png" alt="image sweet heart">
+                    </a>
+                    <span>
+                        sweet heart
+                        <strong class="price">245000</strong>
+                    </span>
+                </li>
+                <li class="itemBox bracelet">
+                    <a href="itemsDetail_AlphabetLetterSeriesR.html">
+                        <img src="images/re-allItems_alphabetLetter_red.png" alt="image Alphabet Letter Series Red">
+                    </a>
+                    <span>
+                        Alphabet Letter Series (red)
+                        <strong class="price">132000</strong>
+                    </span>
+                </li>
+                <li class="itemBox bracelet">
+                    <a href="itemsDetail_AlphabetLetterSeriesB.html">
+                        <img src="images/re-allItems_alphabetLetter_black.png" alt="image Alphabet Letter Series Black">
+                    </a>
+                    <span>
+                        Alphabet Letter Series (black)
+                        <strong class="price">132000</strong>
+                    </span>
+                </li>
+                <li class="itemBox mens">
+                    <a href="itemsDetail_stylishBracelet1.html">
+                        <img src="images/allItems_stylishBracelet01.png" alt="image stylish bracelet1">
+                    </a>
+                    <span>
+                        stylish bracelet1
+                        <strong class="price">128000</strong>
+                    </span>
+                </li>
+                <li class="itemBox mens">
+                    <a href="itemsDetail_stylishBracelet2.html">
+                        <img src="images/allItems_stylishBracelet01-2.png" alt="image stylish bracelet2">
+                    </a>
+                    <span>
+                        stylish bracelet2
+                        <strong class="price">186000</strong>
+                    </span>
+                </li>
+                <li>
+                    <a href="itemsDetail_flowerShadow.html">
+                        <img src="images/allItems_flowerShadow01.png" alt="image flower shadow">
+                    </a>
+                    <span>
+                        flower shadow
+                        <strong class="price">326000</strong>
+                    </span>
+                </li>
+                <li>
+                    <a href="itemsDetail_sparklingEyes.html">
+                        <img src="images/allItems_sparklingEyes01.png" alt="image sparkling eyes">
+                    </a>
+                    <span>
+                        sparkling eyes
+                        <strong class="price">216000</strong>
+                    </span>
+                </li>
+                <li>
+                    <a href="itemsDetail_dancing.html">
+                        <img src="images/re-allItems_dancing.png" alt="image dancing">
+                    </a>
+                    <span>
+                        dancing
+                        <strong class="price">298000</strong>
+                    </span>
+                </li>
+                <li>
+                    <a href="itemsDetail_fragrance.html">
+                        <img src="images/re4-allItems_fragrance.png" alt="image fragrance">
+                    </a>
+                    <span>
+                        fragrance
+                        <strong class="price">298000</strong>
+                    </span>
+                </li>
+                <li>
+                    <a href="itemsDetail_Grace.html">
+                        <img src="images/allItems_Grace01.png" alt="image Grace">
+                    </a>
+                    <span>
+                        Grace
+                        <strong class="price">213000</strong>
+                    </span>
+                </li>
+                <li>
+                    <a href="itemsDetail_vine.html">
+                        <img src="images/allItems_vine01.png" alt="image vine">
+                    </a>
+                    <span>
+                        vine
+                        <strong class="price">248000</strong>
+                    </span>
+                </li>
+                <li>
+                    <a href="itemsDetail_theFlowers.html">
+                        <img src="images/re-allItems_theFlowers.png" alt="image the flowers">
+                    </a>
+                    <span>
+                        the flowers
+                        <strong class="price">325000</strong>
+                    </span>
+                </li>
+                <li>
+                    <a href="itemsDetail_theFlowers2.html">
+                        <img src="images/allItems_theFlowers2_01.png" alt="image the flowers2">
+                    </a>
+                    <span>
+                        the flowers2
+                        <strong class="price">325000</strong>
+                    </span>
+                </li>
+                <li>
+                    <a href="itemsDetail_architecture.html">
+                        <img src="images/allItems_architecture01.png" alt="image architecture">
+                    </a>
+                    <span>
+                        architecture
+                        <strong class="price">366000</strong>
+                    </span>
+                </li>
+                <li>
+                    <a href="itemsDetail_love.html">
+                        <img src="images/allItems_love01.png" alt="image love">
+                    </a>
+                    <span>
+                        love
+                        <strong class="price">398000</strong>
+                    </span>
+                </li>
+                <li>
+                    <a href="itemsDetail_affection.html">
+                        <img src="images/allItems_affection01.png" alt="image affection">
+                    </a>
+                    <span>
+                        affection
+                        <strong class="price">423000</strong>
+                    </span>
+                </li>
+                <li>
+                    <a href="itemsDetail_crown.html">
+                        <img src="images/allItems_crown01.png" alt="image crown">
+                    </a>
+                    <span>
+                        crown
+                        <strong class="price">289000</strong>
+                    </span>
+                </li>
+            </ul>
+            <div class="paging">
+                <a href="#"><img src="images/pager_left.gif" alt="prev"></a>
+                <a href="allItems2.html" title="next"><img src="images/pager_right.gif" alt="next"></a>
+                <ol>
+                    <li><a href="allItems.html">1</a></li>
+                    <li><a href="allItems.html">2</a></li>
+                    <li><a href="allItems.html">3</a></li>
+                </ol>
+            </div>
+        </div>
+
+        
+
+        <div>
+            <div class="textBox">
+                <div>
+                    <h3>Corporate Vision</h3>
+                    <p>
+                        Create world first class diamonds.<br>
+                        Build century - old classic brand.
+                    </p>
+                    <a href="aboutUs.html">see more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer>
+        <div>
+            <div>
+                <div>
+                    <h3>News</h3>
+                    <ul>
+                        <li>
+                            <a href="newsEvent.html">最新News</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>WEDDING</h3>
+                    <ul>
+                        <li>
+                            <a href="weddingRing.html">ペアリング</a>
+                        </li>
+                        <li>
+                            <a href="caratDiamond.html">カラットダイヤモンド</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>ブランド紹介</h3>
+                    <ul>
+                        <li>
+                            <a href="brandIntro.html">ブランドの文化</a>
+                        </li>
+                        <li>    
+                            <a href="brandIntro.html#videoArea">動画視聴</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>ダイヤモンド</h3>
+                    <ul>
+                        <li>
+                            <a href="weddingRing.html">結婚指輪</a>
+                        </li>
+                        <li>
+                            <a href="diamondPairRing.html">ペアリング</a>
+                        </li>
+                        <li>
+                            <a href="neckless.html">ネックレス</a>
+                        </li>
+                        <li>
+                            <a href="bracelet.html">ブレスレット</a>
+                        </li>
+                        <li>
+                            <a href="earing.html">ピアス</a>
+                        </li>
+                        <li>
+                            <a href="mensJewelly.html">メンズジュエリー</a>
+                        </li>
+                        <li>
+                            <a href="setSeries.html">セットシリーズ</a>
+                        </li>
+                    </ul>
+                </div>
+                <address>
+                    <u>お問い合わせ</u>
+                    <p>558, Chuanzhan Road, Pudong New Area, Shanghai<br>TEL:400-889-8858<br>受付時間：月曜日～日曜日 9:30～21:00</p>
+                </address>
+                <div>
+                    <a href="https://www.tiktok.com/">tiktok</a>
+                    <a href="https://www.wechat.com/">weChat</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <a href="companyStatement.html">会社声明</a>
+                </li>
+                <li>
+                    <a href="aboutUs.html">会社概要</a>
+                </li>
+                <li>
+                    <a href="joinUs.html">求人情報</a>
+                </li>
+            </ul>
+            <div>
+                <span>Shanghai ICP No. 11008681</span>
+                <span>/ 上海公衆網セキュリティ番号 31011502003948</span>
+                <strong>Copyright©2020 Kimberlite Diamond .All right reserved</strong>
+            </div>
+        </div>
+    </footer>
+    <a href="#" class="upBtn">back to start page</a>
+<!-- footer Fin -->
+
+</body>
+</html>

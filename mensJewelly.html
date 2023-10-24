@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kimberlite</title>
+    <script src="js/jquery-3.7.0.min.js" ></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/kimberlite.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div id="searchPanel">
+        <input type="button" value="close" class="closeBtn">
+        <div>
+            <input type="search" placeholder="search for">
+            <input type="submit" value="searching">
+        </div>
+    </div>
+    <aside id="cartPanel">
+        <div>
+            <div>
+                <h2>YOUR CART(1)</h2>
+                <input type="button" value="close" class="closeBtn">
+            </div>
+            <div id="emptyBox">
+                <h3>YOUR CART IS EMPTY!</h3>
+                <p>ADD YOUR FAVORITE ITEMS TO YOUR CART.</p>
+                <a href="allItems.html">商品をさがす</a>
+            </div>
+            <div id="haveBox">
+                <ul>
+                    <li>
+                        <img src="images/mainCartImg01.png" alt="item Image1">
+                        <div>
+                            <h3>fall in love</h3>
+                            <div class="numberComponent">
+                                <input type="button" value="minus" class="countUp">
+                                <span>1</span>
+                                <input type="button" value="plus" class="countDown">
+                            </div>
+                        </div>
+                        <div>
+                            <input type="button" value="deleteItem" data-panel="emptyBox">
+                            <strong class="price">
+                                90000
+                            </strong>
+                        </div>
+                    </li>
+                </ul>
+                <mark>こちらの商品はいかがですか？</mark>
+                
+                <ul class="recommendList">
+                    <li>
+                        <img src="images/mainCartImg02.png" alt="item Image2">
+                        <div>
+                            <h3>feelings</h3>
+                            <strong class="price">
+                                138000
+                            </strong>
+                        </div>
+                        <input type="button" value="追加">
+                    </li>
+                    <li>
+                        <img src="images/mainCartImg03.png" alt="item Image3">
+                        <div>
+                            <h3>emotional</h3>
+                            <strong class="price">
+                                98000
+                            </strong>
+                        </div>
+                        <input type="button" value="追加">
+                    </li>
+                </ul>
+                <span>
+                    <small>
+                        小計
+                    </small>
+                    <strong class="price">
+                        90000
+                    </strong>
+                </span> 
+                <a href="cart.html">カート</a>
+                <a href="information.html">注文する</a>
+                <div><a href="allItems1.html">ショッピングを続ける</a></div>
+            </div>
+        </div>
+    </aside>
+    <header>
+        <ul class="rollingSlider">
+            <li>
+                Spend 20000 yen more for free shipping
+            </li>
+            <li>
+                100yen from each purchase benefits to the Kimberlite Diamond Founda
+            </li>
+        </ul>
+        <div>
+            <div>
+                <input type="button" value="gnbOpen" class="mui">
+                <h1>
+                    <a href="index.html">
+                        <img src="images/logo2.png" alt="welcome to kimberlite">
+                    </a>
+                </h1>
+                <nav>
+                    <ul>
+                        <li><a href="allItems1.html">全商品</a></li>
+                        <li>
+                            <u>WEDDING</u>
+                            <div>
+                                <ul>
+                                    <li><a href="pairRing.html">ペアリング</a></li>
+                                    <li><a href="caratDiamond.html">カラットダイヤモンド</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <!-- <a href="#diamond">ダイヤモンド</a> -->
+                            <u>ダイヤモンド</u>
+                            <div>
+                                <ul>
+                                    <li><a href="weddingRing.html">結婚指輪</a></li>
+                                    <li><a href="neckless.html">ネックレス</a></li>
+                                    <li><a href="earing.html">ピアス</a></li>
+                                    <li><a href="setSeries.html">セットシリーズ</a></li>
+                                    <li><a href="diamondPairRing.html">ペアリング</a></li>
+                                    <li><a href="bracelet.html">ブレスレット</a></li>
+                                    <li><a href="mensJewelly.html">Mens</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <!-- <a href="#brandIntro">ブランド紹介</a> -->
+                            <u>ブランド紹介</u>
+                            <div>
+                                <ul>
+                                    <li><a href="brandIntro.html">ブランド文化</a></li>
+                                    <li><a href="brandIntro.html#videoArea">Brand film</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="newsEvent.html">News&amp;Event</a></li>
+                        <li><a href="contactUs.html">お問い合わせ</a></li>
+                    </ul>
+                </nav>
+                <div class="icoBtn">
+                    <input type="button" value="searchOpen" data-panel="searchPanel">
+                    <a href="login.html">
+                        account Info
+                    </a>
+                    <input type="button" value="cartOpen" data-panel="cartPanel">
+                    <span class="selectComponent">
+                        <select>
+                            <option>日本語</option>
+                            <option>中文</option>
+                        </select>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </header>
+<!-- header Fin -->
+
+    <section class="listContainer">
+        <img src="images/diamondBG.png" alt="iamge">
+        <h2>Men's Jewelry</h2>
+        <p>人生は折り重なる輝く瞬間の組み合わせによって構成されており、すべての瞬間が思い出として記憶される価値があります。<br>
+            ジュエリーは、その美しい思い出を刻むだけでなく、無限の想いを込めて運ぶことができます。</p>
+
+        <aside>
+            <input type="button" value="フィルターON" class="toggleFilter" data-panel="filterPanel">
+            <div class="mainfilter" id="filterPanel">
+                <h3>何をお探しですか？</h3>
+                <fieldset>
+                    <legend>カテゴリー</legend>
+                    <div>
+                        <input type="checkbox"  id="categoryname1" class="list" data-filter="stylishRings">
+                        <label for="categoryname1">Stylish rings</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>価格</legend>
+                    <!-- <input type="range" min="50000円" max="1000000円" value="0"> -->
+                    <div class="priceRange">
+                        <input type="text" id="minPrice" placeholder="50000￥">
+                        <span>to</span>
+                        <input type="text" id="maxPrice" placeholder="1000000￥">
+                    </div>
+                </fieldset>
+            </div>
+        </aside>
+
+
+        <div class="itemsList">
+            <div class="rightSortBy">
+                <input type="button" value="並び替え" data-panel="sortList">
+                <ul id="sortList">
+                    <li>Best Match</li>
+                    <li>新着順</li>
+                    <li>価格：高→低</li>
+                    <li>価格：低→高</li>
+                </ul>
+            </div>
+            <ul>
+                <li class="itemBox stylishRings">
+                    <a href="itemsDetail_stylishBracelet1.html">
+                        <img src="images/allItems_stylishBracelet01.png" alt="image stylish bracelet1">
+                    </a>
+                    <span>
+                        stylish bracelet1
+                        <strong class="price">128000</strong>
+                    </span>
+                </li>
+                <li class="itemBox stylishRings">
+                    <a href="itemsDetail_stylishBracelet2.html">
+                        <img src="images/allItems_stylishBracelet01-2.png" alt="image stylish bracelet2">
+                    </a>
+                    <span>
+                        stylish bracelet2
+                        <strong class="price">186000</strong>
+                    </span>
+                </li>
+            </ul>
+            <div class="paging">
+                <a><img src="images/pager_left.gif" alt="prev"></a>
+                <a href="allItems2.html" title="next"><img src="images/pager_right.gif" alt="next"></a>
+                <ol>
+                    <li><a>1</a></li>
+                    <li><a href="allItems2.html">2</a></li>
+                    <li><a href="allItems3.html">3</a></li>
+                </ol>
+            </div>
+        </div>
+
+        <div>
+            <div class="textBox">
+                <div>
+                    <h3>Corporate Vision</h3>
+                    <p>
+                        Create world first class diamonds.<br>
+                        Build century - old classic brand.
+                    </p>
+                    <a href="aboutUs.html">see more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+   <footer>
+        <div>
+            <div>
+                <div>
+                    <h3>News</h3>
+                    <ul>
+                        <li>
+                            <a href="newsEvent.html">最新News</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>WEDDING</h3>
+                    <ul>
+                        <li>
+                            <a href="weddingRing.html">ペアリング</a>
+                        </li>
+                        <li>
+                            <a href="caratDiamond.html">カラットダイヤモンド</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>ブランド紹介</h3>
+                    <ul>
+                        <li>
+                            <a href="brandIntro.html">ブランドの文化</a>
+                        </li>
+                        <li>    
+                            <a href="brandIntro.html#videoArea">動画視聴</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>ダイヤモンド</h3>
+                    <ul>
+                        <li>
+                            <a href="weddingRing.html">結婚指輪</a>
+                        </li>
+                        <li>
+                            <a href="diamondPairRing.html">ペアリング</a>
+                        </li>
+                        <li>
+                            <a href="neckless.html">ネックレス</a>
+                        </li>
+                        <li>
+                            <a href="bracelet.html">ブレスレット</a>
+                        </li>
+                        <li>
+                            <a href="earing.html">ピアス</a>
+                        </li>
+                        <li>
+                            <a href="mensJewelly.html">メンズジュエリー</a>
+                        </li>
+                        <li>
+                            <a href="setSeries.html">セットシリーズ</a>
+                        </li>
+                    </ul>
+                </div>
+                <address>
+                    <u>お問い合わせ</u>
+                    <p>558, Chuanzhan Road, Pudong New Area, Shanghai<br>TEL:400-889-8858<br>受付時間：月曜日～日曜日 9:30～21:00</p>
+                </address>
+                <div>
+                    <a href="https://www.tiktok.com/">tiktok</a>
+                    <a href="https://www.wechat.com/">weChat</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <a href="companyStatement.html">会社声明</a>
+                </li>
+                <li>
+                    <a href="aboutUs.html">会社概要</a>
+                </li>
+                <li>
+                    <a href="joinUs.html">求人情報</a>
+                </li>
+            </ul>
+            <div>
+                <span>Shanghai ICP No. 11008681</span>
+                <span>/ 上海公衆網セキュリティ番号 31011502003948</span>
+                <strong>Copyright©2020 Kimberlite Diamond .All right reserved</strong>
+            </div>
+        </div>
+    </footer>
+    <a href="#" class="upBtn">back to start page</a>
+<!-- footer Fin -->
+
+</body>
+</html>

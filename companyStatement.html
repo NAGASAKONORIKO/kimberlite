@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kimberlite</title>
+    <script src="js/jquery-3.7.0.min.js" ></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/kimberlite.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div id="searchPanel">
+        <input type="button" value="close" class="closeBtn">
+        <div>
+            <input type="search" placeholder="search for">
+            <input type="submit" value="searching">
+        </div>
+    </div>
+    <aside id="cartPanel">
+        <div>
+            <div>
+                <h2>YOUR CART(1)</h2>
+                <input type="button" value="close" class="closeBtn">
+            </div>
+            <div id="emptyBox">
+                <h3>YOUR CART IS EMPTY!</h3>
+                <p>ADD YOUR FAVORITE ITEMS TO YOUR CART.</p>
+                <a href="allItems.html">商品をさがす</a>
+            </div>
+            <div id="haveBox">
+                <ul>
+                    <li>
+                        <img src="images/mainCartImg01.png" alt="item Image1">
+                        <div>
+                            <h3>fall in love</h3>
+                            <div class="numberComponent">
+                                <input type="button" value="minus" class="countUp">
+                                <span>1</span>
+                                <input type="button" value="plus" class="countDown">
+                            </div>
+                        </div>
+                        <div>
+                            <input type="button" value="deleteItem" data-panel="emptyBox">
+                            <strong class="price">
+                                90000
+                            </strong>
+                        </div>
+                    </li>
+                </ul>
+                <mark>こちらの商品はいかがですか？</mark>
+                
+                <ul class="recommendList">
+                    <li>
+                        <img src="images/mainCartImg02.png" alt="item Image2">
+                        <div>
+                            <h3>feelings</h3>
+                            <strong class="price">
+                                138000
+                            </strong>
+                        </div>
+                        <input type="button" value="追加">
+                    </li>
+                    <li>
+                        <img src="images/mainCartImg03.png" alt="item Image3">
+                        <div>
+                            <h3>emotional</h3>
+                            <strong class="price">
+                                98000
+                            </strong>
+                        </div>
+                        <input type="button" value="追加">
+                    </li>
+                </ul>
+                <span>
+                    <small>
+                        小計
+                    </small>
+                    <strong class="price">
+                        90000
+                    </strong>
+                </span> 
+                <a href="cart.html">カート</a>
+                <a href="information.html">注文する</a>
+                <div><a href="allItems1.html">ショッピングを続ける</a></div>
+            </div>
+        </div>
+    </aside>
+    <header>
+        <ul class="rollingSlider">
+            <li>
+                Spend 20000 yen more for free shipping
+            </li>
+            <li>
+                100yen from each purchase benefits to the Kimberlite Diamond Founda
+            </li>
+        </ul>
+        <div>
+            <div>
+                <input type="button" value="gnbOpen" class="mui">
+                <h1>
+                    <a href="index.html">
+                        <img src="images/logo2.png" alt="welcome to kimberlite">
+                    </a>
+                </h1>
+                <nav>
+                    <ul>
+                        <li><a href="allItems1.html">全商品</a></li>
+                        <li>
+                            <u>WEDDING</u>
+                            <div>
+                                <ul>
+                                    <li><a href="pairRing.html">ペアリング</a></li>
+                                    <li><a href="caratDiamond.html">カラットダイヤモンド</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <!-- <a href="#diamond">ダイヤモンド</a> -->
+                            <u>ダイヤモンド</u>
+                            <div>
+                                <ul>
+                                    <li><a href="weddingRing.html">結婚指輪</a></li>
+                                    <li><a href="neckless.html">ネックレス</a></li>
+                                    <li><a href="earing.html">ピアス</a></li>
+                                    <li><a href="setSeries.html">セットシリーズ</a></li>
+                                    <li><a href="diamondPairRing.html">ペアリング</a></li>
+                                    <li><a href="bracelet.html">ブレスレット</a></li>
+                                    <li><a href="mensJewelly.html">Mens</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <!-- <a href="#brandIntro">ブランド紹介</a> -->
+                            <u>ブランド紹介</u>
+                            <div>
+                                <ul>
+                                    <li><a href="brandIntro.html">ブランド文化</a></li>
+                                    <li><a href="brandIntro.html#videoArea">Brand film</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="newsEvent.html">News&amp;Event</a></li>
+                        <li><a href="contactUs.html">お問い合わせ</a></li>
+                    </ul>
+                </nav>
+                <div class="icoBtn">
+                    <input type="button" value="searchOpen" data-panel="searchPanel">
+                    <a href="login.html">
+                        account Info
+                    </a>
+                    <input type="button" value="cartOpen" data-panel="cartPanel">
+                    <span class="selectComponent">
+                        <select>
+                            <option>日本語</option>
+                            <option>中文</option>
+                        </select>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </header>
+<!-- header Fin -->
+
+    <article class="stContainer">
+        <h2>利用規約</h2>
+        <ul>
+            <li>
+                <h3>発行者</h3>
+                <p>Shanghai Kimberlite Diamond Group Co., Ltd. (以下KDC) によって設計および公開されているインターネット ウェブサイト (「以下ウェブサイト」) である。</p>
+            </li>
+            <li>
+                <h3>利用規約と条件</h3>
+                <p>このウェブサイトのご利用には、以下の条件が適用されます。 KDC は、これらの条件を随時変更し、投稿を更新することができます。改訂された条件は、投稿日をもって有効であるため、ウェブサイトのユーザーは定期的に利用条件を確認する必要があります。この ウェブサイトを使用する前に、これらの条件をよくお読みください。 この ウェブサイトの使用とともに、これらの条件に同意したものとみなされます。これらの条件に同意しない場合、この ウェブサイトの使用が制限されます。</p>
+            </li>
+            <li>
+                <h3>このウェブサイトの素材の使用</h3>
+                <p>このウェブサイトは、会社およびその製品に関する情報への個人的な情報提供を目的としています。非営利目的、教育目的または私的目的の使用のために、このウェブサイトから上記の資料をダウンロードまたは印刷することができますが、著作権や商標またはその他の所有権通知を
+                    侵害または変更することはできません。別途説明がない限り、ウェブサイトで閲覧するすべてのもの (写真、イラスト、アイコン、テキスト、動画、文章およびその資料など) (以下「KDC の資料」) はすべて著作権、条約の規定および世界各地の著作権法により保護されています。
+                    KDC の資料を商業目的で販売、複製、配布、変更、表示、報道、またはその他の方法で公開または使用することはできません。 さらに、KDC の資料をいかなる目的であっても他の ウェブサイトまたはネットワーク上のコンピュータ内で、使用または表示することはできません。 これらの条
+                    件のいずれかに違反した場合、KDCの資料の使用権は自動的に消滅し、使用された KDCの資料は直ちに破棄する必要があります。 KDC の資料を許可なく使用した場合、出版著作権法、商標法、プライバシーと広報に関する法律、および通信に関する規制と法律に違反する可能性があり
+                    ます。 当社の事前の書面による許可なしに、第三者の ウェブサイトから KDC ウェブサイトへのリンクを設けることはできません。</p>
+            </li>
+            <li>
+                <h3>免責事項</h3>
+                <p>このウェブサイトの情報は、一般的な情報提供のみを目的としており、財務またはその他の意見交換を意図したものではありません。 KDC は、この ウェブサイト上の情報が正確かつ完全であることを保証するよう努めていますが、KDC は、第三者から提供されたそのような情報の正確
+                    性または完全性を保証することはできません。 このウェブサイトの使用は、ご自身の責任で行ってください。 KDC は、この ウェブサイトの機能にエラーがないこと、またはこのサイトのサーバーの使用に、プロパティの修復または交換の必要性を要するウイルスまたは KDCの資料が含まれ
+                    ていない場合、この ウェブサイトおよびこの ウェブサイトを利用するためのサーバーに、ウイルスやその他の有害な要素が含まれていないことを保証することはできません。KDC はこれらの費用について一切の責任を負いません。 上記を制限することなく、このウェブサイトのすべては「現
+                    状」および「提供する場合」に提供され、商品性を含む (ただしこれらに限定されない) いかなる種類の明示的または特定の目的への適合性および非侵害の黙示的な保証もありません。KDC および関連の販売者は、KDC の資料、ソフトウェアテキスト、画像、リンク、またはこのサイトの使
+                    用から得られる許容可能な結果の正確性、信頼性、完全性、適時性について、一切保証しません。 法域によっては、黙示の保証の除外が認められない場合があるため、上記の除外の一部がお客様に適用されない場合があることを予めご了承ください。</p>
+            </li>
+            <li>
+                <h3>商標について</h3>
+                <p>この ウェブサイトに表示される商標、ロゴ、およびサービス マーク (総称して「商標」) は、KDC の登録商標または未登録商標であるか、または第三者からのライセンスに基づいて KDC によって使用されています。 その他の商標は、他者の登録メーカーの所有物です。この ウェブサイトに
+                    含まれるいかなる内容も、KDC または商標を所有する第三者の書面による許可なしに、この ウェブサイトに表示されている商標を使用するライセンスまたは権利が黙示的またはその他の方法で付与するものとみなされてはなりません。 このサイトに表示されている商標またはこのサイ
+                    トのその他のコンテンツの不正使用は、これらの条件で規定されている場合を除き、固く禁じられています。</p>
+            </li>
+            <li>
+                <h3>著作権表示</h3>
+                <p>この ウェブサイト上のすべてのコンテンツは、KDC 著作権または KDC の登録によって保護されており、無断転載を禁じます。 このウェブサイト上の関連する使用条件を参照してください。</p>
+            </li>
+            <li>
+                <h3>リンク</h3>
+                <p>この ウェブサイトは、KDC 以外の団体が運営する ウェブサイトへのリンクを提供しています。 前述のサイトへのリンクの添付は、それらのサイトを KDC が推奨していることを意味するものではありません。 KDC は、関連ページまたはリンクされている他のサイトの内容または正確性に
+                    ついて一切の責任を負いません。 </p>
+            </li>
+            <li>
+                <h3>終了</h3>
+                <p>KDC は、本条件に違反或いは行動が本契約の書面による条項または趣旨に反していると判断した場合、または KDC 或いは第三者の権利を侵害したと KDC が判断した場合、KDC が通知の有無にかかわらず、アクセスを拒否できるとともに、このウェブサイトを使用する権利は停止さ
+                    れ、利用者はそれに同意するものとみなされます。 利用者は、KDCの通知の有無にかかわらず、この ウェブサイトを変更または中止することに同意するものとみなされます。 利用者は、上記の変更または停止について、KDC が利用者または第三者に対して責任を負わないことに同意する
+                    ものとします。 「責任の免責事項」、「責任の制限」、および「一般規定」の条項は、本契約の終了後も存続します。</p>
+            </li>
+            <li>
+                <h3>責任の制限</h3>
+                <p>KDC が以下に説明するような損害賠償の可能性が通知されても、KDC は、直接的または間接的を問わず、この ウェブサイトで提供される資料の使用に起因または関連するいかなる損失についても責任を負わないものとします。契約、不法行為 (過失を含む)、またはその他にかかわら
+                    ず、使用の損失、事業の中断、利益の損失、データの損失、またはあらゆる種類の偶発的または結果的な損害に対しても一切責任を負いません。 一部の地域では、結果的または偶発的な損害に対する責任の除外または制限を認めていないため、上記の制限が利用者に適用されない場
+                    合があります。</p>
+            </li>
+            <li>
+                <h3>一般規定</h3>
+                <p>別途記載のない限り、この ウェブサイトの情報および資料は、KDC の製品およびサービスの宣伝のみを目的として提供されています。 KDCの資料がすべての国での使用に適している、または利用可能であるわけではありません。この ウェブサイトの使用は自己責任であり、関連する現
+                    地の法律を遵守する責任があります。KDC の資料を閲覧することは、特定の人または特定の国においては違法である可能性があります。 KDC の製品は、世界中の多くの地域で入手できますが、このウェブサイトに掲載されている製品の中には、他国での入手が難しい商品もあります。 こ
+                    のサイトに対する訴訟要因がある場合は、請求または訴訟にあたる要素の発生から 2 年以内に提起する必要があります。 本規約は、法の抵触に関する規定に関係なく、中国の法律に準拠し、中国の法律に従っています。 本契約の条項の違反に対する KDC の権利破棄は、その他の違反
+                    またはその後の違反に対する権利破棄とはみなされません。</p>
+            </li>
+            <li>
+                <h3>特記事項</h3>
+                <p>消費者は、全国の KDC フランチャイズ店で KDC 製品を購入できます。 KDC は、インターネット購入またはオンライン販売を企業または如何なる組織にも許可しておりません。KDC は、そのような KDC の承認なく他の媒体を通じて商品を購入したことから生じる問題について一切責任
+                    を負いません。</p>
+            </li>
+        </ul>
+        <div>
+            Shanghai Kimberlite Diamond Group Co., Ltd.<br>
+            発行日: <time datetime="2010-05">2010 年 5 月</time>
+        </div>
+    </article>
+    
+    <footer>
+        <div>
+            <div>
+                <div>
+                    <h3>News</h3>
+                    <ul>
+                        <li>
+                            <a href="newsEvent.html">最新News</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>WEDDING</h3>
+                    <ul>
+                        <li>
+                            <a href="weddingRing.html">ペアリング</a>
+                        </li>
+                        <li>
+                            <a href="caratDiamond.html">カラットダイヤモンド</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>ブランド紹介</h3>
+                    <ul>
+                        <li>
+                            <a href="brandIntro.html">ブランドの文化</a>
+                        </li>
+                        <li>    
+                            <a href="brandIntro.html#videoArea">動画視聴</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>ダイヤモンド</h3>
+                    <ul>
+                        <li>
+                            <a href="weddingRing.html">結婚指輪</a>
+                        </li>
+                        <li>
+                            <a href="diamondPairRing.html">ペアリング</a>
+                        </li>
+                        <li>
+                            <a href="neckless.html">ネックレス</a>
+                        </li>
+                        <li>
+                            <a href="bracelet.html">ブレスレット</a>
+                        </li>
+                        <li>
+                            <a href="earing.html">ピアス</a>
+                        </li>
+                        <li>
+                            <a href="mensJewelly.html">メンズジュエリー</a>
+                        </li>
+                        <li>
+                            <a href="setSeries.html">セットシリーズ</a>
+                        </li>
+                    </ul>
+                </div>
+                <address>
+                    <u>お問い合わせ</u>
+                    <p>558, Chuanzhan Road, Pudong New Area, Shanghai<br>TEL:400-889-8858<br>受付時間：月曜日～日曜日 9:30～21:00</p>
+                </address>
+                <div>
+                    <a href="https://www.tiktok.com/">tiktok</a>
+                    <a href="https://www.wechat.com/">weChat</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <a href="companyStatement.html">会社声明</a>
+                </li>
+                <li>
+                    <a href="aboutUs.html">会社概要</a>
+                </li>
+                <li>
+                    <a href="joinUs.html">求人情報</a>
+                </li>
+            </ul>
+            <div>
+                <span>Shanghai ICP No. 11008681</span>
+                <span>/ 上海公衆網セキュリティ番号 31011502003948</span>
+                <strong>Copyright©2020 Kimberlite Diamond .All right reserved</strong>
+            </div>
+        </div>
+    </footer>
+    <a href="#" class="upBtn">back to start page</a>
+    <!-- footer Fin -->
+
+</body>
+</html>

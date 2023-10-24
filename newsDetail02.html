@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kimberlite</title>
+    <script src="js/jquery-3.7.0.min.js" ></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/kimberlite.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <div id="searchPanel">
+        <input type="button" value="close" class="closeBtn">
+        <div>
+            <input type="search" placeholder="search for">
+            <input type="submit" value="searching">
+        </div>
+    </div>
+    <aside id="cartPanel">
+        <div>
+            <div>
+                <h2>YOUR CART(1)</h2>
+                <input type="button" value="close" class="closeBtn">
+            </div>
+            <div id="emptyBox">
+                <h3>YOUR CART IS EMPTY!</h3>
+                <p>ADD YOUR FAVORITE ITEMS TO YOUR CART.</p>
+                <a href="allItems.html">商品をさがす</a>
+            </div>
+            <div id="haveBox">
+                <ul>
+                    <li>
+                        <img src="images/mainCartImg01.png" alt="item Image1">
+                        <div>
+                            <h3>fall in love</h3>
+                            <div class="numberComponent">
+                                <input type="button" value="minus" class="countUp">
+                                <span>1</span>
+                                <input type="button" value="plus" class="countDown">
+                            </div>
+                        </div>
+                        <div>
+                            <input type="button" value="deleteItem" data-panel="emptyBox">
+                            <strong class="price">
+                                90000
+                            </strong>
+                        </div>
+                    </li>
+                </ul>
+                <mark>こちらの商品はいかがですか？</mark>
+                
+                <ul class="recommendList">
+                    <li>
+                        <img src="images/mainCartImg02.png" alt="item Image2">
+                        <div>
+                            <h3>feelings</h3>
+                            <strong class="price">
+                                138000
+                            </strong>
+                        </div>
+                        <input type="button" value="追加">
+                    </li>
+                    <li>
+                        <img src="images/mainCartImg03.png" alt="item Image3">
+                        <div>
+                            <h3>emotional</h3>
+                            <strong class="price">
+                                98000
+                            </strong>
+                        </div>
+                        <input type="button" value="追加">
+                    </li>
+                </ul>
+                <span>
+                    <small>
+                        小計
+                    </small>
+                    <strong class="price">
+                        90000
+                    </strong>
+                </span> 
+                <a href="cart.html">カート</a>
+                <a href="information.html">注文する</a>
+                <div><a href="allItems1.html">ショッピングを続ける</a></div>
+            </div>
+        </div>
+    </aside>
+    <header>
+        <ul class="rollingSlider">
+            <li>
+                Spend 20000 yen more for free shipping
+            </li>
+            <li>
+                100yen from each purchase benefits to the Kimberlite Diamond Founda
+            </li>
+        </ul>
+        <div>
+            <div>
+                <input type="button" value="gnbOpen" class="mui">
+                <h1>
+                    <a href="index.html">
+                        <img src="images/logo2.png" alt="welcome to kimberlite">
+                    </a>
+                </h1>
+                <nav>
+                    <ul>
+                        <li><a href="allItems1.html">全商品</a></li>
+                        <li>
+                            <u>WEDDING</u>
+                            <div>
+                                <ul>
+                                    <li><a href="pairRing.html">ペアリング</a></li>
+                                    <li><a href="caratDiamond.html">カラットダイヤモンド</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <!-- <a href="#diamond">ダイヤモンド</a> -->
+                            <u>ダイヤモンド</u>
+                            <div>
+                                <ul>
+                                    <li><a href="weddingRing.html">結婚指輪</a></li>
+                                    <li><a href="neckless.html">ネックレス</a></li>
+                                    <li><a href="earing.html">ピアス</a></li>
+                                    <li><a href="setSeries.html">セットシリーズ</a></li>
+                                    <li><a href="diamondPairRing.html">ペアリング</a></li>
+                                    <li><a href="bracelet.html">ブレスレット</a></li>
+                                    <li><a href="mensJewelly.html">Mens</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <!-- <a href="#brandIntro">ブランド紹介</a> -->
+                            <u>ブランド紹介</u>
+                            <div>
+                                <ul>
+                                    <li><a href="brandIntro.html">ブランド文化</a></li>
+                                    <li><a href="brandIntro.html#videoArea">Brand film</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="newsEvent.html">News&amp;Event</a></li>
+                        <li><a href="contactUs.html">お問い合わせ</a></li>
+                    </ul>
+                </nav>
+                <div class="icoBtn">
+                    <input type="button" value="searchOpen" data-panel="searchPanel">
+                    <a href="login.html">
+                        account Info
+                    </a>
+                    <input type="button" value="cartOpen" data-panel="cartPanel">
+                    <span class="selectComponent">
+                        <select>
+                            <option>日本語</option>
+                            <option>中文</option>
+                        </select>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </header>
+<!-- header Fin -->
+
+    <article class="newsDetail">
+        <img src="images/newsDetail_topImg02.png" alt="top image02" class="pcSize">
+        <img src="images/newsEventMain02.png" alt="image" class="spSize">
+        <div>
+            <div>
+                <h2>Kimberlite Diamond「ロマンチックなウェディング シーズン」特典お見逃しなく！</h2>
+                <p> 秋風が吹き、紅葉の色に染まる季節、結婚式のロマンチックな雰囲気が秋に浸透します。 Kimberlite Diamondのイベント「Romantic Wedding Season」の期間中は、多数の特典をプレゼント! 期間限定のスペシャルクーポン、美しいダイヤモンドジュエリー、ブランドをカスタマイズしたミニギフトなど複数の特典をお見逃しなく!<br><br>
+
+                    1.期間限定スペシャルクーポン<br><br>
+                    
+                    愛の名の下、Kimberlite Diamondは驚きのイベントを提供します。2022 年 10 月 24 日から 2022 年 11 月 25 日まで、Kimberlite Diamond ウェディング シーズンスペシャルクーポンが期間限定で発行されます。まずは、WeChat の「Kimberlite Diamond 会員ページ」を検索。イベントに参加して、スペシャルクーポンを取得してください。 全国のKimberlite Diamond店舗で商品（一部商品を除く）をご購入いただき、ご利用金額が3,000元以上になると300元割引致します。<br><br>
+                    
+                    2.入会ギフト<br><br>
+                    
+                    Kimberlite Diamondの会員登録をすると、先着 200 名の方にブランド限定のミニギフトをプレゼント。<br>
+                    
+                    さらにイベント期間中、主要の各店舗ではご来店のお客様にプレゼントをご用意しております。在庫がなくなり次第即終了！ご来店のすべての方に心を込めて、ダイヤモンドのように輝く魅力を手に入れてください！ Kimberlite Diamondとともに、ロマンチックな世界に浸ってみてはいかがですか？</p>
+                <img src="images/newsImg02_middle.png" alt="news Image">
+                <div>
+                    <time datetime="2023-01-13">October 26, 2022</time>
+                    <a href="javascript:history.back()" class="returnBack">戻る</a>
+                </div>
+            </div>
+            <aside>
+                <h3>Recent articles</h3>
+                <ul>
+                    <li>
+                        <a href="newsDetail01.html">
+                            <img src="images/newsDetail_smallImg01.png" alt="previousImage">
+                            <p>「Lucky Knot」シリーズが<br>
+                                発売されました。
+                                <time datetime="2023-1-13">January 13, 2023</time>
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="newsDetail03.html">
+                            <img src="images/newsDetail_smallImg03.png" alt="previousImage">
+                            <p>夢のようなひと時と<br>
+                                無限に輝く星。
+                                <time datetime="2020-12-09">December 09, 2020</time>
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+        </div>
+    </article>
+    
+    <footer>
+        <div>
+            <div>
+                <div>
+                    <h3>News</h3>
+                    <ul>
+                        <li>
+                            <a href="newsEvent.html">最新News</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>WEDDING</h3>
+                    <ul>
+                        <li>
+                            <a href="weddingRing.html">ペアリング</a>
+                        </li>
+                        <li>
+                            <a href="caratDiamond.html">カラットダイヤモンド</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>ブランド紹介</h3>
+                    <ul>
+                        <li>
+                            <a href="brandIntro.html">ブランドの文化</a>
+                        </li>
+                        <li>    
+                            <a href="brandIntro.html#videoArea">動画視聴</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>ダイヤモンド</h3>
+                    <ul>
+                        <li>
+                            <a href="weddingRing.html">結婚指輪</a>
+                        </li>
+                        <li>
+                            <a href="diamondPairRing.html">ペアリング</a>
+                        </li>
+                        <li>
+                            <a href="neckless.html">ネックレス</a>
+                        </li>
+                        <li>
+                            <a href="bracelet.html">ブレスレット</a>
+                        </li>
+                        <li>
+                            <a href="earing.html">ピアス</a>
+                        </li>
+                        <li>
+                            <a href="mensJewelly.html">メンズジュエリー</a>
+                        </li>
+                        <li>
+                            <a href="setSeries.html">セットシリーズ</a>
+                        </li>
+                    </ul>
+                </div>
+                <address>
+                    <u>お問い合わせ</u>
+                    <p>558, Chuanzhan Road, Pudong New Area, Shanghai<br>TEL:400-889-8858<br>受付時間：月曜日～日曜日 9:30～21:00</p>
+                </address>
+                <div>
+                    <a href="https://www.tiktok.com/">tiktok</a>
+                    <a href="https://www.wechat.com/">weChat</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <a href="companyStatement.html">会社声明</a>
+                </li>
+                <li>
+                    <a href="aboutUs.html">会社概要</a>
+                </li>
+                <li>
+                    <a href="joinUs.html">求人情報</a>
+                </li>
+            </ul>
+            <div>
+                <span>Shanghai ICP No. 11008681</span>
+                <span>/ 上海公衆網セキュリティ番号 31011502003948</span>
+                <strong>Copyright©2020 Kimberlite Diamond .All right reserved</strong>
+            </div>
+        </div>
+    </footer>
+    <a href="#" class="upBtn">back to start page</a>
+    <!-- footer Fin -->
+
+</body>
+</html>

@@ -1,0 +1,1276 @@
+
+
+a{text-decoration: none;}
+
+ul,ol{list-style: none;}
+
+input[type='checkbox']{
+    display: none;
+}
+
+header ul.rollingSlider li,
+.mainContainer .mainSlider li h2,
+.mainContainer > div:nth-of-type(2) h2,
+.mainContainer > div:nth-of-type(3) h2,
+.mainContainer > blockquote p,
+.mainContainer h2,
+.mainContainer > div:nth-of-type(5) h2,
+.mainContainer > div:nth-of-type(5) ul li a span time,
+.listContainer h2,
+.mainContainer #videoPart p,
+.brandContainer > div:nth-child(2) h3,
+.brandVideo h3,
+#cartPanel > div > #emptyBox p,
+.cartContainer div h2,
+.infoContainer div h2,
+.paymentContainer > div h2,
+.recContainer table caption{
+    font-family: 'Cormorant';
+}
+
+header > div > div nav > ul > li,
+footer > div:first-child > div > div:not(:last-child) h3:nth-of-type(1),
+footer > div:first-child > div > div:not(:last-child) h3:nth-of-type(2),
+footer > div:last-child > div span:first-child,
+footer > div:last-child > div strong,
+header > div:not(.bx-wrapper) > div nav > ul > li ul li a:last-of-type,
+.listContainer .itemsList ul li span,
+.listContainer > div:last-child .textBox > div h3,
+.listContainer > div:last-child .textBox > div p,
+.listContainer > div:last-child .textBox > div a,
+.listContainer .itemsList .rightSortBy > ul > li:first-child,
+.rightBox h2,
+.price,
+.detailContainer .accBox ul li span,
+.detailContainer .reviewBox > div > div:first-of-type,
+.detailContainer .reviewBox .underArea ul.tabMenu li,
+.detailContainer .reviewBox .underArea #reviewsPage > ol > li > div time,
+.detailContainer .relatedBox > ul li a mark,
+.detailContainer .relatedBox > ul li > div span,
+.brandContainer h2,
+.brandContainer > div:nth-child(2) ul li p,
+.newsContainer .latestNews h2,
+.newsContainer time,
+.newsContainer a,
+#searchPanel > div input[type="search"],
+#cartPanel > div > div,
+#cartPanel > div > #emptyBox h3,
+#cartPanel > div > #haveBox ul li > div:first-of-type h3,
+.price,
+.login h2,
+.creatAccount,
+.forgetPassword h2,
+.myAccount h2,
+.myAccount mark,
+.myAccount > div > div > ul li div h3,
+.cartContainer div nav,
+.cartContainer div .cartList li div h3,
+.infoContainer div nav li,
+.paymentRight div ul li h3,
+.paymentContainer > div nav,
+.contactContainer form h2,
+.listContainer aside .mainfilter > fieldset > div label{
+    font-family: 'Montserrat';
+}
+
+header > div > div nav > ul > li ul li,
+header > div:not(.bx-wrapper) > div nav > ul > li ul li,
+.mainContainer > div:nth-of-type(5) ul li dl,
+.listContainer aside .mainfilter,
+.listContainer .itemsList .rightSortBy > ul > li:not(:first-child),
+.detailContainer .rightBox > p,
+.price:after,
+.detailContainer .rightBox > div:last-of-type > input,
+.detailContainer .reviewBox .underArea #reviewsPage,
+.detailContainer .reviewBox .underArea #reviewsPage > ol > li > p,
+.detailContainer .reviewBox .underArea #questPage #questionWrite textarea,
+.detailContainer .reviewBox .underArea #questPage > ol li p,
+.detailContainer .relatedBox h2,
+.brandContainer > div:nth-child(2) p,
+.newsContainer span,
+.newsContainer p,
+.newsContainer .newsList ul li div h3,
+.newsDetail > div > div h2,
+.newsDetail > div > div p,
+.newsDetail > div aside h3,
+.newsDetail > div aside ul li p,
+#cartPanel > div > #emptyBox a,
+#cartPanel > div > #haveBox > span,
+#cartPanel > div > #haveBox > a:last-of-type,
+.listContainer .itemsList .rightSortBy input,
+.login > *:not(:first-child),
+.creatAccount > *:not(:first-child),
+.myAccount > div > div,
+.myAccount > div > div > ul li div small,
+.myAccount > div > div > ul li div span,
+.myAccount > div > div > ul li div u,
+.myAccount > div > div > ul li div u,
+.cartContainer div .cartList li div input,
+.cartContainer div > div small,
+.cartContainer .orderBtn.accBox,
+.infoContainer div form,
+.paymentRight > div > div:last-of-type span,
+.paymentContainer > div form fieldset,
+.PMDoneContainer a,
+.contactContainer form >*:not(:first-child),
+.stContainer > *:not(:first-child),
+.companyContainer p,
+.companyContainer a{
+    font-family: 'Noto Sans JP';
+}
+
+footer > div:first-child > div > div:not(:last-child) h3:nth-of-type(3),
+footer > div:first-child > div > div:not(:last-child) h3:nth-of-type(4),
+footer > div:first-child > div > div:not(:last-child) ul,
+footer > div:first-child address,
+footer > div:last-child > ul li,
+footer > div:last-child > div span:last-of-type,
+.mainContainer > div:nth-of-type(2) figure figcaption strong,
+.mainContainer > div:nth-of-type(2) figure figcaption a,
+.mainContainer .categorySliderBox ul li dl dt,
+.mainContainer > div:nth-of-type(3) figure figcaption,
+.listContainer p,
+.PMDoneContainer p,
+.stContainer h2,
+.companyContainer h2,
+.companyContainer span{
+    font-family: 'Noto Serif JP';
+}
+.bx-wrapper {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    background: #fff;
+    position: relative;
+    margin-bottom: 0;
+    padding: 0;
+    *zoom: 1;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+}
+a.upBtn{
+    position: fixed;  right: 3%; bottom: 20px;
+    background: url('../images/ico_arrow_up.png') center / 12px no-repeat #605953;
+    text-indent: -9999px; 
+
+}
+
+.moreBtn{
+    display: block;   background: url('../images/ico_arrow_right.svg') right center / 12px no-repeat;
+    display: inline-block;
+}
+.moreBtn:before{
+    content: ''; position: absolute; left: 50%; top: -3px; display: inline-block; 
+    transform: translateX(-100%);
+}
+.moreBtn:after{
+    content: ''; position: absolute; right: 50%; bottom: 0px; display: inline-block; 
+    transform: translateX(100%);
+}
+
+
+[id$="searchPanel"]{
+    display: none;
+}
+[id$="searchPanel"].active{
+    display: block;
+}
+[id$="cartPanel"]{
+    display: none;
+}
+[id$="cartPanel"].active{
+    display: block;
+}
+[id$="cartPanel"] > div [id="emptyBox"]{
+    display: none;
+}
+[id$="cartPanel"] > div [id="emptyBox"].active{
+    display: block;
+}
+[id$="cartPanel"] >div [id="haveBox"]{
+    display: block;
+}
+[id$="cartPanel"] > div [id$="haveBox"].active{
+    display: block;
+}
+#lastAd:checked ~ .putInNewAd{
+    display: none;
+}
+#newAd:checked ~ .putInNewAd{
+    display: block;
+}
+[id$="seeDetail"]{
+    display: none;
+}
+[id$="seeDetail"].active{
+    display: block;
+}
+
+
+.price:after{
+    content: '円'; font-weight: 400;
+}
+
+ol.starCount{
+    display: inline-block;  letter-spacing: -100em;
+}
+ol.starCount > li{
+    background: url('../images/star_none_gold.png') no-repeat center;
+    display: inline-block; text-indent: -9999px; min-width: 19px; text-align: center;
+    
+}
+ol.star5 > li,
+ol.star4 > li:not(:last-child),
+ol.star3 > li:nth-of-type(1),
+ol.star3 > li:nth-of-type(2),
+ol.star3 > li:nth-of-type(3),
+ol.star2 > li:nth-of-type(1),
+ol.star2 > li:nth-of-type(2),
+ol.star1 > li:nth-child(1){
+    background: url('../images/star_gold.png') no-repeat center;
+}
+
+@media screen and (max-width: 767px){
+
+    header > div:not(.bx-wrapper) > div nav > ul > li > div > ul,
+    footer > div:first-child > div,
+    footer > div:last-child,
+    .mainContainer blockquote,
+    .mainContainer > div:nth-of-type(4) > div,
+    .mainContainer > div:nth-of-type(5),
+    .detailContainer .rightBox,
+    .detailContainer .accBox,
+    .detailContainer .reviewBox,
+    .detailContainer .relatedBox{
+        padding: 0 3%;
+    }
+    
+    /* all use */
+    a.upBtn{
+        width: 30px; height: 30px;
+    }
+
+    #searchPanel{
+        padding: 50px 3%; background-color: #f9f3ef;
+        position: fixed; left: 0; bottom: 0; width: 100%;
+        z-index: 100; box-sizing: border-box;
+    }
+    #searchPanel > input{
+        background: url('../images/ico_close_gray.png') no-repeat center / 12px; border: none; text-indent: -9999px;
+        border: none; position: absolute; right: 3%; top: 20px;
+    }
+    #searchPanel > div{
+        margin: 0 auto; width: 67.46%; display: flex; height: 29px; box-shadow: 10px 10px 5px rgba(189, 127, 7, 0.3);
+    }
+
+    #searchPanel > div input[type="search"]{
+        width: 78%; text-transform: uppercase; padding-left: 4.76%; box-sizing: border-box;
+        font-size: 10px; color: #605953; border-color: #bd7f07;
+    }
+    #searchPanel > div input[type="submit"]{
+         border: 1px solid #bd7f07; width: 22%;
+        background: url('../images/ico_search.png') no-repeat center / 12px 12px; text-indent: -9999px;
+        background-color: #bd7f07;
+    }
+
+    #cartPanel{
+        position: relative; z-index: 1000 ;
+    }
+    #cartPanel > div{
+        position: absolute; top: -55px; right: 0; width: 95%; background-color: white;
+    }
+    #cartPanel > div > div:first-of-type{
+        border-bottom: 1px solid #575c62; display: flex; justify-content: center; align-items: center;
+        position: relative; box-sizing: border-box;
+    }
+    #cartPanel > div > div h2{
+        color: #575c62; font-size: 14px; padding: 25px 0; 
+    }
+    #cartPanel > div > div .closeBtn{
+        position: absolute; top: 0px; right: 3%; background: url('../images/ico_close_gray.png')no-repeat center/ 17px;
+        text-indent: -9999px; border: none; width: 10%; height: 65px;
+    }
+    #cartPanel > div > #emptyBox{
+        text-align: center; margin-top: 87px;
+    }
+    #cartPanel > div > #emptyBox h3{
+        font-size: 28px; color: #312419; margin-bottom: 57px; font-weight: 400;
+    }
+    #cartPanel > div > #emptyBox p{
+        font-size: 22px; color: #575c62; margin-bottom: 50px;
+    }
+    #cartPanel > div > #emptyBox a{
+        height: 60px; background-color: black; margin: 0 3.57%;
+        color: white; font-size: 20px; display: flex; align-items: center; justify-content: center;
+        margin-bottom: 632px;
+    }
+    #cartPanel > div > #haveBox ul li{
+        display: flex; justify-content: space-between;
+    }
+    #cartPanel > div > #haveBox ul li img{width: 28%; height: 28%; padding-top: 12px;}
+    #cartPanel > div > #haveBox ul li > div:first-of-type h3{
+        margin: 20px 0; font-weight: 400;
+    }
+    .numberComponent{
+        display: flex;  height: 30px;
+    }
+    .numberComponent input{
+        border: 1px solid #bdbdbd; height: 30px; min-width: 30px; background-color: white; text-indent: -9999px; box-sizing: border-box;
+    }
+    .numberComponent input[value='minus']{
+        background: url('../images/ico_minus2.png') no-repeat center / 15px; 
+    }
+    .numberComponent input[value='plus']{
+        background: url('../images/ico_plus2.png') no-repeat center / 15px;
+    }
+    .numberComponent span{
+        border-top: 1px solid #bdbdbd; border-bottom: 1px solid #bdbdbd; box-sizing: border-box;
+        line-height: 30px; display: block; padding: 0 15px; color: black;
+        font-size: 14px; 
+    }
+    #cartPanel > div > #haveBox > ul:first-child > li > div:last-of-type{
+        padding-left: 6%; margin: 8px 4.46% 0 0;
+    }
+    input[value='deleteItem']{
+        background: url('../images/ico_delete.png') no-repeat center; border: none; text-indent: -9999px;
+        display: block;
+    }
+    #cartPanel > div > #haveBox ul li > div:last-of-type input[value='deleteItem']{
+        margin: 10px 0 24px; font-size: 18px; margin-left: auto;
+    }
+    #cartPanel > div > #haveBox ul li > div:last-of-type strong{
+        display: block; min-width: 30%; font-size: 14px;
+    }
+    #cartPanel > div > #haveBox mark{
+        margin-top: 100px; display: block; background-color: black;
+        color: white; text-align: center; font-size: 14px; font-weight: 400;
+        line-height: 55px; 
+    }
+    #cartPanel > div > #haveBox .recommendList{
+        background-color: #f1f1f1;
+    }
+    #cartPanel > div > #haveBox .recommendList li{
+        padding: 0px 20px 14px 10px; border-bottom: 1px solid; border-color: #c9c9c9;
+        box-sizing: border-box;
+    }
+    #cartPanel > div > #haveBox .recommendList li div h3{
+        font-size: 14px;
+    }
+    #cartPanel > div > #haveBox .recommendList li input{
+        width: 20%; height: 40px; background-color: black; color: white;
+        display: inline-block; vertical-align: center; margin-top: 25px;
+    }
+    #cartPanel > div > #haveBox > span{
+        margin: 25px 4.46%; display: flex; justify-content: space-between;
+    }
+    #cartPanel > div > #haveBox > span small{
+        font-size: 16px; font-weight: 400;
+    }
+    #cartPanel > div > #haveBox > span .price{
+        font-size: 16px; font-weight: 400;
+    }
+    #cartPanel > div > #haveBox > a{
+        display: inline-block; font-size: 14px; text-align: center;
+    }
+    #cartPanel > div > #haveBox > a:first-of-type{
+        margin: 0 4.46%; padding: 16px 0; background-color: #fafafa;
+        width: 25.89%; color: black;
+    }
+    #cartPanel > div > #haveBox > a:last-of-type{
+        background-color: #a38000; width: 59%; padding: 16px 0;
+        color: white; margin-right: 4.46%;
+    }
+    #cartPanel > div > #haveBox > div{
+        display: block; text-align: right; margin: 25px 4.46% 51px 0;
+    }
+    #cartPanel > div > #haveBox > div a{
+        display: inline-block; padding-bottom: 8px;
+        border-bottom: 1px solid #616161;
+        color: #616161; font-size: 12px; font-weight: 400; 
+    }
+
+
+    header{
+        position: fixed; left: 0; top: 0; width: 100%; z-index: 100;
+    }
+
+    header ul.rollingSlider{
+        background-color: black; text-align: center; display: none;
+    }
+    header ul.rollingSlider li{
+        color: white; line-height: 14px; display: block; font-size: 10px;
+        padding: 23px 3%; box-sizing: border-box; width: 100% !important;
+        white-space:normal; word-break: break-all; word-wrap: break-word;
+    }
+    header > div:not(.bx-wrapper){
+        background-color: #9d806c; border-width: 0 0 1px; border-style: solid; border-color: #c9c9c9; width: 100%;
+    }
+    header > div:not(.bx-wrapper) > div{
+        line-height: 70px; position: relative; height: 55px; width: 100%;
+    }
+    header > div:not(.bx-wrapper) > div input.mui{
+        background: url('../images/ico_menu_white.svg') no-repeat;
+        vertical-align: middle; position: absolute; left: 0;
+        text-indent: -9999px; border: none; width: 10%; margin: 15px;
+    }
+    header > div:not(.bx-wrapper) > div input.active{
+        background: url('../images/ico_close.svg') no-repeat; position: absolute; top: 0px; left: 80%;
+        line-height: 20px;
+    }
+    header > div:not(.bx-wrapper) > div h1{
+        width: 20%; line-height: 70px; margin: 0 auto;
+    }
+    header > div:not(.bx-wrapper) > div h1.active{
+        display: none;
+    }
+    header > div:not(.bx-wrapper) > div h1 a{
+        display: block; 
+    }
+    header > div:not(.bx-wrapper) > div h1 a img{
+        width: 100%;
+    }
+    header > div:not(.bx-wrapper) > div nav{
+        color: white;  display: none; background-color: #9d806c; width: 100%; 
+    }
+    header > div:not(.bx-wrapper) > div nav.active{
+        display: block; 
+    }
+    header > div:not(.bx-wrapper) > div nav > ul{
+        padding-top: 60px;
+    }
+    header > div:not(.bx-wrapper) > div > nav > ul > li{
+        display: block; font-size: 14px; font-weight: 400;
+        margin-left: 2.7%; line-height: 50px; position: relative;
+    }
+    header > div:not(.bx-wrapper) > div nav > ul > li > a{
+        color: white; display: block;
+    }
+    header > div:not(.bx-wrapper) > div nav > ul > li > u{
+        text-decoration: none; display: block;
+    }
+    header > div:not(.bx-wrapper) > div > nav > ul > li:nth-of-type(2) > u,
+    header > div:not(.bx-wrapper) > div > nav > ul > li:nth-of-type(3) > u,
+    header > div:not(.bx-wrapper) > div > nav > ul > li:nth-of-type(4) > u{
+        background: url('../images/nextG-2.png') right 3% top 20px / 7px no-repeat;
+    }
+    header > div:not(.bx-wrapper) > div > nav > ul > li:nth-of-type(2) > u.active,
+    header > div:not(.bx-wrapper) > div > nav > ul > li:nth-of-type(3) > u.active,
+    header > div:not(.bx-wrapper) > div > nav > ul > li:nth-of-type(4) > u.active{
+        background: url('../images/ico_up-2.png') right 1% top 15px / 20px no-repeat;;
+    }
+    header > div:not(.bx-wrapper) > div nav > ul > li > div{
+        margin-left: 11.2%; display: none;
+    }
+    header > div:not(.bx-wrapper) > div nav > ul > li > div ul > li{
+        font-size: 10px; font-weight: 400; line-height: 30px;
+    }
+    header > div:not(.bx-wrapper) > div nav > ul > li > div ul li a{
+        display: block; color: white;
+    }
+    header > div:not(.bx-wrapper) > div > div.icoBtn{
+        width: 24%;  display: none;
+    }
+    header > div:not(.bx-wrapper) > div > div.icoBtn.active{
+        display: block; position: absolute; top: -5px; left:-45%; z-index: 100;
+    }
+
+    header > div:not(.bx-wrapper) > div > div > *:not(span){
+        width: 20px; height: 20px; border: none; text-indent: -9999px;
+        display: inline-block; vertical-align: middle;
+    }
+
+    header > div:not(.bx-wrapper) > div > div > *:not(:first-child){
+        margin-left: 5.8%;
+    }
+
+    header > div:not(.bx-wrapper) > div > div input:first-of-type{
+        background: url('../images/ico_search.png') left top / contain no-repeat; 
+        position: absolute; top: 25px; right: -140%;    
+    }
+    header > div:not(.bx-wrapper) > div > div a{
+        background: url('../images/ico_account48W.png') right top / contain no-repeat;
+        position: absolute; top: 25px; right: -180%;
+    }
+    header > div:not(.bx-wrapper) > div > div input:last-of-type{
+        background: url('../images/ico_bag.png') left top / contain no-repeat; 
+        position: absolute; top: 25px; right: -220%;
+    }
+    header > div:not(.bx-wrapper) > div > div > .selectComponent{
+        display: inline-block; box-sizing: border-box; 
+    }
+    header > div:not(.bx-wrapper) > div > div > .selectComponent select{
+        border: none; box-shadow: none; background-image: none; background-color: transparent;
+        -webkit-appearance: none;  -moz-appearance: none;  color: white; font-size: 10px;
+        position: absolute; top: 30px; right: -200px;
+    }   
+    header > div:not(.bx-wrapper) > div > div > .selectComponent select:focus option{
+        background-color: rgba(0,0,0,0.5);
+    }
+    /* header Fin */
+
+    
+    
+
+    footer > div:first-child{
+        background-color: #fffcfa; padding: 50px 0; position: relative;
+    }
+    footer > div:first-child > div{
+        position: relative;
+    }
+    footer > div:first-child > div > div:not(:last-child){
+        display: none;
+    }
+    footer > div:first-child > div address{
+        font-style: normal; padding: 0 15px;
+    }
+    footer > div:first-child > div address u{
+        font-size: 15px; 
+    }
+    footer > div:first-child > div address p{
+        line-height: 17px ; font-size: 12px; margin-top: 17px;
+    }
+    footer > div:first-child > div > div:last-child{
+        position: absolute; bottom: -42px; right: 2%; width: 30%; line-height: 35px; 
+        display: flex;
+    }
+    footer > div:first-child > div > div:last-child a{
+        display: block; width: 35px; height: 35px;
+    }
+    footer > div:first-child > div > div:last-child a:first-of-type{
+        background: url('../images/tiktok-1.png') left center /29px no-repeat; text-indent: -9999px;
+    }
+    footer > div:first-child > div > div:last-child a:last-of-type{
+        background: url('../images/wechat-1.png') right center / contain no-repeat; text-indent: -9999px;
+    }
+     
+    footer > div:last-child{
+        position: relative; padding: 55px 0; display: flex; justify-content: space-between;
+    }
+    footer > div:last-child > *{
+        color: black;
+    }
+    footer > div:last-child > ul{
+        width: 35%;
+    }
+    footer > div:last-child > ul li{
+         font-size: 13px; font-weight: 400; margin-left: 10%;
+    }
+    footer > div:last-child > ul li:not(:first-child){
+        margin-top: 15px;    
+    }
+    footer > div:last-child > ul li a{
+        display: block; color: black;
+    }
+    footer > div:last-child > div{
+        width: 65%; margin-right: 1.94%; 
+    }
+    footer > div:last-child > div span:first-of-type{
+        font-size: 12px; font-weight: 400;
+    }
+    footer > div:last-child > div span:last-of-type{
+        font-size: 10px; font-weight: 400;
+    }
+    footer > div:last-child > div strong{
+        font-size: 12px; text-align: right; font-weight: 400;
+    }
+    
+}
+/* Mobile global  */
+
+@media screen and (min-width: 768px) and (max-width: 1279px){
+
+    header > div:last-of-type > div,
+    header > div:not(.bx-wrapper) > div nav > ul > li > div > ul,
+    footer > div:first-child > div,
+    footer > div:last-child,
+    .mainContainer blockquote,
+    .mainContainer > div:nth-of-type(4) > div,
+    .mainContainer > div:nth-of-type(5),
+    .detailContainer .leftBox,
+    .detailContainer .rightBox,
+    .detailContainer .accBox,
+    .detailContainer .reviewBox,
+    .detailContainer .relatedBox,
+    .newsDetail > div,
+    .myAccount > div,
+    .cartContainer,
+    .stContainer,
+    .companyContainer p,
+    .companyContainer a,
+    .recContainer{
+        max-width: 718px; margin: 0 auto;
+    }
+    
+    /* all use */
+    a.upBtn{
+        width: 40px; height: 40px;
+    }
+
+    #cartPanel{
+        position: relative; z-index: 1000 ;
+    }
+    #cartPanel > div{
+        position: absolute; top: -120px; right: 0; width: 50%; background-color: white;
+    }
+    #cartPanel > div > div:first-of-type{
+        border-bottom: 1px solid #575c62; display: flex; justify-content: center; align-items: center;
+        position: relative; box-sizing: border-box;
+    }
+    #cartPanel > div > div h2{
+        color: #575c62; font-size: 16px; padding: 25px 0; 
+    }
+    #cartPanel > div > div .closeBtn{
+        position: absolute; top: 0px; right: 0; background: url('../images/ico_close_gray.png')no-repeat center/ 17px;
+        text-indent: -9999px; border: none; width: 10%; height: 65px;
+    }
+    #cartPanel > div > #emptyBox{
+        text-align: center; margin-top: 87px; 
+    }
+    #cartPanel > div > #emptyBox h3{
+        font-size: 28px; color: #312419; margin-bottom: 57px; font-weight: 400;
+    }
+    #cartPanel > div > #emptyBox p{
+        font-size: 22px; color: #575c62; margin-bottom: 50px;
+    }
+    #cartPanel > div > #emptyBox a{
+        height: 60px; background-color: black; margin: 0 3.57%;
+        color: white; font-size: 20px; display: flex; align-items: center; justify-content: center;
+        margin-bottom: 632px;
+    }
+    #cartPanel > div > #haveBox ul li{
+        display: flex; justify-content: space-between;
+    }
+    #cartPanel > div > #haveBox ul li > div:first-of-type h3{
+        margin: 20px 0;
+    }
+    .numberComponent{
+        display: flex;  height: 38px;
+    }
+    .numberComponent input{
+        border: 1px solid #bdbdbd; height: 38px; min-width: 38px; background-color: white; text-indent: -9999px; box-sizing: border-box;
+    }
+    .numberComponent input[value='minus']{
+        background: url('../images/ico_minus2.png') no-repeat center / 15px; 
+    }
+    .numberComponent input[value='plus']{
+        background: url('../images/ico_plus2.png') no-repeat center / 15px;
+    }
+    .numberComponent span{
+        border-top: 1px solid #bdbdbd; border-bottom: 1px solid #bdbdbd; box-sizing: border-box;
+        line-height: 38px; display: block; padding: 0 28px; color: black;
+        font-size: 18px; 
+    }
+    #cartPanel > div > #haveBox{
+        margin-bottom: 30px;
+    }
+    #cartPanel > div > #haveBox > ul:first-child > li > div:last-of-type{
+        padding-left: 16%; margin: 20px 4.46% 0% 0; min-width: 40%;
+    }
+    input[value='deleteItem']{
+        background: url('../images/ico_delete.png') no-repeat center; border: none; text-indent: -9999px;
+        display: block;
+    }
+    #cartPanel > div > #haveBox ul li > div:last-of-type input[value='deleteItem']{
+        margin-bottom: 20px; font-size: 18px; margin-left: auto;
+    }
+    #cartPanel > div > #haveBox ul li > div:last-of-type strong{
+        display: block; 
+    }
+    #cartPanel > div > #haveBox mark{
+        margin-top: 90px; display: block; background-color: black;
+        color: white; text-align: center; font-size: 16px; font-weight: 400;
+        line-height: 55px; 
+    }
+    #cartPanel > div > #haveBox .recommendList{
+        background-color: #f1f1f1;
+    }
+    #cartPanel > div > #haveBox .recommendList li{
+        padding: 14px 20px; border-bottom: 1px solid; border-color: #c9c9c9;
+        box-sizing: border-box;
+    }
+    #cartPanel > div > #haveBox .recommendList li input{
+        margin-left: 25%; width: 11.42%; height: 45px; background-color: black; color: white;
+        display: inline-block; vertical-align: center; margin-top: 30px;
+    }
+    #cartPanel > div > #haveBox > span{
+        margin: 20px 4.46%; display: flex; justify-content: space-between;
+    }
+    #cartPanel > div > #haveBox > span small{
+        font-size: 16px; font-weight: 400;
+    }
+    #cartPanel > div > #haveBox > span .price{
+        font-size: 18px; font-weight: 400;
+    }
+    #cartPanel > div > #haveBox > a{
+        display: inline-block; font-size: 20px; text-align: center;
+    }
+    #cartPanel > div > #haveBox > a:first-of-type{
+        margin: 0 4.46%; padding: 21px 0; background-color: #fafafa;
+        width: 25.89%; color: black;
+    }
+    #cartPanel > div > #haveBox > a:last-of-type{
+        background-color: #a38000; width: 59%; padding: 21px 0;
+        color: white; margin-right: 4.46%;
+    }
+    #cartPanel > div > #haveBox > div{
+        display: block; text-align: right; margin: 25px 4.46% 51px 0;
+    }
+    #cartPanel > div > #haveBox > div a{
+        display: inline-block; padding-bottom: 8px;
+        border-bottom: 1px solid #616161;
+        color: #616161; font-size: 12px; font-weight: 400;
+    }
+
+
+    header{
+        position: fixed; left: 0; top: 0;  z-index: 100; width: 100%;
+    }
+
+    header ul.rollingSlider{
+        background-color: black; text-align: center; 
+    }
+    header ul.rollingSlider li{
+        color: white; line-height: 55px; display: block; 
+    }
+    header > div:not(.bx-wrapper){
+        background-color: #9d806c; border-width: 0 0 1px; border-style: solid; border-color: #c9c9c9; 
+    }
+    header > div:not(.bx-wrapper) > div{
+        line-height: 90px; 
+        display: flex; justify-content: space-between;
+    }
+    header ul.rollingSlider.hide{
+        display: none;
+    }
+    header > div:not(.bx-wrapper) > div > input{
+        display: none;
+    }
+    header > div:not(.bx-wrapper) > div h1{
+        width: 10%;
+    }
+    header > div:not(.bx-wrapper) > div h1 a{
+        display: block; line-height: 90px;
+    }
+    header > div:not(.bx-wrapper) > div h1 a img{
+        width: 100%; vertical-align: middle;
+    }
+    header > div:not(.bx-wrapper) > div nav{
+        color: white; width: 70%;
+    }
+    header > div:not(.bx-wrapper) > div nav ul{
+        text-align: center;  
+    }
+    header > div:not(.bx-wrapper) > div nav > ul > li{
+        display: inline-block; font-size: 10px; font-weight: 400;
+       
+    }
+    header > div:not(.bx-wrapper) > div nav > ul > li:not(:first-child){
+        margin-left: 2.7%;
+    }
+    header > div:not(.bx-wrapper) > div nav > ul > li a{
+        color: white;
+    }
+    header > div:not(.bx-wrapper) > div nav > ul > li u{
+        text-decoration: none; 
+    }
+    header > div:not(.bx-wrapper) > div nav > ul > li > div{
+        position: absolute; left: 0; top: 146px; width: 100%; display: none; background-color: rgba(0,0,0,0.7);
+    }
+    header > div:not(.bx-wrapper) > div nav > ul > li:hover > div{
+        display: block;
+    }
+    header > div:not(.bx-wrapper) > div nav > ul > li > div ul > li{
+        font-size: 10px; font-weight: 400; float: left;
+    }
+    header > div:not(.bx-wrapper) > div nav > ul > li > div ul > li:not(:first-child){
+        margin-left: 3%;
+    }
+    header > div:not(.bx-wrapper) > div nav > ul > li > div ul li a{
+        display: block;
+    }
+    header > div:not(.bx-wrapper) > div > div{
+        width: 24%;
+    }
+
+    header > div:not(.bx-wrapper) > div > div > *:not(span){
+        width: 20px; height: 20px; border: none; text-indent: -9999px;
+        display: inline-block; vertical-align: middle;
+    }
+
+    header > div:not(.bx-wrapper) > div > div > *:not(:first-child){
+        margin-left: 5.8%;
+    }
+
+    header > div:not(.bx-wrapper) > div > div input:first-of-type{
+        background: url('../images/ico_search.png') left top / contain no-repeat; 
+    }
+
+    header > div:not(.bx-wrapper) > div > div a{
+        background: url('../images/ico_account48W.png') left top / contain no-repeat;
+    }
+    header > div:not(.bx-wrapper) > div > div input:last-of-type{
+        background: url('../images/ico_bag.png') left top / contain no-repeat; 
+    }
+    header > div:not(.bx-wrapper) > div > div > .selectComponent{
+        display: inline-block; box-sizing: border-box; 
+        background: url('../images/ico_arrow_down.svg') no-repeat right center; 
+       
+    }
+    header > div:not(.bx-wrapper) > div > div > .selectComponent select{
+        border: none; box-shadow: none; background-image: none; background-color: transparent;
+        -webkit-appearance: none;  -moz-appearance: none; padding: 27px 23px 27px 0; color: white; font-size: 12px;
+    }   
+    header > div:not(.bx-wrapper) > div > div > .selectComponent select:focus option{
+        background-color: rgba(0,0,0,0.5);
+    }
+    /* header Fin */
+
+    
+    
+
+    footer > div:first-child{
+        background-color: #fffcfa; padding: 70px 0 55px; position: relative;
+    }
+    footer > div:first-child > div{
+        display: flex; 
+    }
+    footer > div:first-child > div > div:not(:last-child){
+        padding-right: 3.64%; display: inline-block; width: 100%;
+    }
+    footer > div:first-child > div > div:not(:last-child) h3{
+        font-size: 15px;  padding-bottom: 20px; font-weight: 400;
+        color: #605953;
+    }
+    footer > div:first-child > div > div:not(:last-child) ul{
+        font-size: 11px; font-weight: 400; 
+    }
+    footer > div:first-child > div > div:not(:last-child) ul li{
+        padding-bottom: 12px;
+    }
+    footer > div:first-child > div > div:not(:last-child) ul li a{
+        display: block; color: #605953;
+    }
+    footer > div:first-child > div address{
+        font-style: normal; display: block; position: absolute; top: 235px;
+    }
+    footer > div:first-child > div address u{
+        font-size: 15px; margin-bottom: 17px;
+    }
+    footer > div:first-child > div address p{
+        line-height: 17px ; font-size: 12px; 
+    }
+    footer > div:first-child > div > div:last-child{
+        position: absolute; bottom: 0; right: 4%; width: 10%; line-height: 35px; 
+    }
+    footer > div:first-child > div > div:last-child a{
+        display: inline-block; width: 35px; height: 35px;
+    }
+    footer > div:first-child > div > div:last-child a:first-of-type{
+        background: url('../images/ico_tiktok.png') left center / contain no-repeat; text-indent: -9999px;
+    }
+    footer > div:first-child > div > div:last-child a:last-of-type{
+        background: url('../images/ico_wechat.png') right center / contain no-repeat; text-indent: -9999px;
+    }
+     
+    footer > div:last-child{
+        position: relative; padding: 55px 0; display: flex; justify-content: space-between;
+    }
+    footer > div:last-child > *{
+        display: inline-block; color: black;
+    }
+    footer > div:last-child > ul{
+        width: 35%;
+    }
+    footer > div:last-child > ul li{
+        display: inline-block; font-size: 13px; font-weight: 400;
+    }
+    footer > div:last-child > ul li:not(:first-child){
+        padding-left: 5%;    
+    }
+    footer > div:last-child > ul li a{
+        display: block; color: black;
+    }
+    footer > div:last-child > div{
+        width: 58.3%; margin-right: 1.94%; 
+    }
+    footer > div:last-child > div span:first-of-type{
+        font-size: 12px; font-weight: 400; margin-right: 1.38%;
+    }
+    footer > div:last-child > div span:last-of-type{
+        font-size: 10px; font-weight: 400; margin-right: 1.33%;
+    }
+    footer > div:last-child > div strong{
+        font-size: 12px; text-align: right; padding-right: 1.94%; font-weight: 400;
+    }
+    
+}
+/* Tablet global */
+
+@media screen and (min-width: 1280px){
+
+    header > div:last-of-type > div,
+    header > div:not(.bx-wrapper) > div nav > ul > li > div > ul,
+    footer > div:first-child > div,
+    footer > div:last-child,
+    .mainContainer blockquote,
+    .mainContainer > div:nth-of-type(4) > div,
+    .mainContainer > div:nth-of-type(5),
+    .detailContainer .leftBox,
+    .detailContainer .rightBox,
+    .detailContainer .accBox,
+    .detailContainer .reviewBox,
+    .detailContainer .relatedBox,
+    .newsDetail > *:not(:first-child),
+    .myAccount,
+    .cartContainer,
+    .stContainer,
+    .companyContainer p,
+    .companyContainer a,
+    .recContainer{
+        max-width: 1440px; margin: 0 auto;
+    }
+    
+    /* all use */
+    a.upBtn{
+        width: 55px; height: 55px;
+    }
+
+    #searchPanel{
+        padding: 120px 0 50px; height: 178px; background-color: #f9f3ef;
+        /* animation: SlideIn 1.6s; */
+    }
+    /* @keyframes SlideIn{
+        0%{
+            transform: translateY(-100px);
+        }100%{
+            transform: translateY(0px); 
+        }
+    } */
+    
+    #searchPanel > input{
+        background: url('../images/ico_close_gray.png') no-repeat 96% 100% / 25px; border: none; text-indent: -9999px;
+        line-height: 87px; width: 100%; border: none;
+    }
+    #searchPanel > div{
+        margin: 0 auto; width: 24.21%; display: flex; height: 52px; box-shadow: 10px 10px 5px rgba(189, 127, 7, 0.3);
+    }
+
+    #searchPanel > div input[type="search"]{
+        width: 78%; text-transform: uppercase; padding-left: 4.76%; box-sizing: border-box;
+        font-size: 18px; color: #605953; border-color: #bd7f07;
+    }
+    #searchPanel > div input[type="submit"]{
+         border: 1px solid #bd7f07; width: 22%;
+        background: url('../images/ico_search.png') no-repeat center / 25px 25px; text-indent: -9999px;
+        background-color: #bd7f07;
+    }
+
+    #cartPanel{
+        position: relative; z-index: 1000 ;
+    }
+    #cartPanel > div{
+        position: absolute; top: 0px; right: 0; width: 29.1%; background-color: white;
+    }
+    #cartPanel > div > div:first-of-type{
+        border-bottom: 1px solid #575c62; display: flex; justify-content: center; align-items: center;
+        position: relative; box-sizing: border-box;
+    }
+    #cartPanel > div > div h2{
+        color: #575c62; font-size: 18px; padding: 25px 0; 
+    }
+    #cartPanel > div > div .closeBtn{
+        position: absolute; top: 0px; right: 0; background: url('../images/ico_close_gray.png')no-repeat center/ 17px;
+        text-indent: -9999px; border: none; width: 10%; height: 65px;
+    }
+    #cartPanel > div > #emptyBox{
+        text-align: center; margin-top: 87px; 
+    }
+    #cartPanel > div > #emptyBox h3{
+        font-size: 28px; color: #312419; margin-bottom: 57px; font-weight: 400;
+    }
+    #cartPanel > div > #emptyBox p{
+        font-size: 22px; color: #575c62; margin-bottom: 50px;
+    }
+    #cartPanel > div > #emptyBox a{
+        height: 60px; background-color: black; margin: 0 3.57%;
+        color: white; font-size: 20px; display: flex; align-items: center; justify-content: center;
+        margin-bottom: 632px;
+    }
+    #cartPanel > div > #haveBox ul li{
+        display: flex; justify-content: space-between;
+    }
+    #cartPanel > div > #haveBox ul li > div:first-of-type h3{
+        margin: 20px 0;
+    }
+    .numberComponent{
+        display: flex;  height: 38px;
+    }
+    .numberComponent input{
+        border: 1px solid #bdbdbd; height: 38px; min-width: 38px; background-color: white; text-indent: -9999px; box-sizing: border-box;
+    }
+    .numberComponent input[value='minus']{
+        background: url('../images/ico_minus2.png') no-repeat center / 15px; 
+    }
+    .numberComponent input[value='plus']{
+        background: url('../images/ico_plus2.png') no-repeat center / 15px;
+    }
+    .numberComponent span{
+        border-top: 1px solid #bdbdbd; border-bottom: 1px solid #bdbdbd; box-sizing: border-box;
+        line-height: 38px; display: block; padding: 0 28px; color: black;
+        font-size: 18px; 
+    }
+    #cartPanel > div > #haveBox{
+        margin-bottom: 30px;
+    }
+    #cartPanel > div > #haveBox > ul:first-child > li > div:last-of-type{
+        padding-left: 20%; margin: 20px 4.46% 0 0;
+    }
+    input[value='deleteItem']{
+        background: url('../images/ico_delete.png') no-repeat center; border: none; text-indent: -9999px;
+        display: block;
+    }
+    #cartPanel > div > #haveBox ul li > div:last-of-type input[value='deleteItem']{
+        margin-bottom: 32px; font-size: 18px; margin-left: auto;
+    }
+    #cartPanel > div > #haveBox ul li > div:last-of-type strong{
+        display: block;
+    }
+    #cartPanel > div > #haveBox mark{
+        margin-top: 180px; display: block; background-color: black;
+        color: white; text-align: center; font-size: 16px; font-weight: 400;
+        line-height: 55px; 
+    }
+    #cartPanel > div > #haveBox .recommendList{
+        background-color: #f1f1f1;
+    }
+    #cartPanel > div > #haveBox .recommendList li{
+        padding: 14px 20px; border-bottom: 1px solid; border-color: #c9c9c9;
+        box-sizing: border-box;
+    }
+    #cartPanel > div > #haveBox .recommendList li input{
+        margin-left: 25%; width: 11.42%; height: 45px; background-color: black; color: white;
+        display: inline-block; vertical-align: center; margin-top: 30px;
+    }
+    #cartPanel > div > #haveBox > span{
+        margin: 20px 4.46%; display: flex; justify-content: space-between;
+    }
+    #cartPanel > div > #haveBox > span small{
+        font-size: 16px; font-weight: 400;
+    }
+    #cartPanel > div > #haveBox > span .price{
+        font-size: 18px; font-weight: 400;
+    }
+    #cartPanel > div > #haveBox > a{
+        display: inline-block; font-size: 20px; text-align: center;
+    }
+    #cartPanel > div > #haveBox > a:first-of-type{
+        margin: 0 4.46%; padding: 21px 0; background-color: #fafafa;
+        width: 25.89%; color: black;
+    }
+    #cartPanel > div > #haveBox > a:last-of-type{
+        background-color: #a38000; width: 59%; padding: 21px 0;
+        color: white; margin-right: 4.46%;
+    }
+    #cartPanel > div > #haveBox > div{
+        display: block; text-align: right; margin: 25px 4.46% 51px 0;
+    }
+    #cartPanel > div > #haveBox > div a{
+        display: inline-block; padding-bottom: 8px;
+        border-bottom: 1px solid #616161;
+        color: #616161; font-size: 12px; font-weight: 400;
+    }
+    
+    
+
+    
+
+    header{
+        position: fixed; left: 0; top: 0; width: 100%; z-index: 100;
+    }
+
+    header ul.rollingSlider{
+        background-color: black; text-align: center; 
+    }
+    header ul.rollingSlider li{
+        color: white; line-height: 55px; display: block;
+    }
+    header ul.rollingSlider.hide{
+        display: none;
+    }
+    header > div:not(.bx-wrapper){
+        background-color: #9d806c;
+    }
+    header > div:not(.bx-wrapper) > div{
+        line-height: 65px; 
+        display: flex; justify-content: space-between;
+    }
+    header > div:not(.bx-wrapper) > div > input{
+        display: none;
+    }
+    header > div:not(.bx-wrapper) > div h1{
+        width: 72px;
+    }
+    header > div:not(.bx-wrapper) > div h1 a{
+        display: block; padding: 19px 0; line-height: 0;
+    }
+    header > div:not(.bx-wrapper) > div h1 a img{
+        width: 100%;
+    }
+    header > div:not(.bx-wrapper) > div nav{
+        color: white; min-width: 625px;
+    }
+    header > div:not(.bx-wrapper) > div nav ul{
+        text-align: center;
+    }
+    header > div:not(.bx-wrapper) > div nav > ul > li{
+        display: inline-block; font-size: 14px; font-weight: 400;
+        border-width: 0 0 2px; border-style: solid; border-color: transparent;
+    }
+    header > div:not(.bx-wrapper) > div nav > ul > li:not(:first-child){
+        margin-left: 2.7%;
+    }
+    header > div:not(.bx-wrapper) > div nav > ul > li:hover{
+        border-color: #ffc600;
+    }
+    header > div:not(.bx-wrapper) > div nav > ul > li a{
+        color: white;
+    }
+    header > div:not(.bx-wrapper) > div nav > ul > li u{
+        text-decoration: none; 
+    }
+    header > div:not(.bx-wrapper) > div nav > ul > li > div{
+        position: absolute; left: 0; width: 100%; display: none; background-color: rgba(0,0,0,0.7);
+    }
+    header > div:not(.bx-wrapper) > div nav > ul > li:hover > div{
+        display: block;
+    }
+    header > div:not(.bx-wrapper) > div nav > ul > li > div ul > li{
+        font-size: 12px; font-weight: 400; float: left;
+    }
+    header > div:not(.bx-wrapper) > div nav > ul > li > div ul > li:not(:first-child){
+        margin-left: 2%;
+    }
+    header > div:not(.bx-wrapper) > div nav > ul > li > div ul li a{
+        display: block;
+    }
+    header > div:not(.bx-wrapper) > div > div{
+        width: 200px;
+    }
+
+    header > div:not(.bx-wrapper) > div > div > *:not(span){
+        width: 20px; height: 20px; border: none; text-indent: -9999px;
+        display: inline-block; vertical-align: middle;
+    }
+
+    header > div:not(.bx-wrapper) > div > div > *:not(:first-child){
+        margin-left: 5.8%;
+    }
+
+    header > div:not(.bx-wrapper) > div > div input:first-of-type{
+        background: url('../images/ico_search.png') left top / contain no-repeat; 
+        cursor: pointer;
+    }
+
+    header > div:not(.bx-wrapper) > div > div a{
+        background: url('../images/ico_account48W.png') left top / contain no-repeat;
+    }
+    header > div:not(.bx-wrapper) > div > div input:last-of-type{
+        background: url('../images/ico_bag.png') left top / contain no-repeat;
+        cursor: pointer; 
+    }
+    header > div:not(.bx-wrapper) > div > div > .selectComponent{
+        display: inline-block; box-sizing: border-box; 
+        background: url('../images/ico_arrow_down.svg') no-repeat right center; 
+       
+    }
+    header > div:not(.bx-wrapper) > div > div > .selectComponent select{
+        border: none; box-shadow: none; background-image: none; background-color: transparent;
+        -webkit-appearance: none;  -moz-appearance: none; padding: 27px 23px 27px 0; color: white; font-size: 12px;
+    }   
+    header > div:not(.bx-wrapper) > div > div > .selectComponent select:focus option{
+        background-color: rgba(0,0,0,0.5);
+    }
+    /* header Fin */
+
+    
+    
+
+    footer{clear: both;}
+    footer > div:first-child{
+        background-color: #fffcfa; padding: 70px 0 55px;
+    }
+    footer > div:first-child > div{
+        display: flex; position: relative;
+    }
+    footer > div:first-child > div > div:not(:last-child){
+        padding-right: 3.64%;
+    }
+    footer > div:first-child > div > div:not(:last-child) h3{
+        font-size: 18px;  padding-bottom: 20px; font-weight: 400;
+        color: #605953;
+    }
+    footer > div:first-child > div > div:not(:last-child) ul{
+        font-size: 11px; font-weight: 400; 
+    }
+    footer > div:first-child > div > div:not(:last-child) ul li{
+        padding-bottom: 15px;
+    }
+    footer > div:first-child > div > div:not(:last-child) ul li a{
+        display: block; color: #605953;
+    }
+    footer > div:first-child > div address{
+        position: absolute; top: 0; right: 19.2%; font-style: normal;
+    }
+    footer > div:first-child > div address u{
+        font-size: 15px; margin-bottom: 17px;
+    }
+    footer > div:first-child > div address p{
+        line-height: 17px ; font-size: 12px;
+    }
+    footer > div:first-child > div > div:last-child{
+        position: absolute; bottom: 0; right: 6.45%; width: 5.97%; line-height: 35px; 
+    }
+    footer > div:first-child > div > div:last-child a{
+        display: inline-block; width: 35px; height: 35px;
+    }
+    footer > div:first-child > div > div:last-child a:first-of-type{
+        background: url('../images/ico_tiktok.png') left center / contain no-repeat; text-indent: -9999px;
+    }
+    footer > div:first-child > div > div:last-child a:last-of-type{
+        background: url('../images/ico_wechat.png') right center / contain no-repeat; text-indent: -9999px;
+    }
+     
+    footer > div:last-child{
+        position: relative; padding: 55px 0; display: flex; justify-content: space-between;
+    }
+    footer > div:last-child > *{
+        display: inline-block; color: black;
+    }
+    footer > div:last-child > ul{
+        width: 17.84%;
+    }
+    footer > div:last-child > ul li{
+        display: inline-block; font-size: 13px; font-weight: 400;
+    }
+    footer > div:last-child > ul li:not(:first-child){
+        padding-left: 3.47%;    
+    }
+    footer > div:last-child > ul li a{
+        display: block; color: black;
+    }
+    footer > div:last-child > div{
+        width: 58.3%; margin-right: 1.94%; 
+    }
+    footer > div:last-child > div span:first-of-type{
+        font-size: 12px; font-weight: 400; margin-right: 1.38%;
+    }
+    footer > div:last-child > div span:last-of-type{
+        font-size: 12px; font-weight: 400; margin-right: 1.33%;
+    }
+    footer > div:last-child > div strong{
+        font-size: 12px; text-align: right; padding-right: 1.94%; font-weight: 400;
+    }
+    
+}
+/* desktop global */
