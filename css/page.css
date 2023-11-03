@@ -1,6 +1,7 @@
 
 
 @media screen and (max-width: 767px){
+    .rightSortBy{display: none;}
     .pcSize{display: none !important;}
     .spSize{display: block !important;}
     .mainContainer .bx-wrapper .bx-viewport{
@@ -3422,7 +3423,7 @@
         margin: 0 auto;
     }
     .mainContainer .categorySliderBox ul.categorySlider{
-        padding-left: 2.91%;
+        padding-left: 3.5%;
     }
     .mainContainer .categorySliderBox ul.categorySlider li dl{
         margin-top: 30px; display: flex; justify-content: space-between;
@@ -3558,6 +3559,7 @@
     .mainContainer > div:nth-of-type(5) > a::after{
         width: 60px; height: 1px; 
     }
+    
     .mainContainer #videoPart{
        position: relative;
     }

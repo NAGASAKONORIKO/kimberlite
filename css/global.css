@@ -207,6 +207,7 @@ a.upBtn{
     display: block;
 }
 
+.paging{display: none;}
 
 .price:after{
     content: '円'; font-weight: 400;
