@@ -29,7 +29,7 @@
         background-image: url('../images/mainSlider_right.gif');
     }
     .mainContainer ul.mainSlider li{
-        position: relative; 
+        position: relative; width: 280px;
     }
     .mainContainer ul.mainSlider li h2{
         position: absolute;  top: 70%; padding: 0 3%;
@@ -38,6 +38,9 @@
     .mainContainer ul.mainSlider li img{
         height: 667px;
     }
+    /* .mainSlider li:nth-of-type(3) img:last-child{
+        content: url('../images/main_bg01_sp2.png');
+    } */
     .mainContainer > blockquote{
         height: 200px; background-color: #FAF4F0;
     }
@@ -55,6 +58,9 @@
     .mainContainer .categorySliderBox h2{
         font-size: 14px; color: #605953; text-align: center;
         font-weight: 300px; margin-bottom: 30px;
+    }
+    .mainContainer .categorySliderBox ul.categorySlider li{
+        width: 150px !important;
     }
     .mainContainer .categorySliderBox ul.categorySlider li dl{
         margin-top: 20px; 
